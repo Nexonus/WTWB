@@ -1,0 +1,132 @@
+{
+  "_resourceType": "actor",
+  "id": "229d2b7a-19c4-4b87-8f65-69d43a36bfda",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "d580970a-66c6-48a4-bb2d-c7f0dce3087f",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_19",
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "L0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [],
+        "false": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Let's see."
+              ],
+              "__section": "text",
+              "avatarId": "0c8a1f5f-3df1-42ee-a6d3-3dcd5937b3bf",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": false
+            },
+            "id": "516b72c0-5a58-4a47-8e9b-88853d354a5f"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_STATE",
+            "args": {
+              "actorId": "$self$",
+              "spriteStateId": "Open",
+              "loopAnim": true,
+              "__collapse": true
+            },
+            "id": "5927f819-9cf3-4dce-9647-4f4b7f5fe1e0"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Phew, a lot of dust\nand some old scripts.",
+                "I don't see an use\nof those right now."
+              ],
+              "__section": "text",
+              "avatarId": "8f3ba798-d4c3-4ed4-84c1-44e8323409f5",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": false
+            },
+            "id": "6c053605-1e99-4ff2-8286-866570a66716"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_STATE",
+            "args": {
+              "actorId": "$self$",
+              "spriteStateId": "",
+              "loopAnim": true,
+              "__collapse": true
+            },
+            "id": "0497b5a1-e02c-420c-8cd9-846c9b1c1c6c"
+          },
+          {
+            "command": "EVENT_INC_VALUE",
+            "args": {
+              "variable": "L0",
+              "__collapse": true
+            },
+            "id": "1e3abd71-73ad-46b2-8793-b48e1766195f"
+          }
+        ]
+      },
+      "id": "2192273c-5241-4b6b-b45f-e2262b315b25"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 14,
+  "y": 5,
+  "_index": 4
+}

@@ -1,0 +1,311 @@
+{
+  "_resourceType": "scene",
+  "id": "49d7bbe5-ed28-4451-8a7b-dd73e9e40465",
+  "_index": 53,
+  "name": "Scene 55",
+  "backgroundId": "cae83a4b-8a4e-430f-90da-bc98ca559812",
+  "tilesetId": "",
+  "width": 52,
+  "height": 34,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "001f+0f!002+0f!0030+0f!002+0f!0030+0f!002+0f!0030+0f!002+0f!0030+0f!002+0f!0014+0f12+00a+0f!002+0f!0014+0f!0010+0f!00a+0f!002+0f!0012+0f3+0010+0f3+006+0f3+002+0f3+0010+0f!0014+0f!006+0f!006+0f!0010+0f!0014+0f8+006+0f9+008+0f!002a+0f!008+0f!002a+0f3+006+0f!002c+0f!006+0f!002c+0f!006+0f!002+0f5+0025+0f!006+0f!00!0fd+001e+0f6+00!0f!00!0f3+002f+0f!00!0f3+002f+0f!00!0fd+001e+0f6+00!0f!002+0f5+0025+0f!006+0f!002c+0f!006+0f!002c+0f!006+0f!002a+0f3+006+0f!002a+0f!008+0f!0014+0f8+006+0f9+008+0f!0014+0f!006+0f!006+0f!0010+0f3+0010+0f3+006+0f8+0012+0f!0010+0f!0022+0f12+00123+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_55",
+  "x": 1712,
+  "y": 64,
+  "script": [
+    {
+      "command": "EVENT_SWITCH",
+      "args": {
+        "variable": "6",
+        "choices": 3,
+        "__collapseCase0": false,
+        "value0": 0,
+        "__collapseCase1": false,
+        "value1": 1,
+        "__collapseCase2": false,
+        "value2": 2,
+        "__collapseCase3": false,
+        "value3": 4,
+        "__collapseCase4": false,
+        "value4": 5,
+        "__collapseCase5": false,
+        "value5": 6,
+        "__collapseCase6": false,
+        "value6": 7,
+        "__collapseCase7": false,
+        "value7": 8,
+        "__collapseCase8": false,
+        "value8": 9,
+        "__collapseCase9": false,
+        "value9": 10,
+        "__collapseCase10": false,
+        "value10": 11,
+        "__collapseCase11": false,
+        "value11": 12,
+        "__collapseCase12": false,
+        "value12": 13,
+        "__collapseCase13": false,
+        "value13": 14,
+        "__collapseCase14": false,
+        "value14": 15,
+        "__collapseCase15": false,
+        "value15": 16,
+        "__collapseElse": false,
+        "__collapse": false
+      },
+      "children": {
+        "true0": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "This is my throne\nroom. I sometimes\ncome here.",
+                "Mostly to meditate\nnowadays.",
+                "Someday people from\nthe surface were\ncoming here.",
+                "They usually wanted\nto ask for my help."
+              ],
+              "__section": "text",
+              "avatarId": "0c8a1f5f-3df1-42ee-a6d3-3dcd5937b3bf",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": false
+            },
+            "id": "974618d2-b38f-40cd-886f-7daa8b1d66da"
+          },
+          {
+            "command": "EVENT_INC_VALUE",
+            "args": {
+              "variable": "6",
+              "__collapse": true
+            },
+            "id": "55510471-00a9-4497-baf0-d3ac2d1fdd66"
+          }
+        ],
+        "true1": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "This emptiness is\nquite haunting.",
+                "Weird, it never \nreally bothered me."
+              ],
+              "__section": "text",
+              "avatarId": "8f3ba798-d4c3-4ed4-84c1-44e8323409f5",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": false
+            },
+            "id": "5ce55f8b-ef70-4455-8b01-800e37633d1b"
+          },
+          {
+            "command": "EVENT_INC_VALUE",
+            "args": {
+              "variable": "6",
+              "__collapse": true
+            },
+            "id": "cc90dd54-0a0a-45cb-8b80-149eb8cdfaa7"
+          }
+        ],
+        "true2": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "...",
+                "I can't help but feel\nsome sort of guilt.",
+                "It's difficult to\nexplain actually."
+              ],
+              "__section": "text",
+              "avatarId": "8f3ba798-d4c3-4ed4-84c1-44e8323409f5",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": false
+            },
+            "id": "4304fd2b-71fc-4bf8-b01f-aed822d555b3"
+          },
+          {
+            "command": "EVENT_INC_VALUE",
+            "args": {
+              "variable": "6",
+              "__collapse": true
+            },
+            "id": "eab0c14b-61e6-4e06-b663-f685fb62c416"
+          }
+        ],
+        "true3": [],
+        "true4": [],
+        "true5": [],
+        "true6": [],
+        "true7": [],
+        "true8": [],
+        "true9": [],
+        "true10": [],
+        "true11": [],
+        "true12": [],
+        "true13": [],
+        "true14": [],
+        "true15": [],
+        "false": []
+      },
+      "id": "107c9817-f337-4014-9809-9a359b35d224"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "2"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "3"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 1
+                }
+              },
+              "__collapseElse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_IF",
+                  "args": {
+                    "condition": {
+                      "type": "eq",
+                      "valueA": {
+                        "type": "variable",
+                        "value": "4"
+                      },
+                      "valueB": {
+                        "type": "number",
+                        "value": 1
+                      }
+                    },
+                    "__collapseElse": true
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_SET_VALUE",
+                        "args": {
+                          "variable": "5",
+                          "value": {
+                            "type": "number",
+                            "value": 1
+                          },
+                          "__collapse": true
+                        },
+                        "id": "b145114f-5696-4891-acf5-31bca3a97d44"
+                      },
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "I think I've got\nall I need to go\noutside."
+                          ],
+                          "__section": "text",
+                          "avatarId": "0c8a1f5f-3df1-42ee-a6d3-3dcd5937b3bf",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30,
+                          "__collapse": false
+                        },
+                        "id": "89519fa6-78bb-4df4-9cae-03b7bb51bfd4"
+                      }
+                    ],
+                    "false": []
+                  },
+                  "id": "0790cb38-782b-467e-b106-e0cf7d6ff31a"
+                }
+              ],
+              "false": []
+            },
+            "id": "710accdf-7741-4e41-9690-4834cc40e951"
+          }
+        ],
+        "false": []
+      },
+      "id": "591beb65-83fe-45ad-b9a1-1782baebdad2"
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "05ffad5f-57ec-4ec0-8273-ee9b54090010"
+      },
+      "id": "34430dff-62dc-412d-b734-25861a4f8154"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "5754b43c-473f-431b-807e-437994b9f332"
+}

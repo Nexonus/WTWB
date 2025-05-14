@@ -1,0 +1,153 @@
+{
+  "_resourceType": "trigger",
+  "id": "ab715c2d-f3f7-4160-8a81-9992c53be3e4",
+  "name": "",
+  "prefabId": "",
+  "x": 13,
+  "y": 22,
+  "symbol": "trigger_13",
+  "prefabScriptOverrides": {},
+  "width": 4,
+  "height": 2,
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "1"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "crash",
+              "priority": "medium",
+              "pitch": 4,
+              "frequency": 200,
+              "duration": 1.5,
+              "wait": false,
+              "effect": 0,
+              "__collapse": true
+            },
+            "id": "ecdae21d-6e6a-468e-a49a-9ff989216644"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+            "args": {
+              "actorId": "$self$",
+              "speed": 3,
+              "__collapse": true
+            },
+            "id": "c62a2b04-5226-48c3-a54c-b9c43371a282"
+          },
+          {
+            "command": "EVENT_IF_ACTOR_DIRECTION",
+            "args": {
+              "actorId": "$self$",
+              "direction": {
+                "type": "direction",
+                "value": "down"
+              },
+              "__collapseElse": false,
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "id": "536a6abf-f916-428a-95c9-8b6da873ce01",
+                  "command": "EVENT_ACTOR_MOVE_TO",
+                  "args": {
+                    "actorId": "$self$",
+                    "x": {
+                      "type": "number",
+                      "value": 14
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 18
+                    },
+                    "moveType": "vertical",
+                    "useCollisions": false,
+                    "__collapse": false
+                  }
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_ACTOR_MOVE_TO",
+                  "args": {
+                    "actorId": "$self$",
+                    "x": {
+                      "type": "number",
+                      "value": 14
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 29
+                    },
+                    "moveType": "horizontal",
+                    "useCollisions": false,
+                    "__collapse": false
+                  },
+                  "id": "d9cab393-6bc5-475b-a698-be7f0ae8f726"
+                }
+              ]
+            },
+            "id": "23126713-40cb-4ab6-97a9-061eb57e1305"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+            "args": {
+              "actorId": "$self$",
+              "speed": 1,
+              "__collapse": true
+            },
+            "id": "32ac7947-b13f-44e1-8133-194b9305ae5c"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "I'm not going into \nthat infernal heat. \nNo way."
+              ],
+              "__section": "text",
+              "avatarId": "0c8a1f5f-3df1-42ee-a6d3-3dcd5937b3bf",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": false
+            },
+            "id": "38e39926-ce46-45a1-9b42-06fe7438b716"
+          }
+        ],
+        "false": []
+      },
+      "id": "34764931-c646-4d90-9ed9-221acd1668b6"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 8
+}

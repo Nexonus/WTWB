@@ -1,0 +1,299 @@
+{
+  "_resourceType": "scene",
+  "id": "b85c4866-6c1d-45b5-ad73-b4f67740691b",
+  "_index": 44,
+  "name": "Congratulations_1",
+  "backgroundId": "d8336764-454b-49b1-8553-ca3b5577bfd8",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "POINTNCLICK",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00168+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_46",
+  "x": 2400,
+  "y": 568,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "$self$",
+        "spriteStateId": "",
+        "loopAnim": true,
+        "__collapse": true
+      },
+      "id": "08a6b5b7-ce46-4cf5-aa97-3b2ea6996d44"
+    },
+    {
+      "command": "EVENT_VARIABLE_MATH",
+      "args": {
+        "vectorX": "0",
+        "operation": "set",
+        "other": "val",
+        "vectorY": "L0",
+        "value": 1,
+        "minValue": "0",
+        "maxValue": "32767",
+        "clamp": false,
+        "__collapse": true
+      },
+      "id": "85aee3a7-f42b-4808-aa26-0622ddc957bd"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": false,
+        "__scriptTabs": "press",
+        "__collapse": true,
+        "__label": "Hand Input"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH",
+            "args": {
+              "variable": "1",
+              "choices": 2,
+              "__collapseCase0": false,
+              "value0": 1,
+              "__collapseCase1": false,
+              "value1": -1,
+              "__collapseCase2": false,
+              "value2": 3,
+              "__collapseCase3": false,
+              "value3": 4,
+              "__collapseCase4": false,
+              "value4": 5,
+              "__collapseCase5": false,
+              "value5": 6,
+              "__collapseCase6": false,
+              "value6": 7,
+              "__collapseCase7": false,
+              "value7": 8,
+              "__collapseCase8": false,
+              "value8": 9,
+              "__collapseCase9": false,
+              "value9": 10,
+              "__collapseCase10": false,
+              "value10": 11,
+              "__collapseCase11": false,
+              "value11": 12,
+              "__collapseCase12": false,
+              "value12": 13,
+              "__collapseCase13": false,
+              "value13": 14,
+              "__collapseCase14": false,
+              "value14": 15,
+              "__collapseCase15": false,
+              "value15": 16,
+              "__collapseElse": true,
+              "__collapse": true
+            },
+            "children": {
+              "true0": [
+                {
+                  "command": "EVENT_ACTOR_SET_STATE",
+                  "args": {
+                    "actorId": "$self$",
+                    "spriteStateId": "",
+                    "loopAnim": true,
+                    "__collapse": true
+                  },
+                  "id": "079ad0ad-fec1-4c79-b43f-4919d220e0db"
+                }
+              ],
+              "true1": [
+                {
+                  "command": "EVENT_ACTOR_SET_STATE",
+                  "args": {
+                    "actorId": "$self$",
+                    "spriteStateId": "Grab",
+                    "loopAnim": true
+                  },
+                  "id": "802dc48f-f617-4039-b8c0-e9f521e1df66"
+                }
+              ],
+              "true2": [],
+              "true3": [],
+              "true4": [],
+              "true5": [],
+              "true6": [],
+              "true7": [],
+              "true8": [],
+              "true9": [],
+              "true10": [],
+              "true11": [],
+              "true12": [],
+              "true13": [],
+              "true14": [],
+              "true15": [],
+              "false": []
+            },
+            "id": "d1a1ec7b-0123-41cc-bebc-356f46b5a6d6"
+          },
+          {
+            "command": "EVENT_VARIABLE_MATH",
+            "args": {
+              "vectorX": "1",
+              "operation": "mul",
+              "other": "val",
+              "vectorY": "L0",
+              "value": -1,
+              "minValue": "0",
+              "maxValue": "32767",
+              "clamp": false,
+              "__collapse": true
+            },
+            "id": "dcaf2516-bd7b-4436-91ea-5fc30215b3f9"
+          }
+        ]
+      },
+      "id": "845409dd-7b22-4cd2-859c-0f829bdc14fa"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "start"
+        ],
+        "override": true,
+        "__scriptTabs": "press",
+        "__collapse": true,
+        "__label": "Exit"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "a973447c-3a1c-4e49-a617-fd8a2e96a896",
+              "x": {
+                "type": "number",
+                "value": 10
+              },
+              "y": {
+                "type": "number",
+                "value": 19
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "a0aa9798-925e-47c5-bc00-5a13e9b3a61d"
+          }
+        ]
+      },
+      "id": "3a3912e0-1f9a-41d2-a13a-f08151f47d53"
+    },
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__label": "Fail",
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Ha! It fits! I just\nhad to push it hard\nenough!"
+              ],
+              "__section": "text",
+              "avatarId": "0c140e1e-cb43-40dc-adc9-36ea629ff7f7",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "33ef1306-d168-433c-a0c2-e8d1596e0143"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "That's what... I was\nsupposed to do.\nRight?"
+              ],
+              "__section": "text",
+              "avatarId": "8f3ba798-d4c3-4ed4-84c1-44e8323409f5",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "262f6ba5-a72d-466a-a794-3ac194e4618c"
+          },
+          {
+            "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+            "args": {
+              "type": "none",
+              "pitch": 4,
+              "frequency": 300,
+              "duration": 0.05,
+              "effect": 0,
+              "__collapse": true
+            },
+            "id": "e0985266-cb46-4d02-92c4-e244ff0b4fee"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Press ESC / Start to\nrestart."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "fea74109-6e0e-48ea-b78e-30fd1d163ee9"
+          }
+        ]
+      },
+      "id": "482edc04-ad64-43f1-b057-b83f25273a21"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "52a69182-52a9-4beb-943d-025c05562ef3"
+}

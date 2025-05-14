@@ -1,0 +1,107 @@
+{
+  "_resourceType": "scene",
+  "id": "05c2cd67-3c37-4de2-8b64-d33dffce8959",
+  "_index": 14,
+  "name": "Scene 17",
+  "backgroundId": "44646a80-fe01-40cb-a404-075eda5ade4d",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00168+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_17",
+  "x": 60,
+  "y": 1272,
+  "script": [
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 150,
+        "duration": 0.02,
+        "effect": 0,
+        "__collapse": true
+      },
+      "id": "569eb7fb-3119-4b56-865a-5337a22b0271"
+    },
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "6e812537-1a3c-4050-b00f-a8a7cee7b44f"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 1,
+        "frames": 30,
+        "__collapse": true
+      },
+      "id": "7ea90fe0-3778-4e64-86b9-72f7dd2430ce"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Chains...",
+          "They hang from the \nsky itself.",
+          "Each of them makes \na quiet metallic ring.",
+          "As they sway in the\ndesert's wind.",
+          "I walk towards one \nof those chains."
+        ],
+        "__section": "text",
+        "avatarId": "82b1fd2d-0b44-4d4a-8314-38d0dba44079",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "202163e0-28c5-4cec-a960-ad89c6f347e1"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 0.5,
+        "frames": 30,
+        "__collapse": true
+      },
+      "id": "1742a5e3-5c4b-448e-97c7-062d1a49bd25"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "876934d0-3fe7-46bf-9fc5-4ed8cd142e4b",
+        "x": {
+          "type": "number",
+          "value": 9
+        },
+        "y": {
+          "type": "number",
+          "value": 9
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "13669c4a-df88-4a41-894c-0930c25061bc"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "autoFadeEventCollapse": true
+}

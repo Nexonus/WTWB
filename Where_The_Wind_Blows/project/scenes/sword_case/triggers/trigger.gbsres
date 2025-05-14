@@ -1,0 +1,105 @@
+{
+  "_resourceType": "trigger",
+  "id": "4561e685-73ba-402d-a585-5948e6f37134",
+  "name": "",
+  "prefabId": "",
+  "x": 9,
+  "y": 2,
+  "symbol": "trigger_103",
+  "prefabScriptOverrides": {},
+  "width": 2,
+  "height": 14,
+  "script": [
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__label": "Sword Interact",
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "0"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 1
+                }
+              },
+              "__collapseElse": true,
+              "__collapse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_ACTOR_SET_STATE",
+                  "args": {
+                    "actorId": "$self$",
+                    "spriteStateId": "Grab",
+                    "loopAnim": true,
+                    "__collapse": true
+                  },
+                  "id": "d1bfbb10-ff9f-486c-8a6a-6457156c80b1"
+                },
+                {
+                  "command": "EVENT_ACTOR_GET_POSITION",
+                  "args": {
+                    "actorId": "$self$",
+                    "vectorX": "L0",
+                    "vectorY": "L1",
+                    "__collapse": true
+                  },
+                  "id": "9bf9587b-7772-480c-a97a-3925ade3008e"
+                },
+                {
+                  "command": "EVENT_SWITCH_SCENE",
+                  "args": {
+                    "sceneId": "d2c8dfd4-92f8-4fea-b0e4-2532ff921434",
+                    "x": {
+                      "type": "variable",
+                      "value": "L0"
+                    },
+                    "y": {
+                      "type": "variable",
+                      "value": "L1"
+                    },
+                    "direction": "up",
+                    "fadeSpeed": 1,
+                    "__collapse": false
+                  },
+                  "id": "df109d51-99b3-4149-9e0f-c6c0bbc9599c"
+                }
+              ],
+              "false": []
+            },
+            "id": "d2349edb-159c-4cbd-84a5-cb7371a16c39"
+          },
+          {
+            "command": "EVENT_VARIABLE_MATH",
+            "args": {
+              "vectorX": "0",
+              "operation": "mul",
+              "other": "val",
+              "vectorY": "L0",
+              "value": -1,
+              "minValue": "0",
+              "maxValue": "32767",
+              "clamp": false,
+              "__collapse": true
+            },
+            "id": "2c5e461a-e20e-45a3-a7ff-82a43afcd2ae"
+          }
+        ]
+      },
+      "id": "d2387070-32b9-452e-8824-2dd12c6cba45"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 0
+}

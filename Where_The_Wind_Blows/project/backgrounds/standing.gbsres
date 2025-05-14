@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "f8b9f576-e2a5-4ed2-b4ca-1b268f1d8163",
+  "name": "standing",
+  "symbol": "bg_standing",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "standing.png",
+  "tileColors": "",
+  "autoColor": false
+}

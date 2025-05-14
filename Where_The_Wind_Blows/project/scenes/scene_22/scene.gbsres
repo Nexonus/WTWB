@@ -1,0 +1,93 @@
+{
+  "_resourceType": "scene",
+  "id": "ebd63a99-174a-4097-b165-2a36aa84af6b",
+  "_index": 19,
+  "name": "Scene 22",
+  "backgroundId": "b0c05fdf-e0e1-42a8-8a58-dcece1aea9c7",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00168+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_22",
+  "x": 392,
+  "y": 1440,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "d0abf733-f7d7-4561-81fc-59778c817052"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 0.5,
+        "frames": 30,
+        "__collapse": true
+      },
+      "id": "ebb9a2b9-ad47-4b01-ae6d-9594e07dfe31"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "But when I've made\nit there.",
+          "I've came to a\nsudden realization.",
+          "I am unable to\nescape what's\nchasing me.",
+          "I then heard a\nsound right below\nme."
+        ],
+        "__section": "text",
+        "avatarId": "82b1fd2d-0b44-4d4a-8314-38d0dba44079",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "17c3162e-788f-4ec5-a164-33beaa1c90c3"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 0.5,
+        "frames": 30,
+        "__collapse": true
+      },
+      "id": "2859cebb-14f3-4334-9d30-71b3a09fd47a"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "b59be4d9-c8e4-464b-b176-b1a23872d219",
+        "x": {
+          "type": "number",
+          "value": 9
+        },
+        "y": {
+          "type": "number",
+          "value": 9
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "93525d89-8256-414f-bdbb-70c2647077bb"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

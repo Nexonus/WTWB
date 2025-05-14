@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "b7a015ed-8938-4e8a-bab0-54e5f1fe62f9",
+  "name": "desert_3",
+  "symbol": "bg_desert_3",
+  "width": 78,
+  "height": 18,
+  "imageWidth": 624,
+  "imageHeight": 144,
+  "filename": "desert_3.png",
+  "tileColors": "",
+  "autoColor": false
+}

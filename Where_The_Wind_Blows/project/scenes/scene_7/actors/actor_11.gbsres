@@ -1,0 +1,151 @@
+{
+  "_resourceType": "actor",
+  "id": "19d5a72e-33d0-48ff-aa9a-1c3328c9ef4a",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "864d6bb4-b9b5-4d08-b0fc-465e2fdf0c1c",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_52",
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "2"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 2
+          }
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Oh, I can open them\nnow."
+              ],
+              "__section": "text",
+              "avatarId": "0c8a1f5f-3df1-42ee-a6d3-3dcd5937b3bf",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "7a13f4e6-f116-4887-8035-3eb11a4257d0"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_STATE",
+            "args": {
+              "actorId": "$self$",
+              "spriteStateId": "Open",
+              "loopAnim": true,
+              "__collapse": true
+            },
+            "id": "86137089-736d-43c9-b5b3-f82999e21376"
+          },
+          {
+            "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
+            "args": {
+              "actorId": "$self$",
+              "__collapse": true
+            },
+            "id": "48680a47-7b88-4fe5-a48e-168fb751c89c"
+          },
+          {
+            "command": "EVENT_INC_VALUE",
+            "args": {
+              "variable": "2",
+              "__collapse": true
+            },
+            "id": "a0a1cc97-1ba8-4b39-b5c0-6ab5e818c80f"
+          }
+        ],
+        "false": []
+      },
+      "id": "e472033a-b63c-43eb-b848-454d9bb33308"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "lt",
+          "valueA": {
+            "type": "variable",
+            "value": "2"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 2
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "These doors are\nlocked, I can't\nopen them right now."
+              ],
+              "__section": "text",
+              "avatarId": "0c8a1f5f-3df1-42ee-a6d3-3dcd5937b3bf",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "7ced4ed7-9aa2-4ea4-b884-d4858e3ce967"
+          }
+        ],
+        "false": []
+      },
+      "id": "c560b49b-4f2b-4011-adb0-2a78927dc08f"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 28,
+  "y": 19,
+  "_index": 10
+}

@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "5e0b59c8-f53a-4774-858b-5ff9a627c58e",
+  "name": "sword_pickup",
+  "symbol": "bg_sword_pickup",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "sword_pickup.png",
+  "tileColors": "",
+  "autoColor": false
+}

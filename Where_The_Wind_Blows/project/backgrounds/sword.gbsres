@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "64585e04-fdb7-430f-8193-9b7b58807a6d",
+  "name": "sword",
+  "symbol": "bg_sword",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "sword.png",
+  "tileColors": "",
+  "autoColor": false
+}

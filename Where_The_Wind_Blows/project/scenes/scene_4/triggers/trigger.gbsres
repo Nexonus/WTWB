@@ -1,0 +1,123 @@
+{
+  "_resourceType": "trigger",
+  "id": "ee9e4722-7a06-4244-81d1-28dcdb029ead",
+  "name": "",
+  "prefabId": "",
+  "x": 2,
+  "y": 25,
+  "symbol": "trigger_5",
+  "prefabScriptOverrides": {},
+  "width": 2,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "1"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "I can see again.",
+                "Time to go down\ninto my basement."
+              ],
+              "__section": "text",
+              "avatarId": "0c8a1f5f-3df1-42ee-a6d3-3dcd5937b3bf",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "7f80a358-bf9b-4673-a6df-5d764db7bd0f"
+          },
+          {
+            "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
+            "args": {
+              "actorId": "77f5693f-154b-46bc-8a3e-bcecbb378653",
+              "__collapse": true
+            },
+            "id": "374aa867-e9af-432d-9f1b-ec48a6acf184"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Huh. I can't see\nanything down\nthere-",
+                "The lamps must have\nran out of liquid\nlight.",
+                "There might be one\nsomewhere actually.",
+                "But I might need to\nget a resupply of it."
+              ],
+              "__section": "text",
+              "avatarId": "0c8a1f5f-3df1-42ee-a6d3-3dcd5937b3bf",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": false
+            },
+            "id": "c9db1589-54b9-4988-b29f-59838a3b5a8c"
+          },
+          {
+            "command": "EVENT_INC_VALUE",
+            "args": {
+              "variable": "L0",
+              "__collapse": true
+            },
+            "id": "cd390e2c-6c83-44cc-9e4d-fa5037c26b5a"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "4",
+              "value": {
+                "type": "number",
+                "value": 1
+              }
+            },
+            "id": "2733cc54-b3d7-4cb7-8feb-1e5eeb241f3a"
+          }
+        ]
+      },
+      "id": "0f4ffa86-a692-4384-90ca-3bfab3922095"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 0
+}

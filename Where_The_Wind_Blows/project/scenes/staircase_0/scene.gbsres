@@ -1,0 +1,202 @@
+{
+  "_resourceType": "scene",
+  "id": "dc1e653f-fadf-4480-9988-24d26d914e6c",
+  "_index": 54,
+  "name": "Staircase_0",
+  "backgroundId": "027d064b-103c-4bee-8f8f-daf0c78f46d7",
+  "tilesetId": "",
+  "width": 22,
+  "height": 22,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "0f2e+0012+0f4+0012+0f4+002+0fe+002+0f4+002+0fe+002+0f4+002+0fe+002+0f4+002+0fe+002+0f4+002+0fe+002+0f4+002+0fe+002+0f4+002+0fe+002+0f4+002+0fe+002+0f4+002+0fe+002+0f4+002+0fe+002+0f4+002+0fe+002+0f4+002+0fe+002+0f4+002+0fe+002+0f4+002+0fe+002+0f4+002+0fe+002+0f4+002+0fe+002+0f4+002+0f14+002+0f12+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_56",
+  "x": 2208,
+  "y": 56,
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "10",
+        "value": {
+          "type": "number",
+          "value": 0
+        },
+        "__collapse": true
+      },
+      "id": "ee9cf2b8-d954-4ecd-898f-cd2ced37cd39"
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "27ddc30d-af72-4ad6-ab17-761600d005c2",
+        "__collapse": true
+      },
+      "id": "88d8281d-90d8-4543-8d4c-4d232f6fd175"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "start"
+        ],
+        "override": true,
+        "__scriptTabs": "press",
+        "__collapse": true,
+        "__label": "Restart Level"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "49d7bbe5-ed28-4451-8a7b-dd73e9e40465",
+              "x": {
+                "type": "number",
+                "value": 32
+              },
+              "y": {
+                "type": "number",
+                "value": 4
+              },
+              "direction": "up",
+              "fadeSpeed": "2"
+            },
+            "id": "fabc35cb-baeb-4380-9e27-049ee1bff9b6"
+          }
+        ]
+      },
+      "id": "f25b9fa1-14c8-4d58-803d-ef17588a1372"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "L0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": false,
+        "__collapse": false
+      },
+      "children": {
+        "true": [],
+        "false": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "These stairs fool\nmany.",
+                "I need to keep my\neyes open on the\ndirection I take.",
+                "Otherwise I might\nend up back at the\nstart.",
+                "I can't let myself\nto get lost here."
+              ],
+              "__section": "text",
+              "avatarId": "8f3ba798-d4c3-4ed4-84c1-44e8323409f5",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": false
+            },
+            "id": "7dfbc352-7e5e-4508-a07e-ebefc5e4492f"
+          },
+          {
+            "command": "EVENT_GROUP",
+            "args": {
+              "__label": "Restart",
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+                  "args": {
+                    "type": "none",
+                    "pitch": 4,
+                    "frequency": 300,
+                    "duration": 0.05,
+                    "effect": 0,
+                    "__collapse": false
+                  },
+                  "id": "88eda2df-438c-42c6-bac3-08e25c607152"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "Press ESC / Start to\nstart over at any\ntime."
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30,
+                    "__collapse": false
+                  },
+                  "id": "3d65e3e0-752e-49d8-8f9f-a90d7d725b48"
+                },
+                {
+                  "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+                  "args": {
+                    "type": "tone",
+                    "pitch": 4,
+                    "frequency": 150,
+                    "duration": 0.02,
+                    "effect": 0,
+                    "__collapse": false
+                  },
+                  "id": "f536e9cd-1544-4b12-897c-7428d077d740"
+                }
+              ]
+            },
+            "id": "d645e5e7-acbb-4c54-90f9-4a27db7d3bcd"
+          },
+          {
+            "command": "EVENT_INC_VALUE",
+            "args": {
+              "variable": "L0",
+              "__collapse": false
+            },
+            "id": "f0172c3f-dc23-4faa-b8a7-7b17e5855f1a"
+          }
+        ]
+      },
+      "id": "b1a8230c-3583-4631-9da2-4e9fb01e8637"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "5754b43c-473f-431b-807e-437994b9f332",
+  "autoFadeEventCollapse": true
+}

@@ -1,0 +1,89 @@
+{
+  "_resourceType": "settings",
+  "startSceneId": "596553af-e79f-4d61-8787-9f25707672f7",
+  "startX": 29,
+  "startY": 13,
+  "startMoveSpeed": 1,
+  "startAnimSpeed": 15,
+  "startDirection": "up",
+  "showCollisionExtraTiles": false,
+  "sgbEnabled": false,
+  "customHead": "",
+  "defaultBackgroundPaletteIds": [
+    "default-bg-1",
+    "default-bg-2",
+    "default-bg-3",
+    "default-bg-4",
+    "default-bg-5",
+    "default-bg-6",
+    "dmg",
+    "default-ui"
+  ],
+  "defaultSpritePaletteIds": [
+    "default-sprite",
+    "default-sprite",
+    "default-sprite",
+    "default-sprite",
+    "default-sprite",
+    "default-sprite",
+    "default-sprite",
+    "default-sprite"
+  ],
+  "defaultSpritePaletteId": "default-sprite",
+  "defaultUIPaletteId": "default-ui",
+  "playerPaletteId": "",
+  "defaultFontId": "8ed435d9-51cb-44e7-8b0d-ca85e63ca427",
+  "defaultCharacterEncoding": "",
+  "defaultPlayerSprites": {
+    "TOPDOWN": "5754b43c-473f-431b-807e-437994b9f332",
+    "PLATFORM": "5754b43c-473f-431b-807e-437994b9f332",
+    "ADVENTURE": "5754b43c-473f-431b-807e-437994b9f332",
+    "SHMUP": "5754b43c-473f-431b-807e-437994b9f332",
+    "POINTNCLICK": "f0d6f102-cee8-4469-b5b0-fb4f408f91e9",
+    "LOGO": ""
+  },
+  "musicDriver": "gbt",
+  "cartType": "mbc5",
+  "batterylessEnabled": false,
+  "customColorsWhite": "E8F8E0",
+  "customColorsLight": "B0F088",
+  "customColorsDark": "509878",
+  "customColorsBlack": "202850",
+  "customControlsUp": [
+    "ArrowUp",
+    "w"
+  ],
+  "customControlsDown": [
+    "ArrowDown",
+    "s"
+  ],
+  "customControlsLeft": [
+    "ArrowLeft",
+    "a"
+  ],
+  "customControlsRight": [
+    "ArrowRight",
+    "d"
+  ],
+  "customControlsA": [
+    "Alt",
+    "j",
+    "Enter"
+  ],
+  "customControlsB": [
+    "Control",
+    "k",
+    "x"
+  ],
+  "customControlsStart": [
+    "Escape"
+  ],
+  "customControlsSelect": [
+    "Shift"
+  ],
+  "colorMode": "mono",
+  "generateDebugFilesEnabled": false,
+  "compilerPreset": 3000,
+  "scriptEventPresets": {},
+  "scriptEventDefaultPresets": {}
+}

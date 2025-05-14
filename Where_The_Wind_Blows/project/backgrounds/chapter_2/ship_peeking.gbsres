@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "c7b04bda-8fbe-433b-9b52-27b24792af14",
+  "name": "Chapter 2/Ship_peeking",
+  "symbol": "bg_chapter_2_ship_peeking",
+  "width": 22,
+  "height": 22,
+  "imageWidth": 176,
+  "imageHeight": 176,
+  "filename": "Chapter 2/Ship_peeking.png",
+  "tileColors": "",
+  "autoColor": false
+}

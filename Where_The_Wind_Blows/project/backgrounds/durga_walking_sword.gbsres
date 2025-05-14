@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "8350a088-427a-4eb6-bb39-95706262967d",
+  "name": "durga_walking_sword",
+  "symbol": "bg_durga_walking_sword",
+  "width": 150,
+  "height": 75,
+  "imageWidth": 1200,
+  "imageHeight": 600,
+  "filename": "durga_walking_sword.png",
+  "tileColors": "",
+  "autoColor": false
+}

@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "5ed06f1a-bf01-442f-b0f7-73a9bba142eb",
+  "name": "narration_apocalypse1",
+  "symbol": "sprite_narration_apocalypse",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "narration_apocalypse1.png",
+  "tileColors": "",
+  "autoColor": false
+}

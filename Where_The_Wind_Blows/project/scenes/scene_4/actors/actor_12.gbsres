@@ -1,0 +1,54 @@
+{
+  "_resourceType": "actor",
+  "id": "7a3ee31e-fdef-48bb-8712-85de9bea600f",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "e914ce3a-dbcc-488b-9a24-db2e7274fa45",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_59",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "That's just my \nstone table.",
+          "Here, underground\nmost things are made\nof stone."
+        ],
+        "__section": "text",
+        "avatarId": "0c8a1f5f-3df1-42ee-a6d3-3dcd5937b3bf",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "c5df6825-12ae-4833-889b-e5d44b8710df"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 32,
+  "y": 30,
+  "_index": 11
+}

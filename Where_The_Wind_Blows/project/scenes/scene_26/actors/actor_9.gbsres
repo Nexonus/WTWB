@@ -1,0 +1,143 @@
+{
+  "_resourceType": "actor",
+  "id": "6db33d03-eed9-4347-b78d-d9df5118bc38",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "d580970a-66c6-48a4-bb2d-c7f0dce3087f",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_77",
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "L0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [],
+        "false": [
+          {
+            "command": "EVENT_ACTOR_SET_STATE",
+            "args": {
+              "actorId": "$self$",
+              "spriteStateId": "Open",
+              "loopAnim": true,
+              "__collapse": true
+            },
+            "id": "c4c3677e-df0d-45df-98a7-a0d91bcfe5b9"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "And it's open!",
+                "Hm. That's a...\ncollection of\nskeletons.",
+                "It seems that many\nfools attempted to\nslay me in the past."
+              ],
+              "__section": "text",
+              "avatarId": "0c8a1f5f-3df1-42ee-a6d3-3dcd5937b3bf",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": false
+            },
+            "id": "dc949459-7fc6-4b69-b2b7-b1e8c36518e6"
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 0.5,
+              "frames": 30,
+              "__collapse": true
+            },
+            "id": "01d265e3-0171-4e69-923c-71904e62706f"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Well at least I've\nmanaged to bring\nsome of them \nback home.",
+                "I think I don't see\nan use of these\nright now."
+              ],
+              "__section": "text",
+              "avatarId": "0c8a1f5f-3df1-42ee-a6d3-3dcd5937b3bf",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "8e355d1c-ed20-40f9-a7db-8467d94957f4"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_STATE",
+            "args": {
+              "actorId": "$self$",
+              "spriteStateId": "",
+              "loopAnim": true,
+              "__collapse": true
+            },
+            "id": "a674a053-5509-43aa-b821-6dde423ea05d"
+          },
+          {
+            "command": "EVENT_INC_VALUE",
+            "args": {
+              "variable": "L0",
+              "__collapse": true
+            },
+            "id": "3fd542c5-c123-44b4-9b11-e4eb5ffec2f8"
+          }
+        ]
+      },
+      "id": "e1e65f98-deb0-4003-9bb0-271e1f856b71"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 54,
+  "y": 3,
+  "_index": 8
+}

@@ -1,0 +1,106 @@
+{
+  "_resourceType": "scene",
+  "id": "942e57ac-61af-4f95-98d2-882b8ab92106",
+  "_index": 82,
+  "name": "Outlands",
+  "backgroundId": "e768abaf-de74-4bfc-aa6a-8e1341fb4d1a",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00168+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_84",
+  "x": 1536,
+  "y": 32,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "3fb329eb-078e-403e-8e35-d05c7ef48720"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "\"Eventually we'd\ncome back to the\nsurface world.",
+          "That's when we've\nrealized.",
+          "That our paradise \nhad fallen apart.",
+          "Becoming what it\nonce was. A barren,\nfallen world.\"",
+          "\"We were unable to\nprevent it from\ncollapsing down.",
+          "And as such. Mortals\nwould decline our\nrule and teachings.",
+          "Avoiding any attempt\nof mediation.\"",
+          "\"In these times\nwhat's left of the\npopulation -",
+          "Treat our kind \nlike a type of a\nwild animal.",
+          "They value our bones\nand blood to fuel\ntheir machines.",
+          "It is thus dangerous\nto go onto the\nsurface.",
+          "As one risks being\nexploited by the\nsinners.\"",
+          "That's the end of\nthe story...."
+        ],
+        "__section": "text",
+        "avatarId": "0c8a1f5f-3df1-42ee-a6d3-3dcd5937b3bf",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": false
+      },
+      "id": "e7d190fe-c6b0-4426-8dca-12290920960f"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 0.5,
+        "frames": 30,
+        "__collapse": true
+      },
+      "id": "d46f38c1-da9c-4fdc-b236-baf87f764611"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "4",
+        "value": {
+          "type": "number",
+          "value": 1
+        },
+        "__collapse": true
+      },
+      "id": "fd38c993-c905-403e-9885-cf4bc1a2c250"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "49d7bbe5-ed28-4451-8a7b-dd73e9e40465",
+        "x": {
+          "type": "number",
+          "value": 25
+        },
+        "y": {
+          "type": "number",
+          "value": 11
+        },
+        "direction": "up",
+        "fadeSpeed": "2"
+      },
+      "id": "6d47a984-ff71-4027-88cc-fadfeeab50d7"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

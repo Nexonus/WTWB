@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "a10e0362-4452-45cd-8cae-d49855975bbb",
+  "name": "Cover/1_cover",
+  "symbol": "bg_1_cover",
+  "width": 250,
+  "height": 125,
+  "imageWidth": 2000,
+  "imageHeight": 1000,
+  "filename": "Cover/1_cover.png",
+  "tileColors": "",
+  "autoColor": false
+}

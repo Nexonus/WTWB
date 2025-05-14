@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "9bfb9bb6-6efb-48ce-b5c8-987d53c3976c",
+  "name": "ERROR_1",
+  "symbol": "bg_error_1",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "ERROR_1.png",
+  "tileColors": "",
+  "autoColor": false
+}

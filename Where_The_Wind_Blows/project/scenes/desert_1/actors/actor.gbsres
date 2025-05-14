@@ -1,0 +1,107 @@
+{
+  "_resourceType": "actor",
+  "id": "5c0e3510-eef0-4835-8891-cdc591c95317",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "cb88a305-b1a8-47cb-a79e-2690f3433eae",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_94",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "It looks like an\nobelisk.",
+          "I can see some\nsigns engraved\non it's surface."
+        ],
+        "__section": "text",
+        "avatarId": "0c8a1f5f-3df1-42ee-a6d3-3dcd5937b3bf",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": true
+      },
+      "id": "42fe21f8-d0dd-4e66-833c-cc3f29156977"
+    },
+    {
+      "command": "EVENT_CHOICE",
+      "args": {
+        "variable": "L0",
+        "trueText": "Inspect object",
+        "falseText": "Move on",
+        "__collapse": false
+      },
+      "id": "92e8cf21-8a17-432f-b6eb-a736d8df58df"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "L0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "9168651a-93a6-40e2-9e0c-3c5bb663fb16",
+              "x": {
+                "type": "number",
+                "value": 9
+              },
+              "y": {
+                "type": "number",
+                "value": 11
+              },
+              "direction": "",
+              "fadeSpeed": "2",
+              "__collapse": true
+            },
+            "id": "4a9d6d1f-f4f3-486e-aced-6d9c63929176"
+          }
+        ],
+        "false": []
+      },
+      "id": "6c7ee458-568e-45d2-991d-123309bab200"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 10,
+  "y": 11,
+  "_index": 0
+}

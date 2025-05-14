@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "0a883b2a-b6fa-464e-854d-fe47f23b26a3",
+  "name": "narration_apo4",
+  "symbol": "bg_narration_apo4",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "narration_apo4.png",
+  "tileColors": "",
+  "autoColor": false
+}

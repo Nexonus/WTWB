@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "65f72184-d8ab-4d3e-9908-90b390205c18",
+  "name": "photography_1",
+  "symbol": "bg_photography_1",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "photography_1.png",
+  "tileColors": "",
+  "autoColor": false
+}

@@ -1,0 +1,85 @@
+{
+  "_resourceType": "scene",
+  "id": "ba533d15-a53d-43ec-a7d4-6105fdfcc904",
+  "_index": 79,
+  "name": "New Life",
+  "backgroundId": "4ea9f2cc-3c4c-4042-95f6-69ab3cdaa9f6",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00168+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_82",
+  "x": 1368,
+  "y": 200,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "c45ac81c-d034-4f74-b8a3-2a2fd93bb9af"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "\"Our strength and\nknowledge would help\nus to heal the soil.",
+          "Even give it a brand \nnew life.\"",
+          "\"We would bring\nthere compatible \nplants and fauna.",
+          "And thus we'd\nstart to shape the\nworld.\""
+        ],
+        "__section": "text",
+        "avatarId": "0c8a1f5f-3df1-42ee-a6d3-3dcd5937b3bf",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": false
+      },
+      "id": "3b5abb7a-71ed-43ae-859b-be7e93120eb1"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 0.5,
+        "frames": 30,
+        "__collapse": true
+      },
+      "id": "5461c2cf-1ffe-48ee-8af2-eaf27719cf24"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "c71c233b-a04a-4680-b5dd-a4e5038e0e69",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "0c9fefd8-cf87-4d97-b16e-10199338c753"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

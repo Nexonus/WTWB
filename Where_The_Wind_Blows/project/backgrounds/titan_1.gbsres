@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "d9d15408-0a72-400e-81d7-0fceca80a660",
+  "name": "titan_1",
+  "symbol": "bg_titan_1",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "titan_1.png",
+  "tileColors": "",
+  "autoColor": false
+}

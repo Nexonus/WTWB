@@ -1,0 +1,110 @@
+{
+  "_resourceType": "trigger",
+  "id": "8ba8ca64-7752-40e0-a195-f7c422ccd72d",
+  "name": "",
+  "prefabId": "",
+  "x": 18,
+  "y": 2,
+  "symbol": "trigger_80",
+  "prefabScriptOverrides": {},
+  "width": 2,
+  "height": 2,
+  "script": [
+    {
+      "command": "EVENT_RESET_VARIABLES",
+      "args": {
+        "__collapse": true
+      },
+      "id": "3cd3394d-c888-4b46-9d2a-5f7e1ed1bfa6"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "I've finally made\nit. This ladder\nleads...",
+          "To the overworld.",
+          "There's no way to\ngo back, at least.\nFor now."
+        ],
+        "__section": "text",
+        "avatarId": "0c8a1f5f-3df1-42ee-a6d3-3dcd5937b3bf",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": false
+      },
+      "id": "3f4c96a9-277a-41ad-a207-a26df98ce6bf"
+    },
+    {
+      "command": "EVENT_MENU",
+      "args": {
+        "variable": "L0",
+        "items": 2,
+        "option1": "Go to the surface.",
+        "option2": "Stay here.",
+        "option3": "",
+        "option4": "",
+        "option5": "",
+        "option6": "",
+        "option7": "",
+        "option8": "",
+        "cancelOnB": true,
+        "layout": "dialogue",
+        "__collapse": true
+      },
+      "id": "22a08c68-248e-4ea5-8f14-72e6e4448183"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "L0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "24a029b0-a75f-4f1a-9d6b-406e45e29f10",
+              "x": {
+                "type": "number",
+                "value": 8
+              },
+              "y": {
+                "type": "number",
+                "value": 10
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "a490f29d-83eb-4d53-bcea-183029c8a809"
+          }
+        ],
+        "false": []
+      },
+      "id": "afb7abd2-f79e-4531-9b72-b99cf7a81e24"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 0
+}

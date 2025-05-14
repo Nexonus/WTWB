@@ -1,0 +1,67 @@
+{
+  "_resourceType": "trigger",
+  "id": "d14ced96-0bf5-4e02-9e73-126989abc4d4",
+  "name": "",
+  "prefabId": "",
+  "x": 7,
+  "y": 10,
+  "symbol": "trigger_20",
+  "prefabScriptOverrides": {},
+  "width": 1,
+  "height": 2,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Those stairs lead\ninto my vault."
+        ],
+        "__section": "text",
+        "avatarId": "0c8a1f5f-3df1-42ee-a6d3-3dcd5937b3bf",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "d6808c1a-835f-4f6f-ba2c-786b6a0db766"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "But I don't need to\ngo down there right\nnow.",
+          "I got to go first for\nmore fuel for the\nlamps."
+        ],
+        "__section": "text",
+        "avatarId": "8f3ba798-d4c3-4ed4-84c1-44e8323409f5",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "bcc67d90-8f47-4665-9769-f449dbad4ccd"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 1
+}

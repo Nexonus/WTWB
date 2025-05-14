@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "884f2d73-6357-4ba9-8c03-2e73331430e3",
+  "name": "hole",
+  "symbol": "bg_hole",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "hole.png",
+  "tileColors": "",
+  "autoColor": false
+}

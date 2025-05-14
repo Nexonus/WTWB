@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "b241e903-858e-49d2-9013-92655980c7dc",
+  "name": "narration_durga",
+  "symbol": "sprite_narration_durga",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "narration_durga.png",
+  "tileColors": "",
+  "autoColor": false
+}

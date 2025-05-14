@@ -1,0 +1,132 @@
+{
+  "_resourceType": "scene",
+  "id": "5fa0c287-a770-4907-ae8e-e1ac4afbfc6b",
+  "_index": 4,
+  "name": "Scene 5",
+  "backgroundId": "34ae0866-a562-492c-8f46-32895c5e10e6",
+  "tilesetId": "",
+  "width": 80,
+  "height": 40,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "0f11+004+0f4c+004+0f4c+004+0f4c+004+0f4c+004+0f4c+004+0f2+008+0f2+002a+0f16+004+0f2+00!0f2+005+0f2+00!0f2+0027+0fc+0011+0f2+005+0f2+00!0f2+0027+0fc+0018+0f2+002a+0fc+0018+0f2+002a+0fc+0018+0f2+002a+0fc+00a+0f12+006+0f1c+006+0fc+00a+0f12+006+0f1c+006+0fc+00a+0f2+0014+0f4+00c+0f2+00a+0f2+006+0fc+00a+0f2+0014+0f4+00c+0f2+00a+0f2+006+0f12+004+0f2+0014+0f4+0018+0f2+006+0f12+004+0f2+0014+0f4+0018+0f2+006+0f8+008+0f2+004+0f2+006+0f2+00c+0f4+0025+0f3+008+0f2+004+0f2+006+0f2+00c+0f4+0025+0f3+008+0f2+004+0f2+006+0f2+00c+0f4+0025+0f3+008+0f2+004+0f2+006+0f2+00c+0f4+0025+0f3+008+0f2+004+0f2+006+0f12+0018+0f10+008+0f2+004+0f2+006+0f12+0018+0f1a+004+0f2+006+0f2+006+0f2+006+0f2+0018+0f1a+004+0f2+006+0f2+006+0f2+006+0f2+0018+0f1a+004+0f2+006+0f2+006+0f2+006+0f2+001e+0f14+004+0f2+006+0f2+006+0f2+006+0f2+001e+0fa+00e+0f4+004+0f2+006+0f2+006+0f2+001e+0fa+00!0f2+00b+0f4+004+0f2+006+0f2+006+0f2+001e+0fa+00!0f2+00b+0f2+006+0f3a+00e+0f2+006+0f3a+004a+0f6+0023+0f2+001e+0f2+002+0f2+00!0fe+001b+0f2+001e+0f2+002+0f2+00!0fe+0042+0fe+008+0f4+008+0f4+008+0f10+0012+0fe+008+0f4+008+0f4+008+0f10+0012+0f10+004+0f4c+004+0f4c+004+0f3f+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_0",
+  "x": 832,
+  "y": 776,
+  "script": [
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__label": "Intro Speech",
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "L2"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 1
+                }
+              },
+              "__collapseElse": false
+            },
+            "children": {
+              "true": [],
+              "false": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "Those are the\nliquid light basins.",
+                      "Our ancestors have\nconstructed these\na long time ago.",
+                      "Apparently steam is\na side product of\nlight collection.",
+                      "So it's used to warm\nour lairs...",
+                      "That's at least how\nNanzai explained this\nto me someday."
+                    ],
+                    "__section": "text",
+                    "avatarId": "0c8a1f5f-3df1-42ee-a6d3-3dcd5937b3bf",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30,
+                    "__collapse": false
+                  },
+                  "id": "2f022055-c8c7-43ed-8ddd-5ab8330e4c95"
+                },
+                {
+                  "command": "EVENT_INC_VALUE",
+                  "args": {
+                    "variable": "L2",
+                    "__collapse": true
+                  },
+                  "id": "2c38ac6f-479c-4073-8ee0-553de6db8ca6"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "But I'm here to get\nsome light to fill the\nlamps.",
+                      "I could probably get\nsome if I'll manage\nto get a bit lower."
+                    ],
+                    "__section": "text",
+                    "avatarId": "0c8a1f5f-3df1-42ee-a6d3-3dcd5937b3bf",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "3f36bb9b-921d-4df8-90af-9a46450dfccb"
+                }
+              ]
+            },
+            "id": "e5bdf5c9-0197-4d03-a421-559ed775c262"
+          }
+        ]
+      },
+      "id": "f4235ec2-1563-4bc5-ba9e-58e75fe7e903"
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "e21e0003-3b25-487f-a2d6-9473ce623e46",
+        "__collapse": false
+      },
+      "id": "b83d632d-7218-4cd7-b6e3-7b58b4f9d6f0"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "5754b43c-473f-431b-807e-437994b9f332",
+  "autoFadeEventCollapse": true
+}

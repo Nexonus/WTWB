@@ -1,0 +1,54 @@
+{
+  "_resourceType": "actor",
+  "id": "b5fba7d5-1f08-4047-a0b7-97debf454029",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "e24270e6-d5c8-40ea-a6e7-9944e5f67c50",
+  "prefabId": "",
+  "direction": "left",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_58",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "These doors are\nbroken.",
+          "I'll need to find a\ndifferent route for\nnow."
+        ],
+        "__section": "text",
+        "avatarId": "0c8a1f5f-3df1-42ee-a6d3-3dcd5937b3bf",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "e9027ca2-7512-449a-b8a4-919a487207ee"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 42,
+  "y": 33,
+  "_index": 10
+}

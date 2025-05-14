@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "bc2fe0f3-f45e-4de0-9fa5-9a6f667eba46",
+  "name": "backgrounds_3_alt",
+  "symbol": "bg_backgrounds_3_alt",
+  "width": 20,
+  "height": 28,
+  "imageWidth": 160,
+  "imageHeight": 224,
+  "filename": "backgrounds_3_alt.png",
+  "tileColors": "",
+  "autoColor": false
+}

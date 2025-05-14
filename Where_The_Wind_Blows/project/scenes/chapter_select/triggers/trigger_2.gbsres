@@ -1,0 +1,94 @@
+{
+  "_resourceType": "trigger",
+  "id": "9aa94ffa-b1df-4e68-b2b0-4af97d143e6b",
+  "name": "",
+  "prefabId": "",
+  "x": 10,
+  "y": 4,
+  "symbol": "trigger_142",
+  "prefabScriptOverrides": {},
+  "width": 10,
+  "height": 6,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Select Beneath?"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "daa476bb-e503-44fd-93e5-3c60a7fc92d6"
+    },
+    {
+      "command": "EVENT_CHOICE",
+      "args": {
+        "variable": "L0",
+        "trueText": "Play Beneath",
+        "falseText": "Cancel"
+      },
+      "id": "dfdbc279-1435-4c10-ab0b-48a84887d792"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "L0"
+          },
+          "valueB": {
+            "type": "true"
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_MUSIC_STOP",
+            "args": {},
+            "id": "474b5fce-605f-4365-9ab3-27d912bdac6c"
+          },
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "798c0048-ff69-4a16-aa56-77bea839f27e",
+              "x": {
+                "type": "number",
+                "value": 9
+              },
+              "y": {
+                "type": "number",
+                "value": 14
+              },
+              "direction": "left",
+              "fadeSpeed": "2"
+            },
+            "id": "b6ee1e71-c7b3-4ebd-8d61-96b4a34ebb19"
+          }
+        ],
+        "false": []
+      },
+      "id": "943efd5e-9e37-437f-89b8-cda8dd07fbb0"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 1
+}

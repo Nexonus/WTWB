@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "a078638a-270b-43aa-8bf9-4c0a5ec1ccf0",
+  "name": "mirror_1",
+  "symbol": "bg_mirror_1",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "mirror_1.png",
+  "tileColors": "",
+  "autoColor": false
+}

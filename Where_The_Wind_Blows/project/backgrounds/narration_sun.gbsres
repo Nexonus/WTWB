@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "5fc3da39-8267-44a0-ad68-ca0609c0008f",
+  "name": "narration_sun",
+  "symbol": "sprite_narration_sun",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "narration_sun.png",
+  "tileColors": "",
+  "autoColor": false
+}

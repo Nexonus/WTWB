@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "80d0c3f4-0849-4a83-883d-fcd3b4d8ec06",
+  "name": "eyes_closed",
+  "symbol": "bg_eyes_closed",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "eyes_closed.png",
+  "tileColors": "",
+  "autoColor": false
+}

@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "4ea9f2cc-3c4c-4042-95f6-69ab3cdaa9f6",
+  "name": "terraform_1",
+  "symbol": "bg_terraform_1",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "terraform_1.png",
+  "tileColors": "",
+  "autoColor": false
+}

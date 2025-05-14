@@ -1,0 +1,135 @@
+{
+  "_resourceType": "actor",
+  "id": "1c24bb0b-6a96-47de-9ba6-036a1be7491d",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "d580970a-66c6-48a4-bb2d-c7f0dce3087f",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_75",
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "L0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": false,
+        "__collapse": false
+      },
+      "children": {
+        "true": [],
+        "false": [
+          {
+            "command": "EVENT_ACTOR_SET_STATE",
+            "args": {
+              "actorId": "$self$",
+              "spriteStateId": "Open",
+              "loopAnim": true,
+              "__collapse": true
+            },
+            "id": "21a49405-708f-4155-94f2-706b1de6778f"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "What about this one..."
+              ],
+              "__section": "text",
+              "avatarId": "0c8a1f5f-3df1-42ee-a6d3-3dcd5937b3bf",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": false
+            },
+            "id": "2405fc58-b0f4-4364-a63d-13de9ec95920"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Oh uh. Treasure?",
+                "That shouldn't be\nlaying here just\nlike that.",
+                "I got to move these\ncoins to the vault\nsomeday.",
+                "Just maybe, not\nnow... I don't feel\nlike doing that now."
+              ],
+              "__section": "text",
+              "avatarId": "0c140e1e-cb43-40dc-adc9-36ea629ff7f7",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": false
+            },
+            "id": "9e173dcd-567e-4322-9f1f-7b640732c1a6"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_STATE",
+            "args": {
+              "actorId": "$self$",
+              "spriteStateId": "",
+              "loopAnim": true,
+              "__collapse": true
+            },
+            "id": "3aef482f-b203-4bb2-98b6-43a869eb5409"
+          },
+          {
+            "command": "EVENT_INC_VALUE",
+            "args": {
+              "variable": "L0",
+              "__collapse": true
+            },
+            "id": "8b2b3964-3c07-4bdc-baac-7e4d72157275"
+          }
+        ]
+      },
+      "id": "b5bbb743-037d-4868-8f79-3c0bfdebfd9f"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 18,
+  "y": 13,
+  "_index": 6
+}

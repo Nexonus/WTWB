@@ -1,0 +1,256 @@
+{
+  "_resourceType": "actor",
+  "id": "6a93b8af-3fd6-4812-9231-79bf7d4e65a7",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "264a7933-c605-4a06-b99b-e3c49a073b0e",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_5",
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "gte",
+          "valueA": {
+            "type": "variable",
+            "value": "L0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "gte",
+                "valueA": {
+                  "type": "variable",
+                  "value": "L1"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 10
+                }
+              },
+              "__collapseElse": false,
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_SOUND_PLAY_EFFECT",
+                  "args": {
+                    "type": "beep",
+                    "priority": "medium",
+                    "pitch": 1,
+                    "frequency": 200,
+                    "duration": 0.15,
+                    "wait": false,
+                    "effect": 0,
+                    "__collapse": false
+                  },
+                  "id": "c856c88b-64dd-405c-b9c9-a84ba44d33c3"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "Uh. I think I've...\nJammed it.",
+                      "Great. I wonder\nwho will fix it now."
+                    ],
+                    "__section": "text",
+                    "avatarId": "8f3ba798-d4c3-4ed4-84c1-44e8323409f5",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30,
+                    "__collapse": false
+                  },
+                  "id": "0ff3899a-7f88-41a2-ad42-727da20ca8d2"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_VARIABLE_MATH",
+                  "args": {
+                    "vectorX": "2",
+                    "operation": "mul",
+                    "other": "val",
+                    "vectorY": "L0",
+                    "value": -1,
+                    "minValue": "0",
+                    "maxValue": "32767",
+                    "clamp": false,
+                    "__collapse": true
+                  },
+                  "id": "d3dd0502-6e42-426b-a284-2a3c1c3226e5"
+                },
+                {
+                  "command": "EVENT_IF",
+                  "args": {
+                    "condition": {
+                      "type": "eq",
+                      "valueA": {
+                        "type": "variable",
+                        "value": "2"
+                      },
+                      "valueB": {
+                        "type": "number",
+                        "value": 1
+                      }
+                    },
+                    "__collapseElse": true,
+                    "__collapse": true
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_ACTOR_SET_STATE",
+                        "args": {
+                          "actorId": "$self$",
+                          "spriteStateId": "Open",
+                          "loopAnim": true,
+                          "__collapse": false
+                        },
+                        "id": "d2f66171-e4b4-4970-a5b1-7f5391c143ee"
+                      }
+                    ],
+                    "false": [
+                      {
+                        "command": "EVENT_ACTOR_SET_STATE",
+                        "args": {
+                          "actorId": "$self$",
+                          "spriteStateId": "",
+                          "loopAnim": true
+                        },
+                        "id": "3f3700ca-395f-4ccb-a284-7c2fa30bd34c"
+                      }
+                    ]
+                  },
+                  "id": "990086ea-9a0b-48b3-a37f-20623e09d652"
+                },
+                {
+                  "command": "EVENT_INC_VALUE",
+                  "args": {
+                    "variable": "L1",
+                    "__collapse": true
+                  },
+                  "id": "d39f02d1-615a-4409-b8c6-c2451f64ff29"
+                },
+                {
+                  "command": "EVENT_SOUND_PLAY_EFFECT",
+                  "args": {
+                    "type": "beep",
+                    "priority": "medium",
+                    "pitch": 7,
+                    "frequency": 200,
+                    "duration": 0.1,
+                    "wait": true,
+                    "effect": 0,
+                    "__collapse": false
+                  },
+                  "id": "6fe67445-d29e-4c4d-aadb-6359702e6867"
+                }
+              ]
+            },
+            "id": "c0589aa4-432c-4bfd-8bea-dcde36f7a947"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "This is my sleeping\nchamber.",
+                "I think I've got\nenough sleep for\nnow though."
+              ],
+              "__section": "text",
+              "avatarId": "0c8a1f5f-3df1-42ee-a6d3-3dcd5937b3bf",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": false
+            },
+            "id": "8a7e5706-0c9c-4611-baf7-83bbef20f978"
+          },
+          {
+            "command": "EVENT_INC_VALUE",
+            "args": {
+              "variable": "L0",
+              "__collapse": true
+            },
+            "id": "19729bf9-afc2-466c-98a8-c0210b1dc883"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "2",
+              "value": {
+                "type": "number",
+                "value": 1
+              },
+              "__collapse": true
+            },
+            "id": "2b80b371-d8e6-4099-841d-8567aed1d85a"
+          }
+        ]
+      },
+      "id": "aeefeffd-4fa4-4e59-aff5-0f695dea91ca"
+    }
+  ],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "$self$",
+        "spriteStateId": "Open",
+        "loopAnim": true
+      },
+      "id": "3a60c4c3-269a-45cd-a868-99a685bf53a1"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 13,
+  "y": 14,
+  "_index": 5
+}

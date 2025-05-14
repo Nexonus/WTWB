@@ -1,0 +1,110 @@
+{
+  "_resourceType": "scene",
+  "id": "d2c8dfd4-92f8-4fea-b0e4-2532ff921434",
+  "_index": 77,
+  "name": "Sword Pickup",
+  "backgroundId": "5e0b59c8-f53a-4774-858b-5ff9a627c58e",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "POINTNCLICK",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00168+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_80",
+  "x": 864,
+  "y": 200,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": true
+      },
+      "id": "fb3ef9ca-226e-49a5-9426-ec5718314538"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "With this blade,\nI can overcome any\ndifficulties. "
+        ],
+        "__section": "text",
+        "avatarId": "0c8a1f5f-3df1-42ee-a6d3-3dcd5937b3bf",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": false
+      },
+      "id": "85b1d64d-e960-49fa-8184-3f5c47a7d74b"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 0.5,
+        "frames": 30,
+        "__collapse": true
+      },
+      "id": "a4468f24-07ab-4e4b-865f-49259d461aae"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "2",
+        "value": {
+          "type": "number",
+          "value": 1
+        },
+        "__collapse": true
+      },
+      "id": "81d6464a-d2f5-4e5d-a796-be0490fb50ba"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "1",
+        "value": {
+          "type": "number",
+          "value": 2
+        },
+        "__collapse": true
+      },
+      "id": "039ca30f-05df-4fb9-a4cc-2ff3c868fc32"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "49d7bbe5-ed28-4451-8a7b-dd73e9e40465",
+        "x": {
+          "type": "number",
+          "value": 10
+        },
+        "y": {
+          "type": "number",
+          "value": 7
+        },
+        "direction": "up",
+        "fadeSpeed": "2",
+        "__collapse": true
+      },
+      "id": "b61a0003-fe92-4ca2-9e7b-f0d323b77be7"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "52a69182-52a9-4beb-943d-025c05562ef3",
+  "autoFadeEventCollapse": true
+}

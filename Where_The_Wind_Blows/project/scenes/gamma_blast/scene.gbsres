@@ -1,0 +1,89 @@
+{
+  "_resourceType": "scene",
+  "id": "79014acd-62b5-4376-962e-a9af9b6a1845",
+  "_index": 81,
+  "name": "Gamma Blast",
+  "backgroundId": "e8c96dfd-e971-4ee6-8f25-8003246ec73b",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00168+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_83",
+  "x": 1536,
+  "y": 200,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "ab43632a-5796-4bcd-b1a9-426eb6b1fa97"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "\"The world was kept\nhidden in the depths\nof space for many\nages.",
+          "But it made us\nunaware of an\nupcoming disaster.\"",
+          "\"A ray of light would\nbring an unexpected\ndownfall of our rule.",
+          "As we had to hide \ndeep in the \nunderworld.",
+          "We'd wait. And wait\npatiently.",
+          "At some point that\ndeadly light would\ngo out.\"",
+          "\"We did not want\nanyone to know that\nit was lethal to us.",
+          "As that would\nundermine our\nimmortality.\""
+        ],
+        "__section": "text",
+        "avatarId": "0c8a1f5f-3df1-42ee-a6d3-3dcd5937b3bf",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": false
+      },
+      "id": "190a254a-f26a-4b33-b671-d22a3cee73a7"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 0.5,
+        "frames": 30,
+        "__collapse": true
+      },
+      "id": "e073737a-1260-46d0-b060-3f8cefac8ed7"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "942e57ac-61af-4f95-98d2-882b8ab92106",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "0460c228-d571-4490-a1ac-85c3c2ad9862"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

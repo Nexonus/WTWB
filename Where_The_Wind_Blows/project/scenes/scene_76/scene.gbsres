@@ -1,0 +1,128 @@
+{
+  "_resourceType": "scene",
+  "id": "3d46208b-f899-4e86-8d7e-b37f00f200db",
+  "_index": 74,
+  "name": "Scene 76",
+  "backgroundId": "9a509361-2194-4c00-8d87-8afb570cef95",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00168+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_76",
+  "x": 3872,
+  "y": 256,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": true
+      },
+      "id": "e62be678-b391-42d9-80de-931a4e84bb07"
+    },
+    {
+      "command": "EVENT_MUSIC_STOP",
+      "args": {
+        "__collapse": true
+      },
+      "id": "2a78a45c-1142-4c85-8188-e6655f0a7844"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "It says that the\nstairwell doesn't\nhave an end."
+        ],
+        "__section": "text",
+        "avatarId": "0c8a1f5f-3df1-42ee-a6d3-3dcd5937b3bf",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": false
+      },
+      "id": "54174e5a-56f4-4d10-b48c-7e3f3a67889a"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "12",
+        "value": {
+          "type": "number",
+          "value": 1
+        },
+        "__collapse": true
+      },
+      "id": "eacef334-4bf8-45e7-9a00-3471cbda1375"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "I can't tell who\ncould have wrote\nthis.",
+          "I don't remember\ndoing that."
+        ],
+        "__section": "text",
+        "avatarId": "8f3ba798-d4c3-4ed4-84c1-44e8323409f5",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": false
+      },
+      "id": "d8e3aaa8-bffc-4a9f-8bc5-2a7336306e41"
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "27ddc30d-af72-4ad6-ab17-761600d005c2",
+        "__collapse": true
+      },
+      "id": "c6101c5a-5a4f-474e-ad2a-7918b88a1788"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "6cc67958-1136-4e62-9893-cad7d39df1df",
+        "x": {
+          "type": "number",
+          "value": 18
+        },
+        "y": {
+          "type": "number",
+          "value": 13
+        },
+        "direction": "down",
+        "fadeSpeed": "2"
+      },
+      "id": "32373313-9913-4693-96ff-1c9c77d9d7d4"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

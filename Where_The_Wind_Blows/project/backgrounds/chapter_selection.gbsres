@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "6f6ce5f8-699d-48ff-b973-2ff62d8bf53f",
+  "name": "Chapter_Selection",
+  "symbol": "bg_chapter_selection",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "Chapter_Selection.png",
+  "tileColors": "",
+  "autoColor": false
+}

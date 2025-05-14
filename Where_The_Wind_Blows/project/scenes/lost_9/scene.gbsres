@@ -1,0 +1,136 @@
+{
+  "_resourceType": "scene",
+  "id": "1d4b8362-e5a6-4095-ad9f-58563065fd55",
+  "_index": 72,
+  "name": "Lost_9",
+  "backgroundId": "c3867916-6a1e-4361-9269-fa2c5aa604a4",
+  "tilesetId": "",
+  "width": 22,
+  "height": 22,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "0f2e+0012+0f4+0012+0f4+002+0fe+002+0f4+002+0fe+002+0f4+002+0fe+002+0f4+002+0fe+002+0f4+002+0fe+002+0f4+002+0fe+002+0f4+002+0fe+002+0f4+002+0fe+002+0f4+002+0fe+002+0f4+002+0fe+002+0f4+002+0fe+002+0f4+002+0fe+002+0f4+002+0fe+002+0f4+002+0fe+002+0f4+0012+0f4+0012+0f2e+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_74",
+  "x": 3688,
+  "y": 256,
+  "script": [
+    {
+      "command": "EVENT_MUSIC_STOP",
+      "args": {
+        "__collapse": true
+      },
+      "id": "80768d69-d66b-4e8f-a669-cae0c97e5869"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "10",
+        "value": {
+          "type": "number",
+          "value": 0
+        },
+        "__collapse": true
+      },
+      "id": "42183534-4e0d-4627-b0ae-a2377c030c11"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "start"
+        ],
+        "override": true,
+        "__scriptTabs": "press",
+        "__collapse": true,
+        "__label": "Exit"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "49d7bbe5-ed28-4451-8a7b-dd73e9e40465",
+              "x": {
+                "type": "number",
+                "value": 32
+              },
+              "y": {
+                "type": "number",
+                "value": 4
+              },
+              "direction": "up",
+              "fadeSpeed": "2"
+            },
+            "id": "142830e4-5cf9-4ff7-a40c-92367cd0f55a"
+          }
+        ]
+      },
+      "id": "1b78a2f2-a4b5-4763-88f4-1e7b4c0de453"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "L0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": false,
+        "__collapse": true
+      },
+      "children": {
+        "true": [],
+        "false": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "This place just\nkeeps getting\nweirder."
+              ],
+              "__section": "text",
+              "avatarId": "0c8a1f5f-3df1-42ee-a6d3-3dcd5937b3bf",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "5e896454-ab7b-4a6e-88fc-e54c8f2fc3d3"
+          },
+          {
+            "command": "EVENT_INC_VALUE",
+            "args": {
+              "variable": "L0",
+              "__collapse": true
+            },
+            "id": "f161080e-05a3-498e-9dd3-c03d52bc76e3"
+          }
+        ]
+      },
+      "id": "ca462f24-0bc2-44bc-96fe-0e098fd91354"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "5754b43c-473f-431b-807e-437994b9f332",
+  "autoFadeEventCollapse": true
+}

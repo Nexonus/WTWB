@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "0420497a-f7d8-4ca1-82fc-04fdf114d251",
+  "name": "durga_full_alt",
+  "symbol": "bg_durga_full_alt",
+  "width": 20,
+  "height": 28,
+  "imageWidth": 160,
+  "imageHeight": 224,
+  "filename": "durga_full_alt.png",
+  "tileColors": "",
+  "autoColor": false
+}

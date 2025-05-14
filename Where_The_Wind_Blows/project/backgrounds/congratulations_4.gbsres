@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "77fabe5f-ff24-47ba-87e7-d7a236494320",
+  "name": "congratulations_4",
+  "symbol": "bg_congratulations_4",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "congratulations_4.png",
+  "tileColors": "",
+  "autoColor": false
+}

@@ -1,0 +1,68 @@
+{
+  "_resourceType": "scene",
+  "id": "1d872753-f0c0-41d8-92a7-8c6c41dabe18",
+  "_index": 32,
+  "name": "Puzzles_3_3_2",
+  "backgroundId": "e402dec2-5202-4190-9e50-fcb30786b3bf",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "POINTNCLICK",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00168+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_34",
+  "x": 2160,
+  "y": 1616,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "$self$",
+        "spriteStateId": "Grab",
+        "loopAnim": true,
+        "__collapse": true
+      },
+      "id": "8a3fd096-f4e3-4ad0-b45d-3872eddbed05"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "start"
+        ],
+        "override": true,
+        "__scriptTabs": "press",
+        "__collapse": true,
+        "__label": "Exit"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "a973447c-3a1c-4e49-a617-fd8a2e96a896",
+              "x": {
+                "type": "number",
+                "value": 10
+              },
+              "y": {
+                "type": "number",
+                "value": 19
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "10f93ac3-fb46-4791-9067-041d45cc473b"
+          }
+        ]
+      },
+      "id": "43c79243-0101-48bf-b292-82e303e35aae"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "52a69182-52a9-4beb-943d-025c05562ef3"
+}

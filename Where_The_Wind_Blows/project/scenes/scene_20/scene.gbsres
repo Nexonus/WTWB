@@ -1,0 +1,140 @@
+{
+  "_resourceType": "scene",
+  "id": "a5fca680-c6e5-497e-bb7e-649f4a6ba32a",
+  "_index": 17,
+  "name": "Scene 20",
+  "backgroundId": "884f2d73-6357-4ba9-8c03-2e73331430e3",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00168+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_20",
+  "x": 60,
+  "y": 1440,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "16e1347e-4e2f-4821-9ad7-dbf7e10abd4a"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "I manage to make it\nto the edge of the\nsinkhole.",
+          "It starts to expand.\nI can't stop it.",
+          "I begin to run\naway."
+        ],
+        "__section": "text",
+        "avatarId": "82b1fd2d-0b44-4d4a-8314-38d0dba44079",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "6af38f88-8e98-45a7-bd1f-13e7e673279f"
+    },
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "crash",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 1,
+        "wait": false,
+        "effect": 0,
+        "__collapse": true
+      },
+      "id": "f67a793a-c828-4207-86bf-9864bd49eedb"
+    },
+    {
+      "command": "EVENT_CAMERA_SHAKE",
+      "args": {
+        "time": 1,
+        "frames": 30,
+        "shakeDirection": "horizontal",
+        "magnitude": {
+          "type": "number",
+          "value": 2
+        },
+        "__collapse": true
+      },
+      "id": "add3a72c-7811-4cf7-9f79-28cd2e7ba2e7"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "At some point I\nnotice a strange\nlight. Like a star.",
+          "It's in the distance.",
+          "My consciousness\ntells me, it is a\nsafe place.",
+          "If I'll make it there\nI can survive this\ndisaster."
+        ],
+        "__section": "text",
+        "avatarId": "82b1fd2d-0b44-4d4a-8314-38d0dba44079",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "cfb879cb-6b33-4c0f-829b-66b7814e141c"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 0.5,
+        "frames": 30,
+        "__collapse": true
+      },
+      "id": "8d9c9d5d-cdcc-4976-9998-106f2f35861d"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "ced8d498-e084-48f6-b731-6183ee9a920d",
+        "x": {
+          "type": "number",
+          "value": 9
+        },
+        "y": {
+          "type": "number",
+          "value": 8
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "a1fcbb23-3ea2-44a6-a451-6b5fbae037a9"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "autoFadeEventCollapse": true
+}

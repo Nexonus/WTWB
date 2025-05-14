@@ -1,0 +1,55 @@
+{
+  "_resourceType": "actor",
+  "id": "805998d4-41a5-41e1-aabe-e0c62c9a8799",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "864d6bb4-b9b5-4d08-b0fc-465e2fdf0c1c",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_67",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "I think these doors\nlock behind\nautomatically.",
+          "I should probably\njust move on then."
+        ],
+        "__section": "text",
+        "avatarId": "0c8a1f5f-3df1-42ee-a6d3-3dcd5937b3bf",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": false
+      },
+      "id": "111482be-4c91-45aa-9d30-6afc4d2d6a1e"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 32,
+  "y": 46,
+  "_index": 0
+}

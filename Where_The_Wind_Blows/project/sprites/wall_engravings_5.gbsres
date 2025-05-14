@@ -1,0 +1,128 @@
+{
+  "_resourceType": "sprite",
+  "id": "3db018a2-270a-4ae8-b4c0-be74f7f0570d",
+  "name": "wall_engravings_5",
+  "symbol": "sprite_wall_engravings_5",
+  "numFrames": 1,
+  "filename": "wall_engravings_5.png",
+  "checksum": "d48825cc1f56fbd665068b61c62bd085fba18b1c",
+  "width": 16,
+  "height": 16,
+  "states": [
+    {
+      "id": "d8a8ebc6-7a66-4efb-9bb6-8d5f977607ea",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": false,
+      "animations": [
+        {
+          "id": "f38ebf3a-78e4-40fb-82e8-b0970e7bf225",
+          "frames": [
+            {
+              "id": "f9e1c6e5-4a38-48c6-9894-0d6d72930957",
+              "tiles": [
+                {
+                  "id": "d04bb3f0-612b-4c6c-8323-ccf907106091",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "156a4ebb-905a-41e1-85ed-58f7eccf2faa",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "12fd8f07-d01e-44ba-8264-d86073e17a7b",
+          "frames": [
+            {
+              "id": "f9e81f63-d3d7-4fb8-8bb6-9f1b7a179baf",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "38acb630-23a7-4e8c-9793-5561d04bd141",
+          "frames": [
+            {
+              "id": "7d3afa17-e881-41e1-bc9e-9c90c4bad310",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "8467fc01-e015-4884-a2ef-a285b3372144",
+          "frames": [
+            {
+              "id": "ef882f91-70d2-4c78-9ccc-17980ae7f10d",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "4c58fb36-bc81-4e43-a60b-c725dfcd8934",
+          "frames": [
+            {
+              "id": "ef9936ea-0724-4a69-8929-11a534d8a8b7",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "85b9cbcc-a784-4cf0-bca6-b4dcfc7936d4",
+          "frames": [
+            {
+              "id": "7b8a4398-ba9d-4574-9b00-a108a40c2682",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "cd7022f5-59b6-4a76-8b43-ed8e4ab2a280",
+          "frames": [
+            {
+              "id": "6d626e58-eae1-4849-9225-053add4f4304",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "ff85a184-36fe-42ce-aa05-1327bfaaff44",
+          "frames": [
+            {
+              "id": "a18a1c28-e967-4253-a164-4055b43e6be9",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 2,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15
+}

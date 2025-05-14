@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "42f746ae-c860-40ca-8047-32dfbfed84c4",
+  "name": "war_2",
+  "symbol": "bg_war_2",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "war_2.png",
+  "tileColors": "",
+  "autoColor": false
+}

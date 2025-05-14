@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "356743ea-9aeb-4cf5-8d42-5c370a392910",
+  "name": "durga_profile",
+  "symbol": "bg_durga_profile",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "durga_profile.png",
+  "tileColors": "",
+  "autoColor": false
+}

@@ -1,0 +1,93 @@
+{
+  "_resourceType": "scene",
+  "id": "2eef4df8-ff8c-4484-9f55-968b507b912b",
+  "_index": 75,
+  "name": "War",
+  "backgroundId": "42f746ae-c860-40ca-8047-32dfbfed84c4",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00168+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_78",
+  "x": 1200,
+  "y": 32,
+  "script": [
+    {
+      "command": "EVENT_MUSIC_STOP",
+      "args": {
+        "__collapse": true
+      },
+      "id": "73ba5d62-e0b2-4334-a493-c9ba9e6fd0ca"
+    },
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": true
+      },
+      "id": "bd16ecf5-5c4a-401f-a1e0-f82136a2cce4"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Story time. I'm going\nto read out what's\nwritten.",
+          "\"Somewhere in the\ndepths of the\nuniverse.",
+          "There was a world\nscarred by it's\nongoing wars."
+        ],
+        "__section": "text",
+        "avatarId": "0c8a1f5f-3df1-42ee-a6d3-3dcd5937b3bf",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": true
+      },
+      "id": "5213ef65-e1eb-4677-8b2b-dee546ac627c"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 0.5,
+        "frames": 30,
+        "__collapse": true
+      },
+      "id": "29e602cd-c9a9-4b5c-8d22-703270b86a44"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "27660315-3e4d-48eb-ac34-ed528f63aee0",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "4bd50d2d-4072-41d5-a85e-e520d2e84a9c"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "autoFadeEventCollapse": true
+}

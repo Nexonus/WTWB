@@ -1,0 +1,101 @@
+{
+  "_resourceType": "scene",
+  "id": "a8367671-1b27-4649-b9d8-2fdab13f3e71",
+  "_index": 7,
+  "name": "Scene 8",
+  "backgroundId": "d9ef9350-e1db-4994-8633-c49dd315ef29",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00168+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_8",
+  "x": 1312,
+  "y": 368,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": true
+      },
+      "id": "f40eeae0-6cd7-47eb-8dc2-73c698ac9cc8"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "This skull, it looks\nsimilar to mine.",
+          "Maybe it belongs \nto one of my \nrelatives.",
+          "Apparently, I'm the\nlast one of my family\nring.",
+          "...",
+          "Let's put you back\non your place now."
+        ],
+        "__section": "text",
+        "avatarId": "0c8a1f5f-3df1-42ee-a6d3-3dcd5937b3bf",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": false
+      },
+      "id": "fe21b524-6bc7-4251-a94f-297a25d30b4a"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 1,
+        "frames": 30,
+        "__collapse": true
+      },
+      "id": "ebde4128-843c-436c-b529-adac1d9d595c"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "10",
+        "value": {
+          "type": "number",
+          "value": 1
+        },
+        "__collapse": false
+      },
+      "id": "233f0634-facc-4471-a854-8a5b73f0ba05"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "596553af-e79f-4d61-8787-9f25707672f7",
+        "x": {
+          "type": "number",
+          "value": 28
+        },
+        "y": {
+          "type": "number",
+          "value": 12
+        },
+        "direction": "up",
+        "fadeSpeed": "2",
+        "__collapse": true
+      },
+      "id": "1b412380-5491-4231-bd61-349a7e6c4d46"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": ""
+}

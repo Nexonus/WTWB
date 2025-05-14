@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "4cb1d2c8-54f3-4252-97b6-e4fc6f4994b2",
+  "name": "encounter",
+  "symbol": "bg_encounter",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "encounter.png",
+  "tileColors": "",
+  "autoColor": false
+}

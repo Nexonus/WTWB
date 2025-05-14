@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "115b8bca-4abb-42cc-bc26-d8c043b9286b",
+  "name": "abyss_rooms_5",
+  "symbol": "bg_abyss_rooms_5",
+  "width": 30,
+  "height": 66,
+  "imageWidth": 240,
+  "imageHeight": 528,
+  "filename": "abyss_rooms_5.png",
+  "tileColors": "",
+  "autoColor": false
+}

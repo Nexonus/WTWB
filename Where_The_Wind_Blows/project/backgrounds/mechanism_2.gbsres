@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "0bbf89bc-7039-47a5-aef0-3cbd0d25b45a",
+  "name": "mechanism_2",
+  "symbol": "bg_mechanism_2",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "mechanism_2.png",
+  "tileColors": "",
+  "autoColor": false
+}

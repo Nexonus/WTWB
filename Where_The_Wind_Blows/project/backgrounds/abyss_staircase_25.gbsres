@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "899efbbb-704d-4455-9a8c-7b0326602d62",
+  "name": "abyss_staircase_25",
+  "symbol": "bg_abyss_staircase_25",
+  "width": 22,
+  "height": 22,
+  "imageWidth": 176,
+  "imageHeight": 176,
+  "filename": "abyss_staircase_25.png",
+  "tileColors": "",
+  "autoColor": false
+}

@@ -1,0 +1,76 @@
+{
+  "_resourceType": "trigger",
+  "id": "1df1dc00-de69-4d9e-9b6a-0a66403a25c3",
+  "name": "",
+  "prefabId": "",
+  "x": 14,
+  "y": 16,
+  "symbol": "trigger_69",
+  "prefabScriptOverrides": {},
+  "width": 2,
+  "height": 2,
+  "script": [
+    {
+      "command": "EVENT_MENU",
+      "args": {
+        "variable": "L0",
+        "items": 2,
+        "option1": "Sit on the throne.",
+        "option2": "Move on.",
+        "option3": "",
+        "option4": "",
+        "option5": "",
+        "option6": "",
+        "option7": "",
+        "option8": "",
+        "cancelOnB": true,
+        "layout": "dialogue",
+        "__collapse": false
+      },
+      "id": "a9a513dc-8d03-4a3b-afa9-bcccd3e5812a"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "L0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "25265fec-eb72-40c7-81f2-07d712eba4d5",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": "2",
+              "__collapse": false
+            },
+            "id": "133ec197-94e9-4600-86a7-1b53a25b54c2"
+          }
+        ],
+        "false": []
+      },
+      "id": "740dba4f-1875-452b-90ea-f7f798c1d118"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 0
+}

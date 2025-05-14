@@ -1,0 +1,195 @@
+{
+  "_resourceType": "scene",
+  "id": "2bbbfe32-6d40-4b78-beea-4a3ed9709ea1",
+  "_index": 3,
+  "name": "Scene 5",
+  "backgroundId": "1a2a47d6-30b1-4bc0-aac0-8ef4066dc046",
+  "tilesetId": "",
+  "width": 44,
+  "height": 40,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00!0f!002+0f!0028+0f!002+0f27+002+0f!002+0f!0025+0f!002+0f!002+0f!0025+0f!002+0f!002+0f!0017+0fa+002+0f3+002+0f!002+0f!0017+0f!008+0f!002+0f!004+0f!001a+0f!008+0f!002+0f!004+0f!001a+0f!008+0f!002+0f!004+0f!00e+0f8+004+0f!008+0f!002+0f!004+0f!005+0fa+006+0f!004+0f!004+0f5+002+0f3+002+0f!00e+0f!006+0f!004+0f!004+0f!008+0f!002+0f!00e+0f!006+0f!004+0f!004+0f!008+0f!002+0f10+006+0f!004+0f!004+0f!008+0f!0018+0f!004+0f6+008+0f!0018+0f!0012+0f!0018+0f!0012+0f!0018+0f!004+0f6+008+0f!002+0f17+004+0f!004+0f!008+0f!002+0f!001a+0f!004+0f!008+0f!002+0f!001a+0f!004+0f!008+0f!002+0f!0012+0f9+004+0f!008+0f!002+0f!0012+0f!00c+0f!008+0f!002+0f!0012+0f!00c+0f!008+0f!002+0f!0012+0f!00c+0f!008+0f!002+0ff+002+0f3+00c+0f!008+0f!0010+0f!002+0f!006+0f9+008+0f!0010+0f!002+0f!006+0f!0010+0f!0010+0f!002+0f!006+0f!0010+0f!0010+0f!002+0f!006+0f!0010+0f!004+0fd+002+0f8+0010+0f!004+0f!0026+0f!004+0f!0026+0f!004+0f!0010+0f17+00!0f4+0010+0f!002b+0f!002b+0f!0017+0f4+0010+0f!001a+0f!0010+0f!001a+0f12+0043+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_5",
+  "x": 472,
+  "y": 776,
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "L0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": false,
+        "__collapse": false
+      },
+      "children": {
+        "true": [],
+        "false": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "The lamps are lit\nnow. But I got to\nget more light...",
+                "The bottle ran out of\nit already!",
+                "There's a place\nfor that thought.",
+                "It's pretty much\nright beyond this\nchamber.",
+                "I'd just need to\nget through this\nmess first...",
+                "I haven't cleaned \nup here for a \nwhile."
+              ],
+              "__section": "text",
+              "avatarId": "0c8a1f5f-3df1-42ee-a6d3-3dcd5937b3bf",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": false
+            },
+            "id": "155764a9-9d00-4657-bcd8-aec57562caf1"
+          },
+          {
+            "command": "EVENT_INC_VALUE",
+            "args": {
+              "variable": "L0",
+              "__collapse": true
+            },
+            "id": "d2007775-0d19-496e-91f4-f3c9aa0c6dfd"
+          },
+          {
+            "command": "EVENT_GROUP",
+            "args": {
+              "__collapse": false,
+              "__label": "Restart Level Group"
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_GROUP",
+                  "args": {
+                    "__label": "Restart Info",
+                    "__collapse": true
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+                        "args": {
+                          "type": "none",
+                          "pitch": 4,
+                          "frequency": 300,
+                          "duration": 0.05,
+                          "effect": 0,
+                          "__collapse": true
+                        },
+                        "id": "87fbc9ed-1e8d-44b0-bdf0-abc8c5c22e07"
+                      },
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "Press ESC / Start to\nstart over at any\ntime."
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30,
+                          "__collapse": true
+                        },
+                        "id": "3e301ead-9065-4e1f-bd10-367b9bb6257a"
+                      },
+                      {
+                        "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+                        "args": {
+                          "type": "tone",
+                          "pitch": 4,
+                          "frequency": 150,
+                          "duration": 0.02,
+                          "effect": 0,
+                          "__collapse": true
+                        },
+                        "id": "576eadb7-b33b-481a-85ea-228d9dca1858"
+                      }
+                    ]
+                  },
+                  "id": "fba00fbb-c648-4e8a-80e4-4a394a60acfe"
+                },
+                {
+                  "command": "EVENT_SET_INPUT_SCRIPT",
+                  "args": {
+                    "input": [
+                      "start"
+                    ],
+                    "override": true,
+                    "__scriptTabs": "press",
+                    "__collapse": true,
+                    "__label": "Restart Level"
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_SWITCH_SCENE",
+                        "args": {
+                          "sceneId": "798c0048-ff69-4a16-aa56-77bea839f27e",
+                          "x": {
+                            "type": "number",
+                            "value": 2
+                          },
+                          "y": {
+                            "type": "number",
+                            "value": 31
+                          },
+                          "direction": "down",
+                          "fadeSpeed": "2"
+                        },
+                        "id": "d3ded817-ae63-474b-9351-9851411eee16"
+                      }
+                    ]
+                  },
+                  "id": "8126b10f-ae6b-4d7d-8bcb-5090f2111d14"
+                }
+              ]
+            },
+            "id": "7fecb637-5b8f-46db-bc4a-1b414a702af6"
+          }
+        ]
+      },
+      "id": "149341a5-7a9b-42c7-9994-c2ef2ab41646"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "5754b43c-473f-431b-807e-437994b9f332"
+}

@@ -1,0 +1,61 @@
+{
+  "_resourceType": "actor",
+  "id": "69f2be42-9412-45d7-894d-453da6d483ce",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "d1093781-91ae-4398-b16e-350f779b0d5e",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_22",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Huff. No, too\nheavy. I can't\nlift this one..."
+        ],
+        "__section": "text",
+        "avatarId": "0c8a1f5f-3df1-42ee-a6d3-3dcd5937b3bf",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "dee48e98-95c6-4f14-884c-8201962575da"
+    },
+    {
+      "command": "EVENT_ACTOR_EMOTE",
+      "args": {
+        "actorId": "player",
+        "emoteId": "3c769dca-51f3-426c-942f-71c4d3af6202"
+      },
+      "id": "2d02fa8d-26f5-4b0a-a805-7000e7558dbf"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 40,
+  "y": 31,
+  "_index": 3
+}

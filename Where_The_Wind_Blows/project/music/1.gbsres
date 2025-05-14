@@ -1,0 +1,11 @@
+{
+  "_resourceType": "music",
+  "id": "8b0f26c2-b7d7-46ae-b7a6-e544097bbc97",
+  "name": "1",
+  "symbol": "song_1",
+  "filename": "1.mod",
+  "settings": {
+    "disableSpeedConversion": false
+  },
+  "type": "mod"
+}

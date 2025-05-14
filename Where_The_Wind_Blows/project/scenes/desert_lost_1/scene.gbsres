@@ -1,0 +1,23 @@
+{
+  "_resourceType": "scene",
+  "id": "8754b542-e431-4300-9854-f834a57ede69",
+  "_index": 93,
+  "name": "Desert_Lost_1",
+  "backgroundId": "51a783d7-d33b-4dc1-910b-ad40da3af9a8",
+  "tilesetId": "",
+  "width": 22,
+  "height": 22,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "003c+0f!0015+0f2+003a+0f!0015+0f2+0014+0f4+0012+0f3+00b+0f!0015+0f2+00a6+0f!0015+0f2+0030+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_95",
+  "x": 672,
+  "y": 2416,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "5754b43c-473f-431b-807e-437994b9f332"
+}

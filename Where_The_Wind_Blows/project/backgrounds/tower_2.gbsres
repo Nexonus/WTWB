@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "b0c05fdf-e0e1-42a8-8a58-dcece1aea9c7",
+  "name": "tower_2",
+  "symbol": "bg_tower_2",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "tower_2.png",
+  "tileColors": "",
+  "autoColor": false
+}

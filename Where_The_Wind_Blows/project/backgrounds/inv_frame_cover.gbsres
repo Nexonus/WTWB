@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "413d311b-52d6-441b-8758-7eee65b07978",
+  "name": "inv_frame_cover",
+  "symbol": "bg_inv_frame_cover",
+  "width": 250,
+  "height": 125,
+  "imageWidth": 2000,
+  "imageHeight": 1000,
+  "filename": "inv_frame_cover.png",
+  "tileColors": "",
+  "autoColor": false
+}

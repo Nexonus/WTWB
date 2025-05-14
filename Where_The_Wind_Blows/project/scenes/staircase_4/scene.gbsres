@@ -1,0 +1,58 @@
+{
+  "_resourceType": "scene",
+  "id": "72d78ab2-881f-4d48-85b6-2c941d211065",
+  "_index": 59,
+  "name": "Staircase_4",
+  "backgroundId": "41abf02f-4b65-436b-b004-8e8e34323ea7",
+  "tilesetId": "",
+  "width": 22,
+  "height": 22,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "0f2e+0012+0f4+0012+0f4+002+0f14+002+0f!00!0f12+002+0f14+002+0f14+002+0f14+002+0f14+002+0f14+002+0f14+002+0f14+002+0f14+002+0f14+002+0f14+002+0f!00!0f12+002+0f14+0012+0f4+0012+0f2e+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_63",
+  "x": 2944,
+  "y": 56,
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "start"
+        ],
+        "override": true,
+        "__scriptTabs": "press",
+        "__collapse": true,
+        "__label": "Exit"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "49d7bbe5-ed28-4451-8a7b-dd73e9e40465",
+              "x": {
+                "type": "number",
+                "value": 32
+              },
+              "y": {
+                "type": "number",
+                "value": 4
+              },
+              "direction": "up",
+              "fadeSpeed": "2"
+            },
+            "id": "2144972a-9124-4404-afc1-af8157cdc0a0"
+          }
+        ]
+      },
+      "id": "20f38c70-b51b-47b7-9386-4b6fedd3f0b1"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "5754b43c-473f-431b-807e-437994b9f332"
+}

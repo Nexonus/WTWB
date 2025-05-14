@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "fc0f9aff-2625-4d9c-ad44-f1851f4ea9c1",
+  "name": "cityscape",
+  "symbol": "bg_cityscape",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "cityscape.png",
+  "tileColors": "",
+  "autoColor": false
+}

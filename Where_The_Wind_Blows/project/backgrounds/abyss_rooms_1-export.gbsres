@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "1c432ff0-020d-4ac5-84e5-8a5a991771de",
+  "name": "abyss_rooms_1-export",
+  "symbol": "bg_abyss_rooms_1_export",
+  "width": 44,
+  "height": 40,
+  "imageWidth": 352,
+  "imageHeight": 320,
+  "filename": "abyss_rooms_1-export.png",
+  "tileColors": "",
+  "autoColor": false
+}

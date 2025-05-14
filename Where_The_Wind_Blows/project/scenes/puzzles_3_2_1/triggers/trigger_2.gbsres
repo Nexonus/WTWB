@@ -1,0 +1,41 @@
+{
+  "_resourceType": "trigger",
+  "id": "d1861700-522f-47c1-a486-901bf54646f5",
+  "name": "",
+  "prefabId": "",
+  "x": 14,
+  "y": 4,
+  "symbol": "trigger_55",
+  "prefabScriptOverrides": {},
+  "width": 3,
+  "height": 4,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "That won't fit in\nhere."
+        ],
+        "__section": "text",
+        "avatarId": "8f3ba798-d4c3-4ed4-84c1-44e8323409f5",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "c9e0437f-d8c5-450b-9c1f-a127ff688c67"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 1
+}

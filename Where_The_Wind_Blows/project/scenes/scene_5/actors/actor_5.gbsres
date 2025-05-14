@@ -1,0 +1,62 @@
+{
+  "_resourceType": "actor",
+  "id": "2ee16d25-1b3b-49ab-9504-817fbf8eb5fd",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "d1093781-91ae-4398-b16e-350f779b0d5e",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_25",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "I'm going\nto destroy you.",
+          "Next time. I\npromise... Huff-"
+        ],
+        "__section": "text",
+        "avatarId": "8f3ba798-d4c3-4ed4-84c1-44e8323409f5",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "837cb733-154a-4474-8cdf-ff248daf28f2"
+    },
+    {
+      "command": "EVENT_ACTOR_EMOTE",
+      "args": {
+        "actorId": "player",
+        "emoteId": "3c769dca-51f3-426c-942f-71c4d3af6202"
+      },
+      "id": "63b64989-e52f-4f7a-ac2b-c09ce982303c"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 18,
+  "y": 21,
+  "_index": 4
+}

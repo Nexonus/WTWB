@@ -1,0 +1,95 @@
+{
+  "_resourceType": "actor",
+  "id": "8d73e632-48fb-48c8-9ff1-7f28379aa1a8",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "18230364-7020-4b46-8dfb-0a4ee7faa72f",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_60",
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "L0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_PUSH",
+            "args": {
+              "continue": true,
+              "__collapse": false
+            },
+            "id": "4d439957-bf30-49cf-a783-f717e70ca483"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "This chair is kind\nof in my way actually.",
+                "It's quite annoying.\nMaybe I'll just.\nPush it into corner."
+              ],
+              "__section": "text",
+              "avatarId": "8f3ba798-d4c3-4ed4-84c1-44e8323409f5",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": false
+            },
+            "id": "56c10f7e-c403-47c0-bbca-8649a21a00fe"
+          },
+          {
+            "command": "EVENT_INC_VALUE",
+            "args": {
+              "variable": "L0",
+              "__collapse": true
+            },
+            "id": "8c13af2f-5449-4f82-ae03-e065291d1e8e"
+          }
+        ]
+      },
+      "id": "b5616939-3185-4c56-a20e-bc6b9807c4c2"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 28,
+  "y": 28,
+  "_index": 12
+}

@@ -1,0 +1,145 @@
+{
+  "_resourceType": "actor",
+  "id": "1cd559db-2f92-4eb0-b446-911c445229a0",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "a3118c52-18cf-48c2-8441-8347ce319b1a",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_12",
+  "script": [
+    {
+      "command": "EVENT_CAMERA_SHAKE",
+      "args": {
+        "time": 0.5,
+        "frames": 30,
+        "shakeDirection": "horizontal",
+        "magnitude": {
+          "type": "number",
+          "value": 2
+        },
+        "__collapse": false
+      },
+      "id": "df9ebd91-21a6-4177-948c-7069676a8965"
+    },
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "crash",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": true,
+        "effect": 0,
+        "__collapse": true
+      },
+      "id": "7ef9be13-2a2b-45e4-92ad-ec85c62c2664"
+    },
+    {
+      "command": "EVENT_INC_VALUE",
+      "args": {
+        "variable": "L1",
+        "__collapse": true
+      },
+      "id": "d9fda340-b04c-4edf-8f48-f3620a4af084"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "gte",
+          "valueA": {
+            "type": "variable",
+            "value": "L1"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 3
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_FADE_OUT",
+            "args": {
+              "speed": 1,
+              "__collapse": true
+            },
+            "id": "671241a6-28a0-4aa6-a44b-f9062f3dfd7d"
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "$self$",
+              "__collapse": true
+            },
+            "id": "42bd813f-57dc-45f4-9097-2974d42810a0"
+          },
+          {
+            "command": "EVENT_FADE_IN",
+            "args": {
+              "speed": 1,
+              "__collapse": true
+            },
+            "id": "c10bf8b4-5421-4d94-9ddc-651f88cb0ebb"
+          },
+          {
+            "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
+            "args": {
+              "actorId": "$self$",
+              "__collapse": true
+            },
+            "id": "f3b2ce4c-42c5-4048-9b09-52f3004cbdfd"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Begone, rocks!"
+              ],
+              "__section": "text",
+              "avatarId": "0c8a1f5f-3df1-42ee-a6d3-3dcd5937b3bf",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "309b9079-2b1b-4328-8a6c-7b8f2fb02c7d"
+          }
+        ],
+        "false": []
+      },
+      "id": "c851e2b5-5c71-48ba-afc6-aa25de00b79c"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 28,
+  "y": 15,
+  "_index": 12
+}

@@ -1,0 +1,129 @@
+{
+  "_resourceType": "scene",
+  "id": "b59be4d9-c8e4-464b-b176-b1a23872d219",
+  "_index": 20,
+  "name": "Scene 22",
+  "backgroundId": "3b3e9679-7217-4fff-ace4-693496976ef2",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00168+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_11",
+  "x": 60,
+  "y": 1600,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": true
+      },
+      "id": "b06b0aed-235c-4d01-84b2-6fe4ab71f65a"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 0.25,
+        "frames": 30,
+        "__collapse": true
+      },
+      "id": "2eb3de9a-3427-4ff7-93ea-4ff9072432ee"
+    },
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "beep",
+        "priority": "medium",
+        "pitch": 8,
+        "frequency": 200,
+        "duration": 0.1,
+        "wait": true,
+        "effect": 0,
+        "__collapse": true
+      },
+      "id": "cc326ad9-d861-4857-9e9d-b81d7c69cfaf"
+    },
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "crash",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 2,
+        "wait": false,
+        "effect": 0,
+        "__collapse": true
+      },
+      "id": "7dafaf39-fe1b-46ec-b368-c2425dafb8d7"
+    },
+    {
+      "command": "EVENT_CAMERA_SHAKE",
+      "args": {
+        "time": 0.5,
+        "frames": 30,
+        "shakeDirection": "horizontal",
+        "magnitude": {
+          "type": "number",
+          "value": 5
+        },
+        "__collapse": true
+      },
+      "id": "183bef17-0ea3-4d7f-9b58-cc74aedb46a5"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "A fireball appeared\nright below me. I've\nlost my balance.",
+          "Gravity pulls me down\nwith an incredible\nstrength.",
+          "Eventually I sink,\ndown below into the\nsand.",
+          "Almost as if I were\ntrapped in an\nhourglass."
+        ],
+        "__section": "text",
+        "avatarId": "82b1fd2d-0b44-4d4a-8314-38d0dba44079",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": false
+      },
+      "id": "49a6b3a7-2a87-4623-87fa-883a81f2a20d"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "766346fc-d62c-44b7-b059-d0670d7a1620",
+        "x": {
+          "type": "number",
+          "value": 9
+        },
+        "y": {
+          "type": "number",
+          "value": 9
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "4daf35c1-c0bc-4312-9bf4-198bd38f1af3"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "autoFadeEventCollapse": true
+}

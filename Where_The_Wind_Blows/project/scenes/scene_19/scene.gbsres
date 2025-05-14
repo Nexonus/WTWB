@@ -1,0 +1,153 @@
+{
+  "_resourceType": "scene",
+  "id": "746136d4-9262-4638-a196-81f6872a6faf",
+  "_index": 16,
+  "name": "Scene 19",
+  "backgroundId": "b4920abd-49d7-46da-88e9-57a0faeec87e",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00168+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_19",
+  "x": 392,
+  "y": 1272,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "d5fefb46-728d-43fd-8ffd-594ce3923789"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "The chain shatters.",
+          "I move back,\nconfused.",
+          "One by one, each\nlink breaks down..."
+        ],
+        "__section": "text",
+        "avatarId": "82b1fd2d-0b44-4d4a-8314-38d0dba44079",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "20671c5e-7ccf-46aa-b6fd-5ad8b7dd84e7"
+    },
+    {
+      "command": "EVENT_CAMERA_SHAKE",
+      "args": {
+        "time": 1,
+        "frames": 30,
+        "shakeDirection": "horizontal",
+        "magnitude": {
+          "type": "number",
+          "value": 2
+        },
+        "__collapse": true
+      },
+      "id": "4e63b905-58c5-483c-ba2c-b13c5c64cf78"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "I feel how the world\naround me shakes\nuncontrollably.",
+          "It starts to fall\napart and collapse.",
+          "Earth splits open\nright below me."
+        ],
+        "__section": "text",
+        "avatarId": "82b1fd2d-0b44-4d4a-8314-38d0dba44079",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "32ba3805-4dde-4b99-8077-ad712180874e"
+    },
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "crash",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 1,
+        "wait": false,
+        "effect": 0,
+        "__collapse": true
+      },
+      "id": "444f06d0-22a5-4077-8826-6bc6c4b4a509"
+    },
+    {
+      "command": "EVENT_CAMERA_SHAKE",
+      "args": {
+        "time": 1,
+        "frames": 30,
+        "shakeDirection": "horizontal",
+        "magnitude": {
+          "type": "number",
+          "value": 4
+        },
+        "__collapse": false
+      },
+      "id": "5aedf423-fd18-4bab-aeb1-5e999e5b58d3"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 0.5,
+        "frames": 30,
+        "__collapse": true
+      },
+      "id": "1cfbc063-a53d-4e15-be34-888c891cb9a7"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "a5fca680-c6e5-497e-bb7e-649f4a6ba32a",
+        "x": {
+          "type": "number",
+          "value": 9
+        },
+        "y": {
+          "type": "number",
+          "value": 9
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "f54d0125-93a5-4bdc-b44b-ad48253e1c3b"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "autoFadeEventCollapse": true
+}

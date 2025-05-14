@@ -1,0 +1,167 @@
+{
+  "_resourceType": "actor",
+  "id": "0bbff0eb-3177-4e5d-9c35-f56ee335738a",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "e24270e6-d5c8-40ea-a6e7-9944e5f67c50",
+  "prefabId": "",
+  "direction": "right",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_26",
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "1"
+          },
+          "valueB": {
+            "type": "true"
+          }
+        },
+        "__collapseElse": false,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_SET_STATE",
+            "args": {
+              "actorId": "$self$",
+              "spriteStateId": "Open",
+              "loopAnim": true,
+              "__collapse": true
+            },
+            "id": "d223cf23-225b-40b7-afb3-c1cb4cccf955"
+          },
+          {
+            "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
+            "args": {
+              "actorId": "$self$",
+              "__collapse": true
+            },
+            "id": "ef386b40-595d-40ca-9c03-41404f60813b"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Aha! I can open\nthese doors now.",
+                "I should go and\ngrab some light\nnow."
+              ],
+              "__section": "text",
+              "avatarId": "0c8a1f5f-3df1-42ee-a6d3-3dcd5937b3bf",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": false
+            },
+            "id": "c755341b-51a0-40c1-b7a3-fffba05dc8b2"
+          },
+          {
+            "command": "EVENT_RESET_VARIABLES",
+            "args": {
+              "__collapse": true
+            },
+            "id": "a07d65be-4790-49a3-81f4-3b3739a24df7"
+          },
+          {
+            "command": "EVENT_MUSIC_STOP",
+            "args": {
+              "__collapse": true
+            },
+            "id": "9259f1c9-52a8-4b71-9bd8-a3547f1ecae3"
+          },
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "5fa0c287-a770-4907-ae8e-e1ac4afbfc6b",
+              "x": {
+                "type": "number",
+                "value": 75
+              },
+              "y": {
+                "type": "number",
+                "value": 19
+              },
+              "direction": "left",
+              "fadeSpeed": "2",
+              "__collapse": true
+            },
+            "id": "53acb936-cd9c-4c13-be14-599ffdd3db17"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "These doors seem\nto be locked by\na mechanism.",
+                "I'd need to find a\nway to deactivate\nit first."
+              ],
+              "__section": "text",
+              "avatarId": "0c8a1f5f-3df1-42ee-a6d3-3dcd5937b3bf",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": false
+            },
+            "id": "f5587d11-c20e-4510-ade1-b4ede0325d70"
+          }
+        ]
+      },
+      "id": "e8d27c43-c781-45d9-bd5a-e2622477f633"
+    }
+  ],
+  "startScript": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "1",
+        "value": {
+          "type": "false"
+        }
+      },
+      "id": "90db08f2-85d6-4d3d-82e2-2e3d59dbd99f"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 1,
+  "y": 35,
+  "_index": 5
+}

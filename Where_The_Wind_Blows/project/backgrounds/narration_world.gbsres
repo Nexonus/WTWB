@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "9144c006-4dbf-43a6-9ef6-f13df0d52dac",
+  "name": "narration_world",
+  "symbol": "sprite_narration_world",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "narration_world.png",
+  "tileColors": "",
+  "autoColor": false
+}

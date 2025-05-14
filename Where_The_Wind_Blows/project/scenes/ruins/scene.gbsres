@@ -1,0 +1,88 @@
+{
+  "_resourceType": "scene",
+  "id": "27660315-3e4d-48eb-ac34-ed528f63aee0",
+  "_index": 78,
+  "name": "Ruins",
+  "backgroundId": "07fae870-64c7-4199-8e6b-d66f02017cb5",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00168+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_81",
+  "x": 1200,
+  "y": 200,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "f35f40ec-6e6d-40df-bca0-c417749ad455"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "It would be left in\nshambles.\"",
+          "\"Taking a notice\nof this world -",
+          "We'd make a decision\nto interfere.",
+          "It took us 53 years\nto prepare for our\nintervention.",
+          "But when the time\ncame we'd arrive.",
+          "We cleaned that\nworld from it's foul\nseeds.",
+          "As we planned\nto rebuild it.",
+          "In the way that\nwas correct for us.\""
+        ],
+        "__section": "text",
+        "avatarId": "0c8a1f5f-3df1-42ee-a6d3-3dcd5937b3bf",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "a8555059-7755-43d6-8d1d-cae42237c6ac"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 0.5,
+        "frames": 30,
+        "__collapse": true
+      },
+      "id": "3d336c54-dc92-457e-bb07-7e8686acf9ad"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "ba533d15-a53d-43ec-a7d4-6105fdfcc904",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "b1cfb701-0c5d-46f4-aa06-cd540105805c"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

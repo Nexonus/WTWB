@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "6cf9b26f-1758-420b-8c86-abde1192cc11",
+  "name": "stranger",
+  "symbol": "bg_stranger",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "stranger.png",
+  "tileColors": "",
+  "autoColor": false
+}

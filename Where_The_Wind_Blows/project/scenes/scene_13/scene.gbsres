@@ -1,0 +1,174 @@
+{
+  "_resourceType": "scene",
+  "id": "e9407ffc-8972-4556-b116-e80b453f6bf9",
+  "_index": 10,
+  "name": "Scene 13",
+  "backgroundId": "a078638a-270b-43aa-8bf9-4c0a5ec1ccf0",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00168+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_13",
+  "x": 296,
+  "y": 600,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": true
+      },
+      "id": "7b02d314-c92e-428b-81f2-c0514088fb84"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 2,
+        "frames": 30
+      },
+      "id": "2d06229b-9e33-4291-8c07-eff4ffd2e52e"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "I'm not looking that\nbad today, am I?"
+        ],
+        "__section": "text",
+        "avatarId": "0c8a1f5f-3df1-42ee-a6d3-3dcd5937b3bf",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": false
+      },
+      "id": "e5ae4c75-1ae3-496f-9156-3f4d602f8dff"
+    },
+    {
+      "command": "EVENT_MENU",
+      "args": {
+        "variable": "L0",
+        "items": 2,
+        "option1": "Look closer.",
+        "option2": "Move on.",
+        "option3": "",
+        "option4": "",
+        "option5": "",
+        "option6": "",
+        "option7": "",
+        "option8": "",
+        "cancelOnB": true,
+        "layout": "dialogue",
+        "__collapse": false
+      },
+      "id": "5fb47c16-60b4-45a1-8923-4fd383ce0d8e"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "L0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Let's take a look.",
+                "My skin is invisible.\nI've been like this\nfor my whole life.",
+                "I can only see my\nbones and steaming\nhair.",
+                "I have three pair of\neyes, they shine with\na bright glow.",
+                "I also have a long\nfeline tail.",
+                "But yet, I'm actually\nmore of a dragon...\nI think.",
+                "I have nothing more \nto add right now...\nLet's move on."
+              ],
+              "__section": "text",
+              "avatarId": "0c8a1f5f-3df1-42ee-a6d3-3dcd5937b3bf",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": false
+            },
+            "id": "5c319f1a-a750-48f7-806c-1705e7be7111"
+          }
+        ],
+        "false": []
+      },
+      "id": "13e917bd-37df-43e5-aaa7-960a5543e8bd"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 1,
+        "frames": 30,
+        "__collapse": true
+      },
+      "id": "cb723d53-6e36-4360-b1cf-2ade600af009"
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "8434951d-e78e-4f9a-8c2e-e355b5aa4eaa",
+        "__collapse": true
+      },
+      "id": "2fd0262a-475e-433a-aa9e-f4e95f0e08da"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "798c0048-ff69-4a16-aa56-77bea839f27e",
+        "x": {
+          "type": "number",
+          "value": 38
+        },
+        "y": {
+          "type": "number",
+          "value": 7
+        },
+        "direction": "up",
+        "fadeSpeed": "2"
+      },
+      "id": "bed72f67-24b0-4079-b8cb-2519ddad724d"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

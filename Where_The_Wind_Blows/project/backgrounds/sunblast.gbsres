@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "ed416a3b-bb22-4d99-b8e3-f4f2afad180b",
+  "name": "sunblast",
+  "symbol": "sprite_sunblast",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "sunblast.png",
+  "tileColors": "",
+  "autoColor": false
+}

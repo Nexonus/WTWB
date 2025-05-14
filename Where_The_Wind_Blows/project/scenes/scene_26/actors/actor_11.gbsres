@@ -1,0 +1,106 @@
+{
+  "_resourceType": "actor",
+  "id": "6c10ed28-4d70-4993-b65e-9a4e818e207c",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "2fd07f8f-91c6-4801-a57c-707aaae5c0c7",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_79",
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "L0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [],
+        "false": [
+          {
+            "command": "EVENT_ACTOR_SET_STATE",
+            "args": {
+              "actorId": "$self$",
+              "spriteStateId": "Open",
+              "loopAnim": true,
+              "__collapse": true
+            },
+            "id": "1ae32803-a552-4264-9f30-8f6e968ef547"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "What about this one?\nAny shinies in here?",
+                "Unfortunately. There\nis none. What a waste\nof time."
+              ],
+              "__section": "text",
+              "avatarId": "0c8a1f5f-3df1-42ee-a6d3-3dcd5937b3bf",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": false
+            },
+            "id": "a2667bfa-67db-4680-a6f8-ee4609ed87f1"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_STATE",
+            "args": {
+              "actorId": "$self$",
+              "spriteStateId": "",
+              "loopAnim": true,
+              "__collapse": true
+            },
+            "id": "ca86f49a-230b-452f-9422-5f31629975fb"
+          },
+          {
+            "command": "EVENT_INC_VALUE",
+            "args": {
+              "variable": "L0",
+              "__collapse": true
+            },
+            "id": "7a2cd80c-6617-4395-9483-7dc545d50896"
+          }
+        ]
+      },
+      "id": "6ef10cf9-7da3-4d0f-830c-45d1bdab2b36"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 35,
+  "y": 5,
+  "_index": 10
+}

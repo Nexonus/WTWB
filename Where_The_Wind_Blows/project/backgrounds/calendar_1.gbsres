@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "e90a4277-0406-439d-b3b6-e9eb7426e70f",
+  "name": "calendar_1",
+  "symbol": "bg_calendar_1",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "calendar_1.png",
+  "tileColors": "",
+  "autoColor": false
+}

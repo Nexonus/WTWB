@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "295f18ac-feb5-4359-8c9c-d75a0700e693",
+  "name": "visitor",
+  "symbol": "bg_visitor",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "visitor.png",
+  "tileColors": "",
+  "autoColor": false
+}

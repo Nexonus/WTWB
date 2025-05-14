@@ -1,0 +1,105 @@
+{
+  "_resourceType": "trigger",
+  "id": "58a0a268-fb91-4537-ba31-a004cbf00ddd",
+  "name": "",
+  "prefabId": "",
+  "x": 3,
+  "y": 13,
+  "symbol": "trigger_9",
+  "prefabScriptOverrides": {},
+  "width": 3,
+  "height": 3,
+  "script": [
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__label": "Pin Interact",
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "0"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 1
+                }
+              },
+              "__collapseElse": true,
+              "__collapse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_ACTOR_SET_STATE",
+                  "args": {
+                    "actorId": "$self$",
+                    "spriteStateId": "Grab",
+                    "loopAnim": true,
+                    "__collapse": true
+                  },
+                  "id": "0b6120d7-d226-4bc4-9b94-d87f83d126a3"
+                },
+                {
+                  "command": "EVENT_ACTOR_GET_POSITION",
+                  "args": {
+                    "actorId": "$self$",
+                    "vectorX": "L0",
+                    "vectorY": "L1",
+                    "__collapse": true
+                  },
+                  "id": "d0a757cc-0012-46bf-b7c9-1239043e018d"
+                },
+                {
+                  "command": "EVENT_SWITCH_SCENE",
+                  "args": {
+                    "sceneId": "b52aeefc-c2a3-4be6-8f8f-1d11fc3edf83",
+                    "x": {
+                      "type": "variable",
+                      "value": "L0"
+                    },
+                    "y": {
+                      "type": "variable",
+                      "value": "L1"
+                    },
+                    "direction": "up",
+                    "fadeSpeed": 1,
+                    "__collapse": true
+                  },
+                  "id": "22c123ff-b89a-4c05-aa1f-94b2b9e7571e"
+                }
+              ],
+              "false": []
+            },
+            "id": "1a4319cd-ca23-493b-9bd9-25f09399ed86"
+          },
+          {
+            "command": "EVENT_VARIABLE_MATH",
+            "args": {
+              "vectorX": "0",
+              "operation": "mul",
+              "other": "val",
+              "vectorY": "L0",
+              "value": -1,
+              "minValue": "0",
+              "maxValue": "32767",
+              "clamp": false,
+              "__collapse": true
+            },
+            "id": "405a4e5f-6b2a-4869-96d3-e309a588491c"
+          }
+        ]
+      },
+      "id": "a0748de6-6923-4c1f-9f03-c4f285f11c5d"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 0
+}

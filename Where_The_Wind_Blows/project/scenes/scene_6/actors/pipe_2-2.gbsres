@@ -1,0 +1,44 @@
+{
+  "_resourceType": "actor",
+  "id": "2ae5f970-5e4b-4825-869d-22c02df1b164",
+  "name": "Pipe 2-2",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "8c189a87-20f0-4afa-a227-0962e582af83",
+  "prefabId": "",
+  "direction": "left",
+  "moveSpeed": 1,
+  "animSpeed": 7,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_32",
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "343b2a03-3b8a-4723-bda7-412c921333ac"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "$self$",
+        "spriteStateId": "",
+        "loopAnim": true
+      },
+      "id": "71cebbe5-900d-4f18-8b52-18bf0ff2dc99"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 43,
+  "y": 8,
+  "_index": 7
+}

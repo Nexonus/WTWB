@@ -1,0 +1,426 @@
+{
+  "_resourceType": "scene",
+  "id": "25265fec-eb72-40c7-81f2-07d712eba4d5",
+  "_index": 57,
+  "name": "Scene 59",
+  "backgroundId": "b241e903-858e-49d2-9013-92655980c7dc",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00168+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_59",
+  "x": 1032,
+  "y": 32,
+  "script": [
+    {
+      "command": "EVENT_MUSIC_STOP",
+      "args": {
+        "__collapse": true
+      },
+      "id": "8f570893-3b5b-422e-ab01-14e6d156e521"
+    },
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": true
+      },
+      "id": "2f7afdec-bdb8-4831-8a3e-4df9d3c0d334"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "...",
+          "I feel, I might need\nto meditate for a\nwhile."
+        ],
+        "__section": "text",
+        "avatarId": "0c8a1f5f-3df1-42ee-a6d3-3dcd5937b3bf",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": false
+      },
+      "id": "f022c4ad-6092-4e23-a9c8-990c3cb862c7"
+    },
+    {
+      "command": "EVENT_LOOP_WHILE",
+      "args": {
+        "condition": {
+          "type": "lte",
+          "valueA": {
+            "type": "variable",
+            "value": "L0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 4
+          }
+        }
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_MENU",
+            "args": {
+              "variable": "L0",
+              "items": 4,
+              "option1": "Who am I?",
+              "option2": "Where is everyone?",
+              "option3": "What's my duty?",
+              "option4": "What should I do?",
+              "option5": "",
+              "option6": "",
+              "option7": "",
+              "option8": "",
+              "cancelOnB": true,
+              "layout": "dialogue",
+              "__collapse": true
+            },
+            "id": "51207667-f8bb-45e0-9b31-67958f1cbc5b"
+          },
+          {
+            "command": "EVENT_SWITCH",
+            "args": {
+              "variable": "L0",
+              "choices": 4,
+              "__collapseCase0": true,
+              "value0": 1,
+              "__collapseCase1": true,
+              "value1": 2,
+              "__collapseCase2": true,
+              "value2": 3,
+              "__collapseCase3": true,
+              "value3": 4,
+              "__collapseCase4": false,
+              "value4": 5,
+              "__collapseCase5": false,
+              "value5": 6,
+              "__collapseCase6": false,
+              "value6": 7,
+              "__collapseCase7": false,
+              "value7": 8,
+              "__collapseCase8": false,
+              "value8": 9,
+              "__collapseCase9": false,
+              "value9": 10,
+              "__collapseCase10": false,
+              "value10": 11,
+              "__collapseCase11": false,
+              "value11": 12,
+              "__collapseCase12": false,
+              "value12": 13,
+              "__collapseCase13": false,
+              "value13": 14,
+              "__collapseCase14": false,
+              "value14": 15,
+              "__collapseCase15": false,
+              "value15": 16,
+              "__collapseElse": true,
+              "__collapse": false
+            },
+            "children": {
+              "true0": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "I used to be one of\nthe guardians of this\nworld.",
+                      "Ever since it\nchanged. I have\nabandoned going out.",
+                      "Without determining\nfor how long.",
+                      "There's nothing I\ncan do about that\nplace anymore."
+                    ],
+                    "__section": "text",
+                    "avatarId": "0c8a1f5f-3df1-42ee-a6d3-3dcd5937b3bf",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30,
+                    "__collapse": false
+                  },
+                  "id": "f0c8a730-2159-499c-a487-e2c3c0da7108"
+                }
+              ],
+              "true1": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "We mostly all mind \nour business after \nthe apocalypse.",
+                      "Others mostly spend\ntheir time in \ndifferent lairs.",
+                      "But myself, I prefer\nto stay here, alone."
+                    ],
+                    "__section": "text",
+                    "avatarId": "0c8a1f5f-3df1-42ee-a6d3-3dcd5937b3bf",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30,
+                    "__collapse": false
+                  },
+                  "id": "1a582d23-76a2-42aa-b682-16fb20239cc3"
+                }
+              ],
+              "true2": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "I don't have a duty\nanymore.",
+                      "I used to, I was\nsupposed to protect\nthe people above.",
+                      "But now? I don't\neven know if there's\nanyone alive there.",
+                      "I kind of feel as if\nmy job was taken\naway from me."
+                    ],
+                    "__section": "text",
+                    "avatarId": "8f3ba798-d4c3-4ed4-84c1-44e8323409f5",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30,
+                    "__collapse": false
+                  },
+                  "id": "24d874ad-1900-4c59-9e08-c15028c4e43d"
+                }
+              ],
+              "true3": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "Another difficult\nquestion I'm asking\nmyself...",
+                      "I can either way\nstay here, till the\nend of my days.",
+                      "Or I can do.\nSomething very\nirresponsible.",
+                      "... I got to think\nabout that."
+                    ],
+                    "__section": "text",
+                    "avatarId": "8f3ba798-d4c3-4ed4-84c1-44e8323409f5",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "547abd77-b71f-46c1-87fb-254752c6f8d6"
+                },
+                {
+                  "command": "EVENT_CHOICE",
+                  "args": {
+                    "variable": "L1",
+                    "trueText": "Go out.",
+                    "falseText": "Stay here."
+                  },
+                  "id": "4bfed32d-4ee8-4881-9465-2a6e74cf143b"
+                },
+                {
+                  "command": "EVENT_IF",
+                  "args": {
+                    "condition": {
+                      "type": "eq",
+                      "valueA": {
+                        "type": "variable",
+                        "value": "L1"
+                      },
+                      "valueB": {
+                        "type": "true"
+                      }
+                    },
+                    "__collapseElse": true
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_SET_VALUE",
+                        "args": {
+                          "variable": "3",
+                          "value": {
+                            "type": "number",
+                            "value": 1
+                          },
+                          "__collapse": true
+                        },
+                        "id": "947573ff-cb0f-4a68-bb04-216ca2e0de74"
+                      },
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "Yeah. It might be\nthe right time to\nmake a change.",
+                            "I will probably \nregretdoing that.",
+                            "But I have nothing \nto loose."
+                          ],
+                          "__section": "text",
+                          "avatarId": "0c8a1f5f-3df1-42ee-a6d3-3dcd5937b3bf",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30,
+                          "__collapse": false
+                        },
+                        "id": "04490285-fe07-451e-bb64-e7823e7782f0"
+                      },
+                      {
+                        "command": "EVENT_SWITCH_SCENE",
+                        "args": {
+                          "sceneId": "49d7bbe5-ed28-4451-8a7b-dd73e9e40465",
+                          "x": {
+                            "type": "number",
+                            "value": 16
+                          },
+                          "y": {
+                            "type": "number",
+                            "value": 17
+                          },
+                          "direction": "right",
+                          "fadeSpeed": "2",
+                          "__collapse": true
+                        },
+                        "id": "d62ea8d6-0d9e-4fd6-a757-5d1125a5ddcb"
+                      }
+                    ],
+                    "false": []
+                  },
+                  "id": "5503fc3c-eeaa-48bc-8d36-a3b48ddf757b"
+                }
+              ],
+              "true4": [],
+              "true5": [],
+              "true6": [],
+              "true7": [],
+              "true8": [],
+              "true9": [],
+              "true10": [],
+              "true11": [],
+              "true12": [],
+              "true13": [],
+              "true14": [],
+              "true15": [],
+              "false": []
+            },
+            "id": "678c5c48-84b6-40e2-8274-b931ff68510d"
+          },
+          {
+            "command": "EVENT_INC_VALUE",
+            "args": {
+              "variable": "L0",
+              "__collapse": true
+            },
+            "id": "4ce9763c-00a8-453d-9d74-a3ffb13cfb5d"
+          }
+        ]
+      },
+      "id": "0bb42cff-df29-417e-a985-086f5ab96615"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "I think I'm done\nwith thinking for\nnow."
+        ],
+        "__section": "text",
+        "avatarId": "8f3ba798-d4c3-4ed4-84c1-44e8323409f5",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": true
+      },
+      "id": "3f3c0572-41ea-4103-a26a-e3958093b7a5"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "49d7bbe5-ed28-4451-8a7b-dd73e9e40465",
+        "x": {
+          "type": "number",
+          "value": 16
+        },
+        "y": {
+          "type": "number",
+          "value": 17
+        },
+        "direction": "right",
+        "fadeSpeed": "2",
+        "__collapse": true
+      },
+      "id": "d969ccfc-7b75-408f-afcd-25e105092427"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "autoFadeEventCollapse": true
+}

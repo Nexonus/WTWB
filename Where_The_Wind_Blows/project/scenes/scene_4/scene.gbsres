@@ -1,0 +1,104 @@
+{
+  "_resourceType": "scene",
+  "id": "798c0048-ff69-4a16-aa56-77bea839f27e",
+  "_index": 2,
+  "name": "Scene 4",
+  "backgroundId": "42b72825-dcc7-461a-90ea-4d86e015150b",
+  "tilesetId": "",
+  "width": 44,
+  "height": 40,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "0031+0f1c+0010+0f!001a+0f!0010+0f!001a+0f!0010+0f!006+0fa+00a+0f!00c+0f5+006+0f!008+0f!00a+0fb+002+0f!00a+0f!008+0f!0014+0f!002+0f!00a+0f!008+0f!0014+0f!002+0f!00a+0f!008+0f!0014+0f!002+0f!00a+0f!008+0f!0014+0f!002+0f!00a+0f!008+0f!0014+0f!002+0f!00a+0f5+004+0f!0014+0f!002+0f!00e+0f!004+0f!0014+0f!002+0f!00e+0f!004+0f!0014+0f!002+0f!00e+0f!004+0f7+002+0fd+002+0f!00e+0f!00a+0f!002+0f!00e+0f10+00a+0f!002+0f!0028+0f!002+0f!0028+0f!002+0f!0028+0f!002+0f!0028+0f!002+0f!00e+0fc+00e+0f!002+0f!00e+0f!00a+0f!00e+0f!002+0f!00e+0f!00a+0f!008+0f7+002+0f5+00a+0f!00a+0f!008+0f3+00a+0f!00a+0f!002+0f!007+0f!008+0f3+00a+0f!00a+0f!002+0f!007+0f!008+0f!00c+0f!00a+0f!002+0f!007+0f!008+0f!00c+0f!00a+0f!002+0f!007+0f!008+0f!00c+0f!00a+0f!002+0f!007+0f!008+0f!00c+0f9+002+0f!002+0f!007+0f!008+0f!0014+0f!002+0f!002+0f!007+0f!008+0f!0014+0f2+00!0f!002+0f!007+0f!008+0f!0017+0f!002+0f!007+0fa+0017+0f3+0026+0f2+00!0f!0028+0f!002+0f!0028+0f!002+0f!0028+0f!002+0f2a+002d+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_4",
+  "x": 108,
+  "y": 776,
+  "script": [
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 150,
+        "duration": 0.02,
+        "effect": 0,
+        "__collapse": false
+      },
+      "id": "5fd64e46-4f9d-4f29-a783-410d19be6663"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "5"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": false,
+        "__collapse": false
+      },
+      "children": {
+        "true": [],
+        "false": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Aaah!-",
+                "I... Hate nightmares.",
+                "I shall better take \na walk and relax..."
+              ],
+              "__section": "text",
+              "avatarId": "0c8a1f5f-3df1-42ee-a6d3-3dcd5937b3bf",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": false
+            },
+            "id": "afabe234-f906-4263-8a09-925acb42c12d"
+          },
+          {
+            "command": "EVENT_INC_VALUE",
+            "args": {
+              "variable": "5"
+            },
+            "id": "44665fb2-eb0c-463e-93f3-88cde37e6111"
+          }
+        ]
+      },
+      "id": "70586ea9-6aea-4687-b587-2fc347b95530"
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "8434951d-e78e-4f9a-8c2e-e355b5aa4eaa",
+        "__collapse": false
+      },
+      "id": "0fee7864-a057-4bf0-88ef-7f0733e59884"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "5754b43c-473f-431b-807e-437994b9f332",
+  "autoFadeEventCollapse": true
+}

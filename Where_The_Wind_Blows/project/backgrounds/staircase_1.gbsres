@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "1e9cb986-472c-457b-8f93-432113769169",
+  "name": "staircase_1",
+  "symbol": "bg_staircase_1",
+  "width": 22,
+  "height": 22,
+  "imageWidth": 176,
+  "imageHeight": 176,
+  "filename": "staircase_1.png",
+  "tileColors": "",
+  "autoColor": false
+}

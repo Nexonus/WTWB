@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "3b3e9679-7217-4fff-ace4-693496976ef2",
+  "name": "trap",
+  "symbol": "bg_trap",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "trap.png",
+  "tileColors": "",
+  "autoColor": false
+}

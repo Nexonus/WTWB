@@ -1,0 +1,175 @@
+{
+  "_resourceType": "scene",
+  "id": "dc7be824-8530-4fd3-987d-b597fb5150f0",
+  "_index": 9,
+  "name": "Scene 12",
+  "backgroundId": "e90a4277-0406-439d-b3b6-e9eb7426e70f",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00168+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_12",
+  "x": 112,
+  "y": 600,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": true
+      },
+      "id": "a29b7981-6881-48af-81fd-1bbeb2388006"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 2,
+        "frames": 30,
+        "__collapse": true
+      },
+      "id": "3bed10f5-e199-4fff-b41b-8c428eb8bf01"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "An image on the \ncalendar shows the\noutside world.",
+          "I don't go there\nanymore."
+        ],
+        "__section": "text",
+        "avatarId": "0c8a1f5f-3df1-42ee-a6d3-3dcd5937b3bf",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": false
+      },
+      "id": "d1badbfe-b898-4fea-bd28-782a63206a8d"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 0.5,
+        "frames": 30,
+        "__collapse": true
+      },
+      "id": "4ca80a21-b5c7-4f62-8c9d-88a090622aa2"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "The four numbers\nunderneath say\n4196.",
+          "Roughly two\ncenturies after\nthe apocalypse."
+        ],
+        "__section": "text",
+        "avatarId": "0c8a1f5f-3df1-42ee-a6d3-3dcd5937b3bf",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": false
+      },
+      "id": "da38229e-e4de-4d32-9c86-3f1644de8d2d"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 0.5,
+        "frames": 30,
+        "__collapse": true
+      },
+      "id": "5c70b961-23ed-42ca-ac2b-e986e35a1bc6"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "This calendar does\nnot have fields\nfor days.",
+          "Instead the months\nare crossed out.",
+          "Thus today's date \nwould be 07/4196..."
+        ],
+        "__section": "text",
+        "avatarId": "0c8a1f5f-3df1-42ee-a6d3-3dcd5937b3bf",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": false
+      },
+      "id": "77696dc2-6f59-44de-85ad-68ebc6a2b716"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 0.5,
+        "frames": 30,
+        "__collapse": false
+      },
+      "id": "ee0bd721-6d0a-442f-b183-592a8b022ddd"
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "8434951d-e78e-4f9a-8c2e-e355b5aa4eaa",
+        "__collapse": true
+      },
+      "id": "9c556142-cde2-4b0a-8904-cbc0f5f315d2"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "798c0048-ff69-4a16-aa56-77bea839f27e",
+        "x": {
+          "type": "number",
+          "value": 6
+        },
+        "y": {
+          "type": "number",
+          "value": 3
+        },
+        "direction": "up",
+        "fadeSpeed": "2",
+        "__collapse": true
+      },
+      "id": "6432b6e9-5b93-4eaf-89e5-8dc370ef65d4"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

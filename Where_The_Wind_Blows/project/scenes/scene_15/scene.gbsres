@@ -1,0 +1,81 @@
+{
+  "_resourceType": "scene",
+  "id": "2be27f32-e6b5-4e4e-b32c-e34b349b6bd5",
+  "_index": 12,
+  "name": "Scene 15",
+  "backgroundId": "c5c9cdb3-feef-417d-b559-5f9c73d6bfad",
+  "tilesetId": "",
+  "width": 24,
+  "height": 22,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "003a+0fa+00e+0f!008+0f!0017+0f!0017+0f!008+0f7+008+0f!008+0f!00e+0f!008+0f!00e+0f!008+0f!00e+0f!008+0f!00e+0f!008+0f!00e+0f!008+0f!00e+0f5+004+0f!0017+0f!0017+0f!0017+0f!0017+0f14+0060+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_15",
+  "x": 616,
+  "y": 1288,
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "L0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [],
+        "false": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "I think I can get\nsome light here..."
+              ],
+              "__section": "text",
+              "avatarId": "0c8a1f5f-3df1-42ee-a6d3-3dcd5937b3bf",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": false
+            },
+            "id": "f1a91e53-840b-49c2-ae35-094b9ecc9401"
+          },
+          {
+            "command": "EVENT_INC_VALUE",
+            "args": {
+              "variable": "L0",
+              "__collapse": true
+            },
+            "id": "5612fc73-c59d-4c83-8251-7fb9e551cd1e"
+          }
+        ]
+      },
+      "id": "087572fa-961e-438b-b905-bbae8bef8c06"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "5754b43c-473f-431b-807e-437994b9f332"
+}

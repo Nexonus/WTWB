@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "e06fd107-abeb-4cb2-98a9-c4d997c61b64",
+  "_index": 100,
+  "name": "Scene 102",
+  "backgroundId": "f36c95b2-083c-41d2-b105-b23666b5256f",
+  "tilesetId": "",
+  "width": 22,
+  "height": 22,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "001e4+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_102",
+  "x": 1072,
+  "y": 2800,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

@@ -1,0 +1,61 @@
+{
+  "_resourceType": "actor",
+  "id": "ee93eacb-19e0-48d1-be20-734e84ccb3b3",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "d1093781-91ae-4398-b16e-350f779b0d5e",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_14",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Ghrra! No luck...\nIt's too heavy."
+        ],
+        "__section": "text",
+        "avatarId": "0c140e1e-cb43-40dc-adc9-36ea629ff7f7",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "0a14b171-e89b-4c08-ae49-547cf02fc6bf"
+    },
+    {
+      "command": "EVENT_ACTOR_EMOTE",
+      "args": {
+        "actorId": "player",
+        "emoteId": "3c769dca-51f3-426c-942f-71c4d3af6202"
+      },
+      "id": "d9154cbb-b59d-4efd-b579-2322d40d75f3"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 38,
+  "y": 15,
+  "_index": 1
+}

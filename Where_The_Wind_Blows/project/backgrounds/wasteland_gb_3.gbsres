@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "6bb730f4-6679-47a6-bfd3-20898d28e585",
+  "name": "Wasteland_GB_3",
+  "symbol": "bg_wasteland_gb_3",
+  "width": 56,
+  "height": 56,
+  "imageWidth": 448,
+  "imageHeight": 448,
+  "filename": "Wasteland_GB_3.png",
+  "tileColors": "",
+  "autoColor": false
+}

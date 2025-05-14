@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "fd53109f-c264-4a77-ac27-58f9aa899d00",
+  "name": "narration_doorOpen2",
+  "symbol": "sprite_narration_dooropen2",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "narration_doorOpen2.png",
+  "tileColors": "",
+  "autoColor": false
+}

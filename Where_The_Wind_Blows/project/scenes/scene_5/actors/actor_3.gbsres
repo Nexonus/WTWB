@@ -1,0 +1,61 @@
+{
+  "_resourceType": "actor",
+  "id": "7c9b989e-58b9-4d79-aa52-ff63f4d7206f",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "d1093781-91ae-4398-b16e-350f779b0d5e",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_17",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Seriously?\nRight in the\nmiddle?"
+        ],
+        "__section": "text",
+        "avatarId": "0c8a1f5f-3df1-42ee-a6d3-3dcd5937b3bf",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "67ac4c61-a360-4ce4-82a2-ad92e2cffe2d"
+    },
+    {
+      "command": "EVENT_ACTOR_EMOTE",
+      "args": {
+        "actorId": "player",
+        "emoteId": "3c769dca-51f3-426c-942f-71c4d3af6202"
+      },
+      "id": "be786a23-e64f-49da-bfa2-dcb058d6c18a"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 36,
+  "y": 25,
+  "_index": 2
+}

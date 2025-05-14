@@ -1,0 +1,112 @@
+{
+  "_resourceType": "scene",
+  "id": "9158e74c-6597-40a6-b1e2-73c89d7f85c0",
+  "_index": 52,
+  "name": "Desert",
+  "backgroundId": "0420497a-f7d8-4ca1-82fc-04fdf114d251",
+  "tilesetId": "",
+  "width": 20,
+  "height": 28,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00230+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_54",
+  "x": 4056,
+  "y": 152,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "25fba57f-9c40-46b6-8cfb-8bae68dd64fa"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 0.5,
+        "frames": 30,
+        "__collapse": true
+      },
+      "id": "1737c670-f23f-41b3-bed8-e7c7008532e7"
+    },
+    {
+      "command": "EVENT_CAMERA_MOVE_TO",
+      "args": {
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 1
+        },
+        "speed": 0.5,
+        "__collapse": true
+      },
+      "id": "ffc3699c-33b8-4e2b-9711-1847835f7dca"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "I left the\nunderworld behind\nmyself.",
+          "I hope that. I will\nnot regret doing\nthat.",
+          "For now though. \nIt is time\nto head out.",
+          "And make a travel\ninto the desert\nsands."
+        ],
+        "__section": "text",
+        "avatarId": "0c8a1f5f-3df1-42ee-a6d3-3dcd5937b3bf",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": true
+      },
+      "id": "383396af-c72b-4780-b359-1ce396661b5c"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 1,
+        "frames": 30,
+        "__collapse": true
+      },
+      "id": "18244312-d930-4f46-9daa-1972f89f5c86"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "19c8f067-b3eb-4d74-af0b-292e2c076e78",
+        "x": {
+          "type": "number",
+          "value": 10
+        },
+        "y": {
+          "type": "number",
+          "value": 18
+        },
+        "direction": "up",
+        "fadeSpeed": "2",
+        "__collapse": false
+      },
+      "id": "1163421a-8bc4-44d7-8ae3-ce648879b945"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "autoFadeEventCollapse": true
+}

@@ -1,0 +1,95 @@
+{
+  "_resourceType": "scene",
+  "id": "24a029b0-a75f-4f1a-9d6b-406e45e29f10",
+  "_index": 73,
+  "name": "Scene 75",
+  "backgroundId": "95b54f18-86f2-409c-be37-77830121e24f",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00168+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_75",
+  "x": 3864,
+  "y": 72,
+  "script": [
+    {
+      "command": "EVENT_MUSIC_STOP",
+      "args": {
+        "__collapse": true
+      },
+      "id": "95422255-16a4-4236-91ef-61f5ab739e8e"
+    },
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": true
+      },
+      "id": "96379fe0-e71c-452d-aac2-037ddf07cb27"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "I grab upon the\nsturdy ladder and\nstart to climb up.",
+          "Taking a leave\noutside isn't as \neasy as one could \nthink.",
+          "Moving past that\nmaze of stairs I\nkeep climbing.",
+          "It's a trial of\nendurance and my\ndetermination to\nsee the sun."
+        ],
+        "__section": "text",
+        "avatarId": "0c8a1f5f-3df1-42ee-a6d3-3dcd5937b3bf",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": true
+      },
+      "id": "2537f79d-3a27-4db7-9c68-bf5818ddb580"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 0.5,
+        "frames": 30,
+        "__collapse": true
+      },
+      "id": "83ef062c-2e8b-4ce0-bfc1-0283ffe64f85"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "9158e74c-6597-40a6-b1e2-73c89d7f85c0",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 27
+        },
+        "direction": "",
+        "fadeSpeed": "2",
+        "__collapse": false
+      },
+      "id": "bd5a92e5-c549-43e7-9109-44980ffcf39d"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "autoFadeEventCollapse": true
+}

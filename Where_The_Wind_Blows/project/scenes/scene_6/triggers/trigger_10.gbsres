@@ -1,0 +1,126 @@
+{
+  "_resourceType": "trigger",
+  "id": "c639e396-0910-4a14-9516-a3b47e31c101",
+  "name": "",
+  "prefabId": "",
+  "x": 17,
+  "y": 0,
+  "symbol": "trigger_16",
+  "prefabScriptOverrides": {},
+  "width": 4,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "6"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "The lamps are ready.\nTime to go upstairs."
+              ],
+              "__section": "text",
+              "avatarId": "0c8a1f5f-3df1-42ee-a6d3-3dcd5937b3bf",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": false
+            },
+            "id": "3146620c-db49-415c-aee7-944c7b7a46e8"
+          },
+          {
+            "command": "EVENT_RESET_VARIABLES",
+            "args": {
+              "__collapse": true
+            },
+            "id": "6c7873ab-6d35-40a9-83e4-4051fa9b090c"
+          },
+          {
+            "command": "EVENT_MUSIC_STOP",
+            "args": {
+              "__collapse": true
+            },
+            "id": "36e87fc5-2c56-4705-a637-be498a6003bc"
+          },
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "596553af-e79f-4d61-8787-9f25707672f7",
+              "x": {
+                "type": "number",
+                "value": 6
+              },
+              "y": {
+                "type": "number",
+                "value": 12
+              },
+              "direction": "up",
+              "fadeSpeed": "2",
+              "__collapse": true
+            },
+            "id": "a760c3be-be56-4ac2-875f-dff3aefffa94"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Oh, my bottle is\nstill empty.",
+                "I can't go in\nthere yet until I'll\nrefill it.",
+                "I need to get lower\nto the fluid somehow."
+              ],
+              "__section": "text",
+              "avatarId": "8f3ba798-d4c3-4ed4-84c1-44e8323409f5",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": false
+            },
+            "id": "23ab939b-28a0-4ba9-a75c-4e35545d60f4"
+          }
+        ]
+      },
+      "id": "c0bf45d2-7230-4dd1-a7cd-a0c5881769b8"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 9
+}

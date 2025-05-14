@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "9a509361-2194-4c00-8d87-8afb570cef95",
+  "name": "note_1",
+  "symbol": "bg_note_1",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "note_1.png",
+  "tileColors": "",
+  "autoColor": false
+}

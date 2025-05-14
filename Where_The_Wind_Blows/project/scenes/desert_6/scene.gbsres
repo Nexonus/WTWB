@@ -1,0 +1,23 @@
+{
+  "_resourceType": "scene",
+  "id": "c8907b33-f142-4485-8bd7-7be6a6b4e2a3",
+  "_index": 89,
+  "name": "Desert_6",
+  "backgroundId": "f9d1f738-9515-45d7-af7a-dd0ade324b2d",
+  "tilesetId": "",
+  "width": 22,
+  "height": 22,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "0010+0f!0011+0f8+008+0f!006+0f9+006+0f2+006+0f6+0066+0f!0015+0f2+0014+0f4+0012+0f3+005f+0f!003+0f!00d+0f3+00!0f2+002+0f2+00b+0f8+002+0f3+003+0f4d+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_91",
+  "x": 256,
+  "y": 2800,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "5754b43c-473f-431b-807e-437994b9f332"
+}

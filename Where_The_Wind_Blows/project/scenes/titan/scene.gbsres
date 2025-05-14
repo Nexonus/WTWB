@@ -1,0 +1,97 @@
+{
+  "_resourceType": "scene",
+  "id": "c71c233b-a04a-4680-b5dd-a4e5038e0e69",
+  "_index": 80,
+  "name": "Titan",
+  "backgroundId": "d9d15408-0a72-400e-81d7-0fceca80a660",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00168+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_61",
+  "x": 1368,
+  "y": 32,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "a69a304e-35b6-40f3-aedd-178bc6d26557"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 2,
+        "frames": 30,
+        "__collapse": false
+      },
+      "id": "c5a168a2-ffb5-4c0f-abc8-fe61fd02ebba"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "\"We've worked on \nthis for a very \nlong time.",
+          "But eventually. It\nwas ready.",
+          "Our own paradise\nwas built from\nashes.\"",
+          "\"A place where we,\nthe gods and people\ncould work together.",
+          "We would maintain\nand keep it safe.",
+          "Hidden away so that\nnobody from outside\ncould enter it.",
+          "Over time this world\nwould become our\nnew home too.\""
+        ],
+        "__section": "text",
+        "avatarId": "0c8a1f5f-3df1-42ee-a6d3-3dcd5937b3bf",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": false
+      },
+      "id": "19925a62-251a-42db-9bbf-90f7b156f1c8"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 1,
+        "frames": 30,
+        "__collapse": false
+      },
+      "id": "0d32c0fd-7048-49b3-a855-2751ba68e86b"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "79014acd-62b5-4376-962e-a9af9b6a1845",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "b332a532-f909-4bb2-9286-44bc5fd4b388"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

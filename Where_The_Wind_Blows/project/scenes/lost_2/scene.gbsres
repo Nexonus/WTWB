@@ -1,0 +1,58 @@
+{
+  "_resourceType": "scene",
+  "id": "9adcc485-406e-49b4-930b-7c99c3e2eb60",
+  "_index": 65,
+  "name": "Lost_2",
+  "backgroundId": "5afc4751-fcf2-4071-9ece-f7adb497d988",
+  "tilesetId": "",
+  "width": 22,
+  "height": 22,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "0f2e+0012+0f4+0012+0f4+002+0f14+002+0f14+002+0f14+002+0f14+002+0f14+002+0f14+002+0f14+002+0f14+002+0f14+002+0f14+002+0f14+002+0f14+002+0f14+002+0f14+0012+0f4+0012+0f2e+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_67",
+  "x": 2392,
+  "y": 256,
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "start"
+        ],
+        "override": true,
+        "__scriptTabs": "press",
+        "__collapse": true,
+        "__label": "Exit"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "49d7bbe5-ed28-4451-8a7b-dd73e9e40465",
+              "x": {
+                "type": "number",
+                "value": 32
+              },
+              "y": {
+                "type": "number",
+                "value": 4
+              },
+              "direction": "up",
+              "fadeSpeed": "2"
+            },
+            "id": "aa696d71-d26f-4ee9-8232-422bd530eef9"
+          }
+        ]
+      },
+      "id": "8a9a5898-1495-42d3-b264-293630e057f6"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "5754b43c-473f-431b-807e-437994b9f332"
+}

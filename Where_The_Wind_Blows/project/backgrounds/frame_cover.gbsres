@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "abb2c31d-8ad5-408f-8206-9c1d6391ff30",
+  "name": "frame_cover",
+  "symbol": "bg_frame_cover",
+  "width": 250,
+  "height": 125,
+  "imageWidth": 2000,
+  "imageHeight": 1000,
+  "filename": "frame_cover.png",
+  "tileColors": "",
+  "autoColor": false
+}

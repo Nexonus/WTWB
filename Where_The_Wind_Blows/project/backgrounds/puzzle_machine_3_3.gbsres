@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "68d54a44-70f6-4086-b7b0-4f206d614b33",
+  "name": "puzzle_machine_3_3",
+  "symbol": "bg_puzzle_machine_3_3",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "puzzle_machine_3_3.png",
+  "tileColors": "",
+  "autoColor": false
+}

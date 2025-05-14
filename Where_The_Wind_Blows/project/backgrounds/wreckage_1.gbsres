@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "07cfc9a5-0c64-4caf-9367-f7aa28ad9085",
+  "name": "wreckage_1",
+  "symbol": "bg_wreckage_1",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "wreckage_1.png",
+  "tileColors": "",
+  "autoColor": false
+}

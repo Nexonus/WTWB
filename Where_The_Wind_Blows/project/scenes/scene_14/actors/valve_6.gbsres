@@ -1,0 +1,241 @@
+{
+  "_resourceType": "actor",
+  "id": "c7772427-4756-4dc9-b97b-6d25da7022cc",
+  "name": "Valve 5",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "b0787e25-c6a1-4cc5-8167-c50dd4016869",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_53",
+  "script": [
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__label": "Interactions",
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_GROUP",
+            "args": {
+              "__label": "Interaction 5",
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_VARIABLE_MATH",
+                  "args": {
+                    "vectorX": "5",
+                    "operation": "mul",
+                    "other": "val",
+                    "vectorY": "L0",
+                    "value": -1,
+                    "minValue": "0",
+                    "maxValue": "32767",
+                    "clamp": false,
+                    "__collapse": false
+                  },
+                  "id": "2118d75e-cd86-4b60-b3d1-cc87d1fa8e39"
+                },
+                {
+                  "command": "EVENT_SWITCH",
+                  "args": {
+                    "variable": "5",
+                    "choices": 2,
+                    "__collapseCase0": false,
+                    "value0": -1,
+                    "__collapseCase1": false,
+                    "value1": 1,
+                    "__collapseCase2": false,
+                    "value2": 3,
+                    "__collapseCase3": false,
+                    "value3": 4,
+                    "__collapseCase4": false,
+                    "value4": 5,
+                    "__collapseCase5": false,
+                    "value5": 6,
+                    "__collapseCase6": false,
+                    "value6": 7,
+                    "__collapseCase7": false,
+                    "value7": 8,
+                    "__collapseCase8": false,
+                    "value8": 9,
+                    "__collapseCase9": false,
+                    "value9": 10,
+                    "__collapseCase10": false,
+                    "value10": 11,
+                    "__collapseCase11": false,
+                    "value11": 12,
+                    "__collapseCase12": false,
+                    "value12": 13,
+                    "__collapseCase13": false,
+                    "value13": 14,
+                    "__collapseCase14": false,
+                    "value14": 15,
+                    "__collapseCase15": false,
+                    "value15": 16,
+                    "__collapseElse": true,
+                    "__collapse": false,
+                    "__label": "Group 2 Switch"
+                  },
+                  "children": {
+                    "true0": [
+                      {
+                        "command": "EVENT_GROUP",
+                        "args": {
+                          "__label": "Disable Steam",
+                          "__collapse": false
+                        },
+                        "children": {
+                          "true": [
+                            {
+                              "command": "EVENT_ACTOR_SET_STATE",
+                              "args": {
+                                "actorId": "31d4d8d5-038f-4c9b-ba1b-30d93d2e56bd",
+                                "spriteStateId": "",
+                                "loopAnim": true,
+                                "__collapse": true
+                              },
+                              "id": "8a19e49c-aed9-440f-b999-9f08c60927e3"
+                            },
+                            {
+                              "command": "EVENT_ACTOR_SET_STATE",
+                              "args": {
+                                "actorId": "b851d359-283b-4a21-a5cc-bfe344886dcf",
+                                "spriteStateId": "",
+                                "loopAnim": true,
+                                "__collapse": false
+                              },
+                              "id": "7e3e0c02-5e3e-47f2-8fd7-e5bdcffec1ca"
+                            }
+                          ]
+                        },
+                        "id": "536cf4da-5a7c-408b-b5df-56aa9b11acdb"
+                      }
+                    ],
+                    "true1": [
+                      {
+                        "command": "EVENT_GROUP",
+                        "args": {
+                          "__label": "Enable Steam",
+                          "__collapse": false
+                        },
+                        "children": {
+                          "true": [
+                            {
+                              "command": "EVENT_ACTOR_SET_STATE",
+                              "args": {
+                                "actorId": "31d4d8d5-038f-4c9b-ba1b-30d93d2e56bd",
+                                "spriteStateId": "Active",
+                                "loopAnim": true,
+                                "__collapse": true
+                              },
+                              "id": "3b694db3-bbc4-4a30-a2ae-93c3a1924640"
+                            },
+                            {
+                              "command": "EVENT_ACTOR_SET_STATE",
+                              "args": {
+                                "actorId": "b851d359-283b-4a21-a5cc-bfe344886dcf",
+                                "spriteStateId": "Active",
+                                "loopAnim": true,
+                                "__collapse": true
+                              },
+                              "id": "84079733-d15b-453c-80df-83a87be1bdfb"
+                            }
+                          ]
+                        },
+                        "id": "bce0d43e-1bc4-4fbd-930b-bf2a8619b5c5"
+                      }
+                    ],
+                    "true2": [],
+                    "true3": [],
+                    "true4": [],
+                    "true5": [],
+                    "true6": [],
+                    "true7": [],
+                    "true8": [],
+                    "true9": [],
+                    "true10": [],
+                    "true11": [],
+                    "true12": [],
+                    "true13": [],
+                    "true14": [],
+                    "true15": [],
+                    "false": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "Nothing really\nhappened. Maybe\nit's broken."
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "4bc3a4e1-6fe5-4413-ad5a-687f0751cf02"
+                      }
+                    ]
+                  },
+                  "id": "a536853c-d8b7-4790-a8e9-40f6ecf502cc"
+                }
+              ]
+            },
+            "id": "fdf4eca5-6496-4d7a-8f35-fe640565518b"
+          }
+        ]
+      },
+      "id": "4a71c691-abe0-4c6f-9327-292c2687dc76"
+    }
+  ],
+  "startScript": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "5",
+        "value": {
+          "type": "number",
+          "value": 1
+        },
+        "__collapse": false
+      },
+      "id": "8687edff-a301-430c-8702-ecaefa66da44"
+    },
+    {
+      "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "3eb318ed-e8e1-40fa-9123-983f2e7b94b1"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 10,
+  "y": 28,
+  "_index": 3
+}

@@ -1,0 +1,96 @@
+{
+  "_resourceType": "trigger",
+  "id": "12fd8838-c489-4848-ac16-61461f05c31d",
+  "name": "",
+  "prefabId": "",
+  "x": 0,
+  "y": 10,
+  "symbol": "trigger_143",
+  "prefabScriptOverrides": {},
+  "width": 10,
+  "height": 6,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Select Surface?"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "e7df4d36-1416-4ec5-b4a0-b2d6d7e410c2"
+    },
+    {
+      "command": "EVENT_CHOICE",
+      "args": {
+        "variable": "L0",
+        "trueText": "Play Surface",
+        "falseText": "Cancel"
+      },
+      "id": "b5b1869e-edd7-4e61-bf47-aab35394e592"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "L0"
+          },
+          "valueB": {
+            "type": "true"
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_MUSIC_STOP",
+            "args": {
+              "__collapse": true
+            },
+            "id": "517414ec-c2c3-4457-8f5c-e9533e7d35a7"
+          },
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "951ed465-f6de-4b15-a0b6-0e300f1d382f",
+              "x": {
+                "type": "number",
+                "value": 15
+              },
+              "y": {
+                "type": "number",
+                "value": 13
+              },
+              "direction": "left",
+              "fadeSpeed": "2"
+            },
+            "id": "4bfef2c2-3684-4f58-831d-fb8b221c043e"
+          }
+        ],
+        "false": []
+      },
+      "id": "cd666ccc-f107-495f-b26b-888c5723601d"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 2
+}

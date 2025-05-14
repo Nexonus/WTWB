@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "353b2c10-4099-4669-bb46-35467d866e3f",
+  "name": "durga_titan",
+  "symbol": "bg_durga_titan",
+  "width": 32,
+  "height": 20,
+  "imageWidth": 256,
+  "imageHeight": 160,
+  "filename": "durga_titan.png",
+  "tileColors": "",
+  "autoColor": false
+}

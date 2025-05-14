@@ -1,0 +1,120 @@
+{
+  "_resourceType": "actor",
+  "id": "af6df5a9-2c12-4f37-9489-b1a3bfc55152",
+  "name": "Block 1",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "b609967e-5540-4813-a741-2892111dde68",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_9",
+  "script": [
+    {
+      "command": "EVENT_ACTOR_PUSH",
+      "args": {
+        "continue": false,
+        "__collapse": true
+      },
+      "id": "68b3c05c-718f-4156-9685-a6defca70445"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "0",
+        "value": {
+          "type": "true"
+        },
+        "__collapse": true
+      },
+      "id": "8d06c619-d8b7-495b-930a-74c8fb4ad0b1"
+    },
+    {
+      "command": "EVENT_IF_ACTOR_AT_POSITION",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 16
+        },
+        "y": {
+          "type": "number",
+          "value": 37
+        },
+        "__collapseElse": true,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "1",
+              "value": {
+                "type": "true"
+              },
+              "__collapse": true
+            },
+            "id": "6df45a1e-ec9d-459d-a525-02b2750e1657"
+          },
+          {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "crash",
+              "priority": "medium",
+              "pitch": 4,
+              "frequency": 200,
+              "duration": 0.1,
+              "wait": true,
+              "effect": 0,
+              "__collapse": true
+            },
+            "id": "43fc2cb5-0651-4bdf-b6b6-c3968a565353"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Can you hear that?\nThe doors have\nunlocked.",
+                "I've done a good \njob didn't I?"
+              ],
+              "__section": "text",
+              "avatarId": "0c8a1f5f-3df1-42ee-a6d3-3dcd5937b3bf",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "14f4927e-64e9-4f4d-b5fc-5ac3900d641f"
+          }
+        ],
+        "false": []
+      },
+      "id": "0fe2b992-364f-4906-b74b-498af4f3d932"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 18,
+  "y": 7,
+  "_index": 6
+}

@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "13a2bae9-ec2d-4a1a-9311-2e9c17c7cb42",
+  "name": "wastelands_54",
+  "symbol": "bg_wastelands_54",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "wastelands_54.png",
+  "tileColors": "",
+  "autoColor": false
+}

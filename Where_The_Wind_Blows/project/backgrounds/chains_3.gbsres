@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "b4920abd-49d7-46da-88e9-57a0faeec87e",
+  "name": "chains_3",
+  "symbol": "bg_chains_3",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "chains_3.png",
+  "tileColors": "",
+  "autoColor": false
+}

@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "c8dbe301-f370-4bf5-b4d4-7835b75d9b33",
+  "name": "strange_item",
+  "symbol": "bg_strange_item",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "strange_item.png",
+  "tileColors": "",
+  "autoColor": false
+}

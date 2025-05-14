@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "c5c9cdb3-feef-417d-b559-5f9c73d6bfad",
+  "name": "abyss_industrial_4",
+  "symbol": "bg_abyss_industrial_4",
+  "width": 24,
+  "height": 22,
+  "imageWidth": 192,
+  "imageHeight": 176,
+  "filename": "abyss_industrial_4.png",
+  "tileColors": "",
+  "autoColor": false
+}

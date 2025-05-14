@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "f720f700-fda1-4539-87f3-6708cce688bc",
+  "name": "tower",
+  "symbol": "bg_tower",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "tower.png",
+  "tileColors": "",
+  "autoColor": false
+}

@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "905afdf3-9932-4c11-9ad9-a1c884885c88",
+  "name": "WTWB_Wasteland_1",
+  "symbol": "bg_wtwb_wasteland_1",
+  "width": 56,
+  "height": 56,
+  "imageWidth": 448,
+  "imageHeight": 448,
+  "filename": "WTWB_Wasteland_1.png",
+  "tileColors": "",
+  "autoColor": false
+}

@@ -1,0 +1,77 @@
+{
+  "_resourceType": "trigger",
+  "id": "1463b5f0-519c-4084-bee5-48fac5bae66f",
+  "name": "",
+  "prefabId": "",
+  "x": 6,
+  "y": 11,
+  "symbol": "trigger_6",
+  "prefabScriptOverrides": {},
+  "width": 2,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "L0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": false,
+        "__collapse": false
+      },
+      "children": {
+        "true": [],
+        "false": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "I haven't been here\nfor some time it\nseems.",
+                "There's some things\non the ground-",
+                "Probably there was\nan earthquake.",
+                "These happen from\ntime to time here."
+              ],
+              "__section": "text",
+              "avatarId": "0c8a1f5f-3df1-42ee-a6d3-3dcd5937b3bf",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": false
+            },
+            "id": "42146290-8e44-458f-a6b6-f5a03b612689"
+          },
+          {
+            "command": "EVENT_INC_VALUE",
+            "args": {
+              "variable": "L0",
+              "__collapse": true
+            },
+            "id": "db048c63-f28e-4dc4-9240-cf60caab5cb7"
+          }
+        ]
+      },
+      "id": "d6b27d54-4e4c-4b00-83d5-0b38872fcb4d"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 1
+}

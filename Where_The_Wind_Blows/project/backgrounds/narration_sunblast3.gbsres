@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "2476765c-1e9c-4e8b-9f7f-74e0e3e0f65d",
+  "name": "narration_sunblast3",
+  "symbol": "sprite_narration_sunblast3",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "narration_sunblast3.png",
+  "tileColors": "",
+  "autoColor": false
+}

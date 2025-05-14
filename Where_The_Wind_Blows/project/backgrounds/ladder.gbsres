@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "95b54f18-86f2-409c-be37-77830121e24f",
+  "name": "ladder",
+  "symbol": "bg_ladder",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "ladder.png",
+  "tileColors": "",
+  "autoColor": false
+}

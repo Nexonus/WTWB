@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "607af949-7d7b-4993-889c-370e69fe9fb5",
+  "name": "mechanism_4",
+  "symbol": "bg_mechanism_4",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "mechanism_4.png",
+  "tileColors": "",
+  "autoColor": false
+}

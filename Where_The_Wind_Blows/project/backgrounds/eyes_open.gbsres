@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "4ba77b9e-0745-4d68-9f83-3a9531f8a54e",
+  "name": "eyes_open",
+  "symbol": "bg_eyes_open",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "eyes_open.png",
+  "tileColors": "",
+  "autoColor": false
+}

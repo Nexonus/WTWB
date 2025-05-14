@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "6c336614-213b-476c-a380-8581b3cdd5ad",
+  "name": "eyes",
+  "symbol": "bg_eyes",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "eyes.png",
+  "tileColors": "",
+  "autoColor": false
+}

@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "07fae870-64c7-4199-8e6b-d66f02017cb5",
+  "name": "ruins",
+  "symbol": "bg_ruins",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "ruins.png",
+  "tileColors": "",
+  "autoColor": false
+}

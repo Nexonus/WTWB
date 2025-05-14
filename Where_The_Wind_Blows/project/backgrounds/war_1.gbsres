@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "471997bd-3049-40b1-a1f2-7dc004ca228a",
+  "name": "war_1",
+  "symbol": "bg_war_1",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "war_1.png",
+  "tileColors": "",
+  "autoColor": false
+}

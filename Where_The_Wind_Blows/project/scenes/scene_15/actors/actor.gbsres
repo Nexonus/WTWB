@@ -1,0 +1,99 @@
+{
+  "_resourceType": "actor",
+  "id": "d2d5f9a3-cc00-41a6-8266-19e8653ff83a",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "20092f19-aefc-4825-9c19-8e67f465ea60",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_64",
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "6"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [],
+        "false": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "I let the light\nflow into the\nbottle.",
+                "It acts like\nquicksilver.",
+                "Let's leave this\nplace now. I've got\nall I need."
+              ],
+              "__section": "text",
+              "avatarId": "0c8a1f5f-3df1-42ee-a6d3-3dcd5937b3bf",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "47caacb8-176c-45df-b85b-858abb913d79"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "6",
+              "value": {
+                "type": "number",
+                "value": 1
+              },
+              "__collapse": true
+            },
+            "id": "c67cc42f-eabc-4ff1-9ec2-5a808053f5d4"
+          }
+        ]
+      },
+      "id": "2c7c6e30-abaf-43fb-ae3d-84776bc5fab2"
+    }
+  ],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 63
+      },
+      "id": "c41ca87d-e101-4ed2-af3a-0053b5a2722b"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 9,
+  "y": 5,
+  "_index": 0
+}

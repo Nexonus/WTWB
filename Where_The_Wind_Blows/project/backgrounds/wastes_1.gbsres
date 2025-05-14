@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "5e89ff8e-14fe-4c5a-959d-5b87263afe5b",
+  "name": "wastes_1",
+  "symbol": "bg_wastes_1",
+  "width": 32,
+  "height": 32,
+  "imageWidth": 256,
+  "imageHeight": 256,
+  "filename": "wastes_1.png",
+  "tileColors": "",
+  "autoColor": false
+}

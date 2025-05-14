@@ -1,0 +1,147 @@
+{
+  "_resourceType": "scene",
+  "id": "459f6038-4c16-47a1-ac99-aa8321417904",
+  "_index": 6,
+  "name": "Scene 7",
+  "backgroundId": "65f72184-d8ab-4d3e-9908-90b390205c18",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00168+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_7",
+  "x": 1144,
+  "y": 368,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": true
+      },
+      "id": "451fc83e-eccb-435a-8dda-413723f5fac1"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 2,
+        "frames": 30,
+        "__collapse": true
+      },
+      "id": "0d27a7e7-c355-428d-930b-3a786049834e"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "I'm not sure who\npainted this...",
+          "But I think, I used \nto live there? I was\nvery young though.",
+          "The memories of this\nplace are quite\nblurry to me...",
+          "But I think I can\nrecall something.",
+          "I remember living\nthere with my sister\nand her mother.",
+          "She took care of me\nlike her second child.",
+          "I liked to play in the\nbig garden outside.",
+          "But I often broke\nor destroyed things\nunintentionally. ",
+          "It was probably a\npart of my nature\nalready."
+        ],
+        "__section": "text",
+        "avatarId": "0c8a1f5f-3df1-42ee-a6d3-3dcd5937b3bf",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "fa22f8d1-94c4-45bf-829f-625f419b3b81"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 1,
+        "frames": 30,
+        "__collapse": true
+      },
+      "id": "20a1ced3-9507-4cfa-a298-bb21c7a4ff66"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Enough memories. I\nshould probably put\nit back."
+        ],
+        "__section": "text",
+        "avatarId": "0c8a1f5f-3df1-42ee-a6d3-3dcd5937b3bf",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": true
+      },
+      "id": "58e51b8a-6c76-4c7e-9005-12f58deef714"
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "bb03cc5f-7cf0-4928-b8b0-f65c20260b7a",
+        "__collapse": true
+      },
+      "id": "f9a2a925-965a-48f2-9bb5-bdf07ded942e"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "1",
+        "value": {
+          "type": "number",
+          "value": 1
+        },
+        "__collapse": true
+      },
+      "id": "1a09e268-58e4-4f8e-8a1f-43cdd1ef7176"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "596553af-e79f-4d61-8787-9f25707672f7",
+        "x": {
+          "type": "number",
+          "value": 27
+        },
+        "y": {
+          "type": "number",
+          "value": 44
+        },
+        "direction": "up",
+        "fadeSpeed": "2",
+        "__collapse": true
+      },
+      "id": "826d810f-a27d-4738-ac18-890cac131908"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "autoFadeEventCollapse": true
+}
