@@ -37,13 +37,27 @@
         "true": [],
         "false": [
           {
+            "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+            "args": {
+              "type": "tone",
+              "pitch": 4,
+              "frequency": 500,
+              "duration": 0.03,
+              "effect": 0,
+              "__collapse": false
+            },
+            "id": "348c682e-217d-4b64-ace3-628441274f6b"
+          },
+          {
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "What? I'm just\ntaking a walk here."
+                "What?",
+                "I'm just taking \na walk here.",
+                "See you later."
               ],
               "__section": "text",
-              "avatarId": "82b1fd2d-0b44-4d4a-8314-38d0dba44079",
+              "avatarId": "58634b5b-65b7-4a27-b46e-7b3b36301e7f",
               "minHeight": 4,
               "maxHeight": 7,
               "textX": 1,
@@ -58,7 +72,7 @@
               "closeButton": "a",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": true
+              "__collapse": false
             },
             "id": "e8554465-8993-440b-9cbb-3b1ca2e46c0d"
           },
@@ -79,13 +93,35 @@
             "id": "2dfa684d-0dfb-4a18-8b1e-6cdd4f5b040a"
           },
           {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 1,
+              "frames": 30,
+              "__collapse": true
+            },
+            "id": "0d995603-6ba9-43e3-ae01-a13e7da15aff"
+          },
+          {
+            "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+            "args": {
+              "type": "tone",
+              "pitch": 4,
+              "frequency": 150,
+              "duration": 0.02,
+              "effect": 0,
+              "__collapse": true
+            },
+            "id": "18ba4b21-f2d0-41af-88ce-ce00da63294c"
+          },
+          {
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Huh. Where did\nthey go?"
+                "Where- Where did\nthey go?..",
+                "What is going on."
               ],
               "__section": "text",
-              "avatarId": "0c8a1f5f-3df1-42ee-a6d3-3dcd5937b3bf",
+              "avatarId": "8f3ba798-d4c3-4ed4-84c1-44e8323409f5",
               "minHeight": 4,
               "maxHeight": 7,
               "textX": 1,
@@ -100,7 +136,7 @@
               "closeButton": "a",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": true
+              "__collapse": false
             },
             "id": "afe00a78-c091-4bd0-a29a-2a7de9674544"
           }

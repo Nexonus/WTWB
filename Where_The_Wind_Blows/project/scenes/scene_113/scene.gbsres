@@ -1,0 +1,257 @@
+{
+  "_resourceType": "scene",
+  "id": "b68c030a-c0cf-48e9-9c79-6a2775376cb8",
+  "_index": 111,
+  "name": "Scene 113",
+  "backgroundId": "601000fa-bc25-4ed0-987f-8f0fd6a22e64",
+  "tilesetId": "",
+  "width": 22,
+  "height": 22,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "001e4+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_113",
+  "x": 2360,
+  "y": 2800,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "364861b7-6eee-4a19-be79-33d2f6992e8a"
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "77eb39b8-96e6-4119-9fe7-9d6a0e0942b5"
+      },
+      "id": "2c32a19a-10d5-4390-967e-d572e7a5299d"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 150,
+        "duration": 0.02,
+        "effect": 0,
+        "__label": "Durga Speech",
+        "__collapse": true
+      },
+      "id": "253c5ed9-439e-4f0e-b427-5337e4fbfff6"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "As I've listened to\nthe story, I'd see\nmore people coming.",
+          "I was fairly\nconfused about what\nwas going on here...",
+          "Strange migrations?\nShips falling from the\nsky?",
+          "Nobody should have\never arrived here\nin the first place.",
+          "We had our ways to\nmake this world\nunreachable."
+        ],
+        "__section": "text",
+        "avatarId": "0c8a1f5f-3df1-42ee-a6d3-3dcd5937b3bf",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "78a30b4b-2245-4b5d-b872-f71d4eccfe60"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 0.5,
+        "frames": 30,
+        "__collapse": true
+      },
+      "id": "b76d235b-4d48-4b91-b21d-ecae91b0ef47"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Right. Is the ship\nstill somewhere \naround? "
+        ],
+        "__section": "text",
+        "avatarId": "8f3ba798-d4c3-4ed4-84c1-44e8323409f5",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "753e6bdf-92ce-4e5f-a662-a8972d542f3d"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 350,
+        "duration": 0.02,
+        "effect": 0,
+        "__collapse": true,
+        "__label": "Citizen Speech"
+      },
+      "id": "2e843f39-1379-4513-a0e4-c5fa6b920906"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Yeah, you can find\nthe remains north\neast from here.",
+          "Just turn east when\nyou reach the\nmountain."
+        ],
+        "__section": "text",
+        "avatarId": "d9e8d023-c86d-43a8-be38-fd1e1a0795db",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "765e8b2b-3355-4d21-838a-03daeec9521a"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Actually, if you'd be\nthere. Could you \ntake some scrap?",
+          "It'd help us a lot..."
+        ],
+        "__section": "text",
+        "avatarId": "d949c54a-9398-4505-9a93-10fdcac1190f",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": false
+      },
+      "id": "c34eedb5-725d-4057-928a-2e4802e79a79"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 150,
+        "duration": 0.02,
+        "effect": 0,
+        "__label": "Durga Speech",
+        "__collapse": true
+      },
+      "id": "6f6f3d4c-cf00-4b2a-a4e5-13a88ea0251e"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "I think I can get you \nsome scrap.",
+          "I'll go and search \nthe ship first.",
+          "Then I'll try to get\nyou some resources."
+        ],
+        "__section": "text",
+        "avatarId": "0c8a1f5f-3df1-42ee-a6d3-3dcd5937b3bf",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "578bae4b-fc5a-4c0d-be29-f4d1b4e043e3"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "0",
+        "value": {
+          "type": "number",
+          "value": 2
+        },
+        "__collapse": false
+      },
+      "id": "c4f198fa-2101-489d-b121-3c224bb8dbd2"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 0.5,
+        "frames": 30,
+        "__collapse": true
+      },
+      "id": "64480423-a18d-43d6-b4d8-6fe88e8be337"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "b64f2261-3a86-4694-b115-3ee2cb310b27",
+        "x": {
+          "type": "number",
+          "value": 15
+        },
+        "y": {
+          "type": "number",
+          "value": 11
+        },
+        "direction": "down",
+        "fadeSpeed": "2"
+      },
+      "id": "7d607844-3e2f-4d9d-a427-d9c17de04866"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

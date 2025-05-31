@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "e06fd107-abeb-4cb2-98a9-c4d997c61b64",
-  "_index": 100,
+  "_index": 96,
   "name": "Scene 102",
   "backgroundId": "f36c95b2-083c-41d2-b105-b23666b5256f",
   "tilesetId": "",
@@ -15,8 +15,88 @@
   "symbol": "scene_102",
   "x": 1072,
   "y": 2800,
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "c4dc4341-d2a9-4290-b5da-5ab36807e85d"
+    },
+    {
+      "command": "EVENT_CAMERA_MOVE_TO",
+      "args": {
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "speed": 0.5
+      },
+      "id": "9e4ca09e-4c00-4cae-8d91-739f53162f58"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 150,
+        "duration": 0.02,
+        "effect": 0,
+        "__label": "Durga Speech",
+        "__collapse": true
+      },
+      "id": "ff7a583b-2dd8-4b94-8ece-f6b40d16cf20"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "I am the one that \nused to rule this \nland for centuries.",
+          "And so I arrived\nto reclaim it!"
+        ],
+        "__section": "text",
+        "avatarId": "0c8a1f5f-3df1-42ee-a6d3-3dcd5937b3bf",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "2e982080-de38-4613-a2ca-c5065009cec4"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "61e057d3-2f5f-4785-a047-839293201e09",
+        "x": {
+          "type": "number",
+          "value": 9
+        },
+        "y": {
+          "type": "number",
+          "value": 4
+        },
+        "direction": "",
+        "fadeSpeed": 1
+      },
+      "id": "e829fb2c-583a-48f2-9dea-31d50b3294e2"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "autoFadeEventCollapse": true
 }

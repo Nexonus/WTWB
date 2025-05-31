@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "1fc24f0e-e8d1-45e5-b0a7-e9939723053f",
-  "_index": 98,
+  "_index": 95,
   "name": "Scene 100",
   "backgroundId": "4b1eb885-b181-48dd-8745-1e97ea449dd3",
   "tilesetId": "",
@@ -22,6 +22,167 @@
         "actorId": "$self$"
       },
       "id": "251d39e9-349c-47eb-ad96-9059ecfec7ac"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 150,
+        "duration": 0.02,
+        "effect": 0,
+        "__label": "Durga Speech",
+        "__collapse": true
+      },
+      "id": "53c6f11e-da97-4782-8774-9bb4c020e42b"
+    },
+    {
+      "command": "EVENT_CAMERA_SHAKE",
+      "args": {
+        "time": 0.2,
+        "frames": 30,
+        "shakeDirection": "horizontal",
+        "magnitude": {
+          "type": "number",
+          "value": 3
+        }
+      },
+      "id": "9a2ce64a-98e5-4066-a23c-92e326d95eab"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "After some time. I'd\nsee a single person\ncoming out to see me.",
+          "By the looks of it\nthere's more people\nliving here.",
+          "Nobody else is\nshowing up though..."
+        ],
+        "__section": "text",
+        "avatarId": "0c8a1f5f-3df1-42ee-a6d3-3dcd5937b3bf",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": false
+      },
+      "id": "808a26dc-480a-4a53-8d97-1a4836e38b86"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 350,
+        "duration": 0.02,
+        "effect": 0,
+        "__collapse": false,
+        "__label": "Citizen Speech"
+      },
+      "id": "68f05ae1-8763-4af5-834a-3f530b0ce346"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Who are you! What\ndo you want from \nus?!",
+          "There's no tributes\nor offerings for\nones like you.",
+          "Now get lost and\nleave our town alone!"
+        ],
+        "__section": "text",
+        "avatarId": "d9e8d023-c86d-43a8-be38-fd1e1a0795db",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": false
+      },
+      "id": "f7971140-fcac-4e05-bd2f-87d7e7d14b28"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 150,
+        "duration": 0.02,
+        "effect": 0,
+        "__label": "Durga Speech",
+        "__collapse": true
+      },
+      "id": "e8cac11f-f3bc-4ca4-93de-5b9e757bd259"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Did you just tell me\nto get lost?..",
+          "You should watch\nyour words mortal!",
+          "You don't even know\nwho are you talking\nto. Do you?"
+        ],
+        "__section": "text",
+        "avatarId": "8f3ba798-d4c3-4ed4-84c1-44e8323409f5",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "96a9b83a-8eb5-4320-94a4-0e6f70f7b435"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 0.5,
+        "frames": 30,
+        "__collapse": true
+      },
+      "id": "26fdaf4a-e2e4-452a-ae16-aa52e45419e6"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "e06fd107-abeb-4cb2-98a9-c4d997c61b64",
+        "x": {
+          "type": "number",
+          "value": 9
+        },
+        "y": {
+          "type": "number",
+          "value": 21
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "34905dbb-9e35-45b9-a38f-f7171b9eaf09"
     }
   ],
   "playerHit1Script": [],

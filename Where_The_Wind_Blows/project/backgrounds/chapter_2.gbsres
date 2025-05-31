@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "9d248301-cc02-45af-99b6-7434c099ef7f",
+  "name": "Chapter_2",
+  "symbol": "bg_chapter_2",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "Chapter_2.png",
+  "tileColors": "",
+  "autoColor": false
+}

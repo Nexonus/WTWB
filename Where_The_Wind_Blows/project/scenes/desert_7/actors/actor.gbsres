@@ -15,13 +15,754 @@
   "collisionGroup": "",
   "prefabScriptOverrides": {},
   "symbol": "actor_96",
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_SWITCH",
+      "args": {
+        "variable": "0",
+        "choices": 3,
+        "__collapseCase0": false,
+        "value0": 1,
+        "__collapseCase1": false,
+        "value1": 2,
+        "__collapseCase2": false,
+        "value2": 3,
+        "__collapseCase3": false,
+        "value3": 4,
+        "__collapseCase4": false,
+        "value4": 5,
+        "__collapseCase5": false,
+        "value5": 6,
+        "__collapseCase6": false,
+        "value6": 7,
+        "__collapseCase7": false,
+        "value7": 8,
+        "__collapseCase8": false,
+        "value8": 9,
+        "__collapseCase9": false,
+        "value9": 10,
+        "__collapseCase10": false,
+        "value10": 11,
+        "__collapseCase11": false,
+        "value11": 12,
+        "__collapseCase12": false,
+        "value12": 13,
+        "__collapseCase13": false,
+        "value13": 14,
+        "__collapseCase14": false,
+        "value14": 15,
+        "__collapseCase15": false,
+        "value15": 16,
+        "__collapseElse": true,
+        "__collapse": false
+      },
+      "children": {
+        "true0": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Is anyone there?"
+              ],
+              "__section": "text",
+              "avatarId": "0c140e1e-cb43-40dc-adc9-36ea629ff7f7",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "51547b83-5033-42e4-bca7-a9fc8c0fe80f"
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 0.5,
+              "frames": 30,
+              "__collapse": true
+            },
+            "id": "ca0c7d0f-8813-45ae-a173-cb27f1b4b1e0"
+          },
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "1fc24f0e-e8d1-45e5-b0a7-e9939723053f",
+              "x": {
+                "type": "number",
+                "value": 10
+              },
+              "y": {
+                "type": "number",
+                "value": 13
+              },
+              "direction": "",
+              "fadeSpeed": "2",
+              "__collapse": true
+            },
+            "id": "c507495d-3fb8-47f2-966c-ce3cf3d48432"
+          }
+        ],
+        "true1": [
+          {
+            "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+            "args": {
+              "type": "tone",
+              "pitch": 4,
+              "frequency": 350,
+              "duration": 0.02,
+              "effect": 0,
+              "__collapse": true,
+              "__label": "Citizen Speech"
+            },
+            "id": "68a42d53-4cc8-4421-b8cc-1a7102f91843"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Go north, then east \nand get us some \nmetal for our tools!"
+              ],
+              "__section": "text",
+              "avatarId": "d9e8d023-c86d-43a8-be38-fd1e1a0795db",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "a0be741b-3e4c-4d50-8f40-2a13c78ca4a8"
+          },
+          {
+            "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+            "args": {
+              "type": "tone",
+              "pitch": 4,
+              "frequency": 150,
+              "duration": 0.02,
+              "effect": 0,
+              "__label": "Durga Speech",
+              "__collapse": true
+            },
+            "id": "37449110-e89c-43b2-af19-94e07b880818"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "I'm on my way."
+              ],
+              "__section": "text",
+              "avatarId": "8f3ba798-d4c3-4ed4-84c1-44e8323409f5",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "cb98e693-52d0-4d8a-bc10-90e17202d7e6"
+          }
+        ],
+        "true2": [
+          {
+            "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+            "args": {
+              "type": "tone",
+              "pitch": 4,
+              "frequency": 150,
+              "duration": 0.02,
+              "effect": 0,
+              "__label": "Durga Speech",
+              "__collapse": true
+            },
+            "id": "3e9074c2-cff0-4003-9658-8ee350a016f5"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "I brought you the\nmetal you've asked\nfor."
+              ],
+              "__section": "text",
+              "avatarId": "0c8a1f5f-3df1-42ee-a6d3-3dcd5937b3bf",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "1dfc26d5-7825-4eba-ab93-2f73c1f991d5"
+          },
+          {
+            "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+            "args": {
+              "type": "tone",
+              "pitch": 4,
+              "frequency": 350,
+              "duration": 0.02,
+              "effect": 0,
+              "__collapse": true,
+              "__label": "Citizen Speech"
+            },
+            "id": "20f6d124-6f2a-4842-8063-e5bd3f493890"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Thank you for help!\nOh that changes so\nmuch.",
+                "I'm happy that-\nyou've agreed to \nhelp us in need!",
+                "Is there anything\nwe can do for you\nin return?"
+              ],
+              "__section": "text",
+              "avatarId": "6f9851b5-cb28-40b1-b0d6-d4425868beb4",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "bee290e8-01cc-425d-8460-251f51fcf70f"
+          },
+          {
+            "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+            "args": {
+              "type": "tone",
+              "pitch": 4,
+              "frequency": 150,
+              "duration": 0.02,
+              "effect": 0,
+              "__label": "Durga Speech",
+              "__collapse": true
+            },
+            "id": "95d0131b-cbf0-47b1-a8f9-5fcb2666d773"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Um. You want to\nreward me?",
+                "That wasn't a lot of\nwork though-"
+              ],
+              "__section": "text",
+              "avatarId": "0c140e1e-cb43-40dc-adc9-36ea629ff7f7",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "bf2abc5e-df3f-4a25-8045-c4091d1b8e77"
+          },
+          {
+            "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+            "args": {
+              "type": "tone",
+              "pitch": 4,
+              "frequency": 350,
+              "duration": 0.02,
+              "effect": 0,
+              "__collapse": true,
+              "__label": "Citizen Speech"
+            },
+            "id": "3c93d2ec-2b80-48c3-b418-34d8cf61413e"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Well then, think\nabout it. And we'll\nsee what we can do."
+              ],
+              "__section": "text",
+              "avatarId": "d9e8d023-c86d-43a8-be38-fd1e1a0795db",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "bf77357d-e4ec-456d-8d01-feb3d0bb25ab"
+          },
+          {
+            "command": "EVENT_MENU",
+            "args": {
+              "variable": "L0",
+              "items": 2,
+              "option1": "Accept reward.",
+              "option2": "Deny reward.",
+              "option3": "",
+              "option4": "",
+              "option5": "",
+              "option6": "",
+              "option7": "",
+              "option8": "",
+              "cancelOnB": true,
+              "layout": "dialogue",
+              "__collapse": false
+            },
+            "id": "1fc9ed2a-44eb-46f2-819f-f14b4b467a9b"
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "L0"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 1
+                }
+              },
+              "__collapseElse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+                  "args": {
+                    "type": "tone",
+                    "pitch": 4,
+                    "frequency": 150,
+                    "duration": 0.02,
+                    "effect": 0,
+                    "__label": "Durga Speech",
+                    "__collapse": true
+                  },
+                  "id": "ac432208-274e-4640-90d2-e38aba599948"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "I'd like to claim my\nreward then.",
+                      "Give me some gold\nor food. I'm actually\nstarving..."
+                    ],
+                    "__section": "text",
+                    "avatarId": "8f3ba798-d4c3-4ed4-84c1-44e8323409f5",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "c5646979-b1c9-45ad-aef9-e6fefe6d594e"
+                },
+                {
+                  "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+                  "args": {
+                    "type": "tone",
+                    "pitch": 4,
+                    "frequency": 350,
+                    "duration": 0.02,
+                    "effect": 0,
+                    "__collapse": true,
+                    "__label": "Citizen Speech"
+                  },
+                  "id": "9f724345-33e6-46db-a9a3-5a5a58a523eb"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "Oh. We don't have...\nThat much of any of\nthese.",
+                      "But as promised, I\ncan try to get you\nsome food.",
+                      "Maybe a couple coins\ntoo, let me check."
+                    ],
+                    "__section": "text",
+                    "avatarId": "d949c54a-9398-4505-9a93-10fdcac1190f",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "a58e271d-656e-49ee-9ee5-88d53119b23a"
+                },
+                {
+                  "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+                  "args": {
+                    "type": "tone",
+                    "pitch": 4,
+                    "frequency": 150,
+                    "duration": 0.02,
+                    "effect": 0,
+                    "__label": "Durga Speech",
+                    "__collapse": true
+                  },
+                  "id": "1d555bb0-3c4e-4b55-bdff-f97b1839dca0"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "I saw the man run\nback to the pyramid.",
+                      "Did I do right?..\nI can't really tell.",
+                      "But on a second\nthought. I want to\nget my reward.",
+                      "I think it's important\nto value your time...",
+                      "Oh, here he comes\nagain."
+                    ],
+                    "__section": "text",
+                    "avatarId": "8f3ba798-d4c3-4ed4-84c1-44e8323409f5",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30,
+                    "__collapse": false
+                  },
+                  "id": "2ef96876-ff4c-4eac-ba27-4c5fc6e0557d"
+                },
+                {
+                  "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+                  "args": {
+                    "type": "tone",
+                    "pitch": 4,
+                    "frequency": 350,
+                    "duration": 0.02,
+                    "effect": 0,
+                    "__collapse": true,
+                    "__label": "Citizen Speech"
+                  },
+                  "id": "cbfcbb39-a52e-44f9-948f-cc8f291f0118"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "Aha! We've got some\nsharkazar meat\nremaining.",
+                      "I think we can share\nit with you."
+                    ],
+                    "__section": "text",
+                    "avatarId": "6f9851b5-cb28-40b1-b0d6-d4425868beb4",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "fd0e1986-d76e-4408-ac14-c66f7e55456d"
+                },
+                {
+                  "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+                  "args": {
+                    "type": "tone",
+                    "pitch": 4,
+                    "frequency": 150,
+                    "duration": 0.02,
+                    "effect": 0,
+                    "__label": "Durga Speech",
+                    "__collapse": true
+                  },
+                  "id": "1fd4370e-89a6-4911-abea-bb06dbffd790"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "Meat...",
+                      "I'm taking it all, \nif you need more \nhelp-",
+                      "Just let me know...\nOkay?"
+                    ],
+                    "__section": "text",
+                    "avatarId": "0c140e1e-cb43-40dc-adc9-36ea629ff7f7",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30,
+                    "__collapse": false
+                  },
+                  "id": "f4c7b1b1-cfdc-48d3-8937-c571632e73ad"
+                },
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "0",
+                    "value": {
+                      "type": "number",
+                      "value": 4
+                    },
+                    "__collapse": true
+                  },
+                  "id": "419b0069-1af4-4990-bf05-4be04262d722"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+                  "args": {
+                    "type": "tone",
+                    "pitch": 4,
+                    "frequency": 150,
+                    "duration": 0.02,
+                    "effect": 0,
+                    "__label": "Durga Speech",
+                    "__collapse": true
+                  },
+                  "id": "6bef3bc7-4bdf-4f13-a19d-f7c998a29ae0"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "I think. I don't need\nto claim any rewards\nfor that.",
+                      "Probably you mortals\nneed this food and\nsupplies more.",
+                      "Just let me know if\nyou need me again.\nOkay?"
+                    ],
+                    "__section": "text",
+                    "avatarId": "0c8a1f5f-3df1-42ee-a6d3-3dcd5937b3bf",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "3b5dc3f3-b041-4c3a-ad7c-31afb789ff33"
+                },
+                {
+                  "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+                  "args": {
+                    "type": "tone",
+                    "pitch": 4,
+                    "frequency": 350,
+                    "duration": 0.02,
+                    "effect": 0,
+                    "__collapse": true,
+                    "__label": "Citizen Speech"
+                  },
+                  "id": "dc2e50eb-e11f-481d-adc5-4c4bbbc9e9b1"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "Oh. That's so\ngenerous. Thank you.",
+                      "We'll remember to\npray to you, once\nwe'll need your aid...",
+                      "Thank you again."
+                    ],
+                    "__section": "text",
+                    "avatarId": "d949c54a-9398-4505-9a93-10fdcac1190f",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30,
+                    "__collapse": true
+                  },
+                  "id": "3c72e34d-4a92-4258-8796-6ff7d000d645"
+                },
+                {
+                  "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+                  "args": {
+                    "type": "tone",
+                    "pitch": 4,
+                    "frequency": 150,
+                    "duration": 0.02,
+                    "effect": 0,
+                    "__label": "Durga Speech",
+                    "__collapse": true
+                  },
+                  "id": "1ebafc9e-1de6-4b1f-8e78-a1f610b326c0"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "I think I've made the\nright decision. Time\nto go..."
+                    ],
+                    "__section": "text",
+                    "avatarId": "0c8a1f5f-3df1-42ee-a6d3-3dcd5937b3bf",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30,
+                    "__collapse": true
+                  },
+                  "id": "e04b2031-44d4-47eb-b33f-61c26fc0099e"
+                },
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "0",
+                    "value": {
+                      "type": "number",
+                      "value": 4
+                    },
+                    "__collapse": true
+                  },
+                  "id": "7016f105-3f46-4ce5-a5d2-a77a43f75fa1"
+                }
+              ]
+            },
+            "id": "e668dbe3-680c-46a9-9128-59c1a502069b"
+          }
+        ],
+        "true3": [],
+        "true4": [],
+        "true5": [],
+        "true6": [],
+        "true7": [],
+        "true8": [],
+        "true9": [],
+        "true10": [],
+        "true11": [],
+        "true12": [],
+        "true13": [],
+        "true14": [],
+        "true15": [],
+        "false": []
+      },
+      "id": "0455b9c0-2755-490a-8f6a-dd274e9b1135"
+    }
+  ],
   "startScript": [],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 13,
-  "y": 17,
+  "x": 15,
+  "y": 12,
   "_index": 0
 }

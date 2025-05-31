@@ -1,0 +1,243 @@
+{
+  "_resourceType": "scene",
+  "id": "f50e66c5-a30b-4a1d-9d06-f762ea59de09",
+  "_index": 108,
+  "name": "Scene 111",
+  "backgroundId": "f36c95b2-083c-41d2-b105-b23666b5256f",
+  "tilesetId": "",
+  "width": 22,
+  "height": 22,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "001e4+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_77",
+  "x": 1624,
+  "y": 2800,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "3f2623ae-a7be-4e64-850f-2d33c9b8760d"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 150,
+        "duration": 0.02,
+        "effect": 0,
+        "__label": "Durga Speech",
+        "__collapse": true
+      },
+      "id": "dce47253-7ff7-4100-826d-a2ce990e33d2"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Is that clear?."
+        ],
+        "__section": "text",
+        "avatarId": "0c8a1f5f-3df1-42ee-a6d3-3dcd5937b3bf",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "d6fdaadf-621c-4025-bb81-582d24e2664e"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 350,
+        "duration": 0.02,
+        "effect": 0,
+        "__collapse": false,
+        "__label": "Citizen Speech"
+      },
+      "id": "303ce980-d490-4d4b-bd29-cab0c4edc816"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Y-yeah, I think\nthat's p-pretty\nclear to us now-!",
+          "How s-should we\nrefer to you?.."
+        ],
+        "__section": "text",
+        "avatarId": "d949c54a-9398-4505-9a93-10fdcac1190f",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "d3078bc2-d41c-458c-aaf5-385b7ef515a0"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 150,
+        "duration": 0.02,
+        "effect": 0,
+        "__label": "Durga Speech",
+        "__collapse": true
+      },
+      "id": "8f4a8da9-f40c-475f-a695-be888bc31084"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "You don't remember\nme at all, huh.",
+          "I'm Durga.",
+          "I haven't been here\nfor more than two\ncenturies.",
+          "Did everyone forget\nabout their gods..?"
+        ],
+        "__section": "text",
+        "avatarId": "0c8a1f5f-3df1-42ee-a6d3-3dcd5937b3bf",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "00858667-85bb-423a-9e19-39020a4e8ca3"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 350,
+        "duration": 0.02,
+        "effect": 0,
+        "__collapse": false,
+        "__label": "Citizen Speech"
+      },
+      "id": "1a31bbb8-3b63-4d98-8608-8b1ae4a7afbd"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Well. Your kind was\nassumed to have\ngone extinct...",
+          "Ever since the world\nhas ended. And that\nwould persist-",
+          "Until you'd show up \nagain about - two or \nthree years ago."
+        ],
+        "__section": "text",
+        "avatarId": "d9e8d023-c86d-43a8-be38-fd1e1a0795db",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "09b0c10c-97ab-4227-9709-abd35859b92c"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 150,
+        "duration": 0.02,
+        "effect": 0,
+        "__label": "Durga Speech",
+        "__collapse": true
+      },
+      "id": "0f535bcf-53c3-433b-8cd8-09b4302b03c0"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Wait. So there's more\nof us on the \nsurface?"
+        ],
+        "__section": "text",
+        "avatarId": "0c8a1f5f-3df1-42ee-a6d3-3dcd5937b3bf",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "dea4a5f4-6897-48f2-8ee6-93770f39a421"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "7a5a7cd1-792a-4ce7-b2bf-6eaa911c3d67",
+        "x": {
+          "type": "number",
+          "value": 10
+        },
+        "y": {
+          "type": "number",
+          "value": 14
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "52a12087-1d6f-44c5-a9ef-f25ff2b7a36d"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

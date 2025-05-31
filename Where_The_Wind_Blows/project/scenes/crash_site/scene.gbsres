@@ -1,0 +1,105 @@
+{
+  "_resourceType": "scene",
+  "id": "e5cb40d1-da64-4248-97dc-09d4cbfe08a4",
+  "_index": 110,
+  "name": "Crash Site",
+  "backgroundId": "8b4fe487-34c6-476e-bb89-425d6b5c254e",
+  "tilesetId": "",
+  "width": 22,
+  "height": 22,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "001e4+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_98",
+  "x": 2176,
+  "y": 2800,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": true
+      },
+      "id": "db409bfd-45af-4a1d-bd13-8e52fb389d88"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "It was a ship. But\nthere were no\nsigns of any life.",
+          "I strongly doubt\nthere was anyone\non board.",
+          "We sent some of our\npeople to take what\nthey could.",
+          "At least, before the\nbandits would show\nup...",
+          "They're causing a lot\nof troubles recently."
+        ],
+        "__section": "text",
+        "avatarId": "d949c54a-9398-4505-9a93-10fdcac1190f",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "bf232987-a4b2-4dfe-b079-0bb65b47fa5d"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "But nobody really\nknows who's vehicle\nwas that.",
+          "I think, that's\nprobably the most\nconcerning part.",
+          "We've never seen \nanyone but your kind\narrive from the sky.",
+          "And that definitely\nwasn't your ship..."
+        ],
+        "__section": "text",
+        "avatarId": "d9e8d023-c86d-43a8-be38-fd1e1a0795db",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "1d20b2c2-842a-48b5-a625-b612d04c96af"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "b68c030a-c0cf-48e9-9c79-6a2775376cb8",
+        "x": {
+          "type": "number",
+          "value": 10
+        },
+        "y": {
+          "type": "number",
+          "value": 13
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "2fac5c7e-da40-4e89-86bd-bf08200fb2f6"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

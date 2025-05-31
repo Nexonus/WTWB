@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "dc1e653f-fadf-4480-9988-24d26d914e6c",
-  "_index": 54,
+  "_index": 52,
   "name": "Staircase_0",
   "backgroundId": "027d064b-103c-4bee-8f8f-daf0c78f46d7",
   "tilesetId": "",
@@ -94,10 +94,8 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "These stairs fool\nmany.",
-                "I need to keep my\neyes open on the\ndirection I take.",
-                "Otherwise I might\nend up back at the\nstart.",
-                "I can't let myself\nto get lost here."
+                "Sigh- What am I \ngetting myself into.",
+                "I'd better keep my \neyes open not to\nget lost here."
               ],
               "__section": "text",
               "avatarId": "8f3ba798-d4c3-4ed4-84c1-44e8323409f5",

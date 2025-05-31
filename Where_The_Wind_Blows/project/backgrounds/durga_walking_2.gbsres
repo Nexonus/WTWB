@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "21136d6a-d820-44ba-938f-21390320ad1c",
+  "name": "durga_walking_2",
+  "symbol": "bg_durga_walking_2",
+  "width": 32,
+  "height": 25,
+  "imageWidth": 256,
+  "imageHeight": 200,
+  "filename": "durga_walking_2.png",
+  "tileColors": "",
+  "autoColor": false
+}

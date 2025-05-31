@@ -1,9 +1,9 @@
 {
   "_resourceType": "scene",
   "id": "951ed465-f6de-4b15-a0b6-0e300f1d382f",
-  "_index": 83,
+  "_index": 81,
   "name": "Scene 85",
-  "backgroundId": "ab0da328-7ebc-4216-95f2-4ad6e2b98c43",
+  "backgroundId": "21136d6a-d820-44ba-938f-21390320ad1c",
   "tilesetId": "",
   "width": 32,
   "height": 25,
@@ -22,9 +22,132 @@
         "actorId": "$self$"
       },
       "id": "b250a328-f3f3-4ece-a9b7-baa945e2c171"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 150,
+        "duration": 0.02,
+        "effect": 0,
+        "__collapse": true
+      },
+      "id": "b6320687-4e1f-4944-b65a-5f3d2d44819d"
+    },
+    {
+      "command": "EVENT_CAMERA_MOVE_TO",
+      "args": {
+        "x": {
+          "type": "number",
+          "value": 15
+        },
+        "y": {
+          "type": "number",
+          "value": 20
+        },
+        "speed": 0,
+        "__collapse": true
+      },
+      "id": "3e02d964-feac-4c32-8eb3-7997860be794"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "So. I eventually\nmade it out to the\nland above.",
+          "I wandered, without\nan exact place that\nI wanted to reach."
+        ],
+        "__section": "text",
+        "avatarId": "0c8a1f5f-3df1-42ee-a6d3-3dcd5937b3bf",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "526dca01-6836-4396-ad4e-d85955757a80"
+    },
+    {
+      "command": "EVENT_CAMERA_MOVE_TO",
+      "args": {
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "speed": 0.5,
+        "__collapse": false
+      },
+      "id": "6e468e70-e157-4398-a636-4bc0dd2a4cd1"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "My journey would\nlead me with time to\na new sight.",
+          "An obelisk among the\ndesert dunes."
+        ],
+        "__section": "text",
+        "avatarId": "0c8a1f5f-3df1-42ee-a6d3-3dcd5937b3bf",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "4fc2ff0a-7640-429f-af0a-07acdf95e4da"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 0.5,
+        "frames": 30,
+        "__collapse": true
+      },
+      "id": "cee338cf-08e3-4dfd-9c60-27bb55fe1fb3"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "19c8f067-b3eb-4d74-af0b-292e2c076e78",
+        "x": {
+          "type": "number",
+          "value": 10
+        },
+        "y": {
+          "type": "number",
+          "value": 14
+        },
+        "direction": "up",
+        "fadeSpeed": "2"
+      },
+      "id": "4b92c4f8-a132-4dd5-8475-42eab3f18297"
     }
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "autoFadeEventCollapse": true
 }

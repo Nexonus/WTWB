@@ -1,0 +1,131 @@
+{
+  "_resourceType": "scene",
+  "id": "c871e62a-971f-476d-be7f-751cd000a064",
+  "_index": 101,
+  "name": "Falling Stars",
+  "backgroundId": "2ab1fceb-2ec2-4379-a295-1e2d8f4bdf54",
+  "tilesetId": "",
+  "width": 22,
+  "height": 22,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "001e4+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_54",
+  "x": 1992,
+  "y": 2800,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": true
+      },
+      "id": "52506875-8cb9-49c3-8b56-6c20781ea83d"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Normally these would\nprobably burn down \nin the atmosphere.",
+          "But these ones,\nthey didn't!-",
+          "They reached the\nground causing a\nhorrendous crash.",
+          "Completely scaring\nour farm animals..."
+        ],
+        "__section": "text",
+        "avatarId": "d9e8d023-c86d-43a8-be38-fd1e1a0795db",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "829e91b3-1387-40e7-a40b-13783d1ab09e"
+    },
+    {
+      "command": "EVENT_CAMERA_SHAKE",
+      "args": {
+        "time": 0.3,
+        "frames": 30,
+        "shakeDirection": "horizontal",
+        "magnitude": {
+          "type": "number",
+          "value": 3
+        },
+        "__collapse": true
+      },
+      "id": "74c4d092-1fd7-496e-a764-cd7b5ab84398"
+    },
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "crash",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.7,
+        "wait": true,
+        "effect": 0,
+        "__collapse": true
+      },
+      "id": "74247e8f-1d26-4dba-ae4e-72e078a1a29a"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "This gathered some\nattention obviously.",
+          "When people went out\nto look for the\nmeteorite.",
+          "They'd found\nsomething different \nat the crash site."
+        ],
+        "__section": "text",
+        "avatarId": "d9e8d023-c86d-43a8-be38-fd1e1a0795db",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "b89efe0a-0dee-467b-befa-03e87243f150"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "e5cb40d1-da64-4248-97dc-09d4cbfe08a4",
+        "x": {
+          "type": "number",
+          "value": 9
+        },
+        "y": {
+          "type": "number",
+          "value": 11
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "027c48ac-479f-4c4a-a2b4-e9252bce8f9b"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

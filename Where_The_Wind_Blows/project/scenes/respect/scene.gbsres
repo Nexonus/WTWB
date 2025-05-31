@@ -1,0 +1,74 @@
+{
+  "_resourceType": "scene",
+  "id": "61e057d3-2f5f-4785-a047-839293201e09",
+  "_index": 107,
+  "name": "Respect",
+  "backgroundId": "ecf369cb-67c5-493b-b173-d40370f43894",
+  "tilesetId": "",
+  "width": 22,
+  "height": 22,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "001e4+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_111",
+  "x": 1256,
+  "y": 2800,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "b7bbd77c-0b91-4fd9-ab1a-d8fee23b3041"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "From this day I am\nyour authority again.",
+          "And you ARE going \nto pay respect to \nme!",
+          "Or else..."
+        ],
+        "__section": "text",
+        "avatarId": "821993bc-b48f-40a1-bcae-995b76c5704f",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "2beec092-902f-429d-bd8c-ba9116a7898e"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "d7231ee9-327d-4ac8-9b2f-7f98ba6666ab",
+        "x": {
+          "type": "number",
+          "value": 10
+        },
+        "y": {
+          "type": "number",
+          "value": 7
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "de05afe9-5f64-4d18-b15d-e22c40f276a0"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

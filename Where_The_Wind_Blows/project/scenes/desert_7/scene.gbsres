@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "b64f2261-3a86-4694-b115-3ee2cb310b27",
-  "_index": 90,
+  "_index": 88,
   "name": "Desert_7",
   "backgroundId": "64e7479e-8a86-448c-b0a4-c492b4fb273d",
   "tilesetId": "",
@@ -15,7 +15,64 @@
   "symbol": "scene_92",
   "x": 440,
   "y": 2800,
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "I think I see some\nbuildings!"
+              ],
+              "__section": "text",
+              "avatarId": "0c140e1e-cb43-40dc-adc9-36ea629ff7f7",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "64ba5e61-d6f1-4d12-af78-9ea2b0f4b038"
+          },
+          {
+            "command": "EVENT_INC_VALUE",
+            "args": {
+              "variable": "0",
+              "__collapse": true
+            },
+            "id": "f6abebe4-bf08-4b78-8fc5-adadfea41056"
+          }
+        ],
+        "false": []
+      },
+      "id": "ca1eee09-4f7d-47e6-a2dd-237ac967ceed"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],

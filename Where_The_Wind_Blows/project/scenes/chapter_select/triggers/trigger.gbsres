@@ -57,10 +57,24 @@
             "type": "true"
           }
         },
-        "__collapseElse": true
+        "__collapseElse": false
       },
       "children": {
         "true": [
+          {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "tone",
+              "priority": "medium",
+              "pitch": 8,
+              "frequency": 300,
+              "duration": 0.1,
+              "wait": true,
+              "effect": 0,
+              "__collapse": false
+            },
+            "id": "9918f0ed-7ad3-46ba-850b-717e10696e89"
+          },
           {
             "command": "EVENT_MUSIC_STOP",
             "args": {},
@@ -84,7 +98,22 @@
             "id": "b7fa2531-aef7-4522-9dd2-9ce61000478d"
           }
         ],
-        "false": []
+        "false": [
+          {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "tone",
+              "priority": "medium",
+              "pitch": 8,
+              "frequency": 300,
+              "duration": 0.1,
+              "wait": true,
+              "effect": 0,
+              "__collapse": true
+            },
+            "id": "f72a5a2e-aece-40ef-bdd7-cc3c9618bf8e"
+          }
+        ]
       },
       "id": "985c238e-f995-4aa4-bc51-8a86335db97e"
     }

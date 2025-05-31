@@ -1,0 +1,111 @@
+{
+  "_resourceType": "scene",
+  "id": "c4697b26-fa90-4ca5-ba3a-01ae73cf9221",
+  "_index": 97,
+  "name": "Investigating",
+  "backgroundId": "d7ce7bc2-a1a0-485a-9329-c1630daf3813",
+  "tilesetId": "",
+  "width": 22,
+  "height": 22,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "001e4+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_103",
+  "x": 888,
+  "y": 2416,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "2492e491-b246-4e7a-b6c4-045626eca177"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "It's definitely not \nfrom here...",
+          "But how could\nanyone make it past\nthe barrier?",
+          "We've made sure to\nhide this part of\nspace in darkness.",
+          "And yet a foreign\nvehicle has made\nit here.",
+          "The villagers have\nsaid there was\nnobody to be seen.",
+          "But somehow I have\ndoubts about that..."
+        ],
+        "__section": "text",
+        "avatarId": "0c8a1f5f-3df1-42ee-a6d3-3dcd5937b3bf",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "2289932e-867a-4091-af34-b8a21daf203b"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 0.5,
+        "frames": 30
+      },
+      "id": "b6723d84-ef81-4e43-bbea-4b03dc50dfc7"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "This junk is already\ntorn apart by the\nscavengers...",
+          "I'll try to finish the\njob and get the\nscrap to the town."
+        ],
+        "__section": "text",
+        "avatarId": "8f3ba798-d4c3-4ed4-84c1-44e8323409f5",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "d3b3e85f-bd02-495d-bba3-7d27d215ba54"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "fc45a1a3-a036-42f3-9404-67362c3512be",
+        "x": {
+          "type": "number",
+          "value": 10
+        },
+        "y": {
+          "type": "number",
+          "value": 13
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "09df288f-dd0e-497e-a266-ea97eff8095b"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

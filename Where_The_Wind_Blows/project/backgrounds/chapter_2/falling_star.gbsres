@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "2ab1fceb-2ec2-4379-a295-1e2d8f4bdf54",
+  "name": "Chapter 2/Falling_Star",
+  "symbol": "bg_chapter_2_falling_star",
+  "width": 22,
+  "height": 22,
+  "imageWidth": 176,
+  "imageHeight": 176,
+  "filename": "Chapter 2/Falling_Star.png",
+  "tileColors": "",
+  "autoColor": false
+}

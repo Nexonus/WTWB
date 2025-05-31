@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "bd0fdc42-7f97-422e-8f04-9d0f5a982791",
+  "_index": 103,
+  "name": "Fury",
+  "backgroundId": "8f1eb580-bd8e-4b58-a8be-d2123224b6a6",
+  "tilesetId": "",
+  "width": 22,
+  "height": 22,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "001e4+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_106",
+  "x": 2160,
+  "y": 2504,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

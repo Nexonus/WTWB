@@ -20,8 +20,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "It looks like an\nobelisk.",
-          "I can see some\nsigns engraved\non it's surface."
+          "I can see some\nsigns engraved\non this obelisk."
         ],
         "__section": "text",
         "avatarId": "0c8a1f5f-3df1-42ee-a6d3-3dcd5937b3bf",
@@ -39,7 +38,7 @@
         "closeButton": "a",
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30,
-        "__collapse": true
+        "__collapse": false
       },
       "id": "42fe21f8-d0dd-4e66-833c-cc3f29156977"
     },

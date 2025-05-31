@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "24a029b0-a75f-4f1a-9d6b-406e45e29f10",
-  "_index": 73,
+  "_index": 71,
   "name": "Scene 75",
   "backgroundId": "95b54f18-86f2-409c-be37-77830121e24f",
   "tilesetId": "",
@@ -72,14 +72,14 @@
     {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
-        "sceneId": "9158e74c-6597-40a6-b1e2-73c89d7f85c0",
+        "sceneId": "5050b386-d04c-4a86-94b7-30aae117c645",
         "x": {
           "type": "number",
-          "value": 0
+          "value": 9
         },
         "y": {
           "type": "number",
-          "value": 27
+          "value": 10
         },
         "direction": "",
         "fadeSpeed": "2",

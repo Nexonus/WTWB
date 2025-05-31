@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "3d46208b-f899-4e86-8d7e-b37f00f200db",
-  "_index": 74,
+  "_index": 72,
   "name": "Scene 76",
   "backgroundId": "9a509361-2194-4c00-8d87-8afb570cef95",
   "tilesetId": "",
@@ -35,7 +35,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "It says that the\nstairwell doesn't\nhave an end."
+          "This is written in\nmy language."
         ],
         "__section": "text",
         "avatarId": "0c8a1f5f-3df1-42ee-a6d3-3dcd5937b3bf",
@@ -53,9 +53,35 @@
         "closeButton": "a",
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30,
-        "__collapse": false
+        "__collapse": true
       },
       "id": "54174e5a-56f4-4d10-b48c-7e3f3a67889a"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "It says that this\nstaircase never\nends."
+        ],
+        "__section": "text",
+        "avatarId": "8f3ba798-d4c3-4ed4-84c1-44e8323409f5",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": false
+      },
+      "id": "45fb3c2e-043a-431e-8396-60fb818d48cc"
     },
     {
       "command": "EVENT_SET_VALUE",
@@ -73,8 +99,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "I can't tell who\ncould have wrote\nthis.",
-          "I don't remember\ndoing that."
+          "Is this- actually\nreal? I struggle\nto tell."
         ],
         "__section": "text",
         "avatarId": "8f3ba798-d4c3-4ed4-84c1-44e8323409f5",

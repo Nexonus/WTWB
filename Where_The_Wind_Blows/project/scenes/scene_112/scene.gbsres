@@ -1,0 +1,164 @@
+{
+  "_resourceType": "scene",
+  "id": "7a5a7cd1-792a-4ce7-b2bf-6eaa911c3d67",
+  "_index": 109,
+  "name": "Scene 112",
+  "backgroundId": "164f8035-02eb-4258-97f1-56b6ba6fa946",
+  "tilesetId": "",
+  "width": 22,
+  "height": 22,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "001e4+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_112",
+  "x": 1808,
+  "y": 2800,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "542c0767-114a-436d-9f91-70de4e29babb"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 350,
+        "duration": 0.02,
+        "effect": 0,
+        "__collapse": true,
+        "__label": "Citizen Speech"
+      },
+      "id": "b374bb24-2933-4ed2-b5bc-d1a0cfd23db2"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Apparently so.\nYou're visible from\nmiles away.",
+          "It's an uncommon\nsight. But yet, you\nwander around.",
+          "People speculate\nones like you migrate\nsomewhere far off."
+        ],
+        "__section": "text",
+        "avatarId": "d9e8d023-c86d-43a8-be38-fd1e1a0795db",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "be366d98-5e92-46c6-ac19-7c2f25ae909e"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 150,
+        "duration": 0.02,
+        "effect": 0,
+        "__label": "Durga Speech",
+        "__collapse": true
+      },
+      "id": "7680ad55-0580-4c38-b58c-e7cbbbc08ec9"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "What... Did anything \nelse happen lately?"
+        ],
+        "__section": "text",
+        "avatarId": "0c140e1e-cb43-40dc-adc9-36ea629ff7f7",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "2da612eb-f4f5-4bbc-a929-8c058ba9d236"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 350,
+        "duration": 0.02,
+        "effect": 0,
+        "__collapse": true,
+        "__label": "Citizen Speech"
+      },
+      "id": "99749bfb-6cf7-4227-b867-be4732316541"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "In fact, yes there\nwas a strange event.",
+          "We've seen a rain \nof falling stars..."
+        ],
+        "__section": "text",
+        "avatarId": "d9e8d023-c86d-43a8-be38-fd1e1a0795db",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "d4f5b6ed-2a16-4973-a852-b36df50c7f75"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "c871e62a-971f-476d-be7f-751cd000a064",
+        "x": {
+          "type": "number",
+          "value": 10
+        },
+        "y": {
+          "type": "number",
+          "value": 11
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "20cb280e-5ce7-4c5c-b323-419f9c1cb7ba"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}
